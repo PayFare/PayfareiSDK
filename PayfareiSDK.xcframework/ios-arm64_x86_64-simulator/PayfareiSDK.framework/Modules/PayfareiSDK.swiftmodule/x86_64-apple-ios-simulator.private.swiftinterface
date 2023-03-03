@@ -1,0 +1,63 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PayfareiSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+public enum Environment : Swift.String {
+  case sandbox
+  case uat
+  case production
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum UserFlow {
+  case activatePhysicalCard
+  case viewVirtualCard
+  case setCardPIN
+  public static func == (a: PayfareiSDK.UserFlow, b: PayfareiSDK.UserFlow) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CallbackResult {
+  case moveBack
+  case successActivationCardClosed
+  case pinHasBeenChanged
+  case virtualCardHasBeenViewed
+  case maintenanceMode
+  case setPinFeatureDisabled
+  case viewVirtualCardFeatureDisabled
+  case activePhysicalCardFeatureDisabled
+  public static func == (a: PayfareiSDK.CallbackResult, b: PayfareiSDK.CallbackResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class PayfareSDK {
+  public static var instance: PayfareiSDK.PayfareSDK?
+  public var debugEnabled: Swift.Bool {
+    get
+    set
+  }
+  public static func initialize(userID: Swift.Int, tokenHandler: @escaping () -> Swift.String, callBackHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void, environment: PayfareiSDK.Environment = .uat) -> PayfareiSDK.PayfareSDK
+  public func openSDK(flow: PayfareiSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void)
+  @objc deinit
+}
+extension PayfareiSDK.Environment : Swift.Equatable {}
+extension PayfareiSDK.Environment : Swift.Hashable {}
+extension PayfareiSDK.Environment : Swift.RawRepresentable {}
+extension PayfareiSDK.UserFlow : Swift.Equatable {}
+extension PayfareiSDK.UserFlow : Swift.Hashable {}
+extension PayfareiSDK.CallbackResult : Swift.Equatable {}
+extension PayfareiSDK.CallbackResult : Swift.Hashable {}
