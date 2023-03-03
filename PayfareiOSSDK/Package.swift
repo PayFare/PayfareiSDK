@@ -27,7 +27,7 @@ let package = Package(
             dependencies: ["PayfareiOSSDK"]),
         .binaryTarget(
                     name: "PayfareiSDK",
-                    path: "../PayfareiSDK.xcframework"
+                    path: "Sources/Framework/PayfareiSDK.xcframework"
                 ),
     ]
 )
