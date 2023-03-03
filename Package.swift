@@ -11,20 +11,19 @@ let package = Package(
     products: [
         .library(
             name: "PayfareiOSSDK",
-            targets: ["PayfareiOSSDK", "PayfareiSDK"]),
+            targets: ["PayfareiSDK"]),
+           // targets: ["PayfareiOSSDK", "PayfareiSDK"]),
     ],
     dependencies: [
     ],
     targets: [
-        .target(name: "PayfareiOSSDK"),
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
+       // .target(name: "PayfareiOSSDK"),
 //        .target(
 //            name: "PayfareiOSSDK",
 //            dependencies: [.byName(name: "PayfareiSDK")]),
-        .testTarget(
-            name: "PayfareiOSSDKTests",
-            dependencies: ["PayfareiOSSDK"]),
+//        .testTarget(
+//            name: "PayfareiOSSDKTests",
+//            dependencies: ["PayfareiOSSDK"]),
         .binaryTarget(
                     name: "PayfareiSDK",
                     path: "Sources/Framework/PayfareiSDK.xcframework"
