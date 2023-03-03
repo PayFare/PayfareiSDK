@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "PayfareiOSSDK",
-            targets: ["PayfareiOSSDK"]),
+            targets: ["PayfareiOSSDK", "PayfareiSDK"]),
     ],
     dependencies: [
     ],
