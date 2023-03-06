@@ -1,3 +1,5 @@
 # PayfareiOSSDK
-
-A description of this package.
+ This package provide:
+    * Activation phisycal card.
+    * View Virtual card.
+    * Change PIN card.
