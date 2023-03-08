@@ -2093,126 +2093,126 @@
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4894,
+      "offset": 4890,
       "length": 9,
       "value": "\"OPTIONS\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4923,
+      "offset": 4919,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4948,
+      "offset": 4944,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4974,
+      "offset": 4970,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5000,
+      "offset": 4996,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5025,
+      "offset": 5021,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5052,
+      "offset": 5048,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5080,
+      "offset": 5076,
       "length": 7,
       "value": "\"TRACE\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5107,
+      "offset": 5103,
       "length": 9,
       "value": "\"CONNECT\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4894,
+      "offset": 4890,
       "length": 9,
       "value": "\"OPTIONS\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4923,
+      "offset": 4919,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4948,
+      "offset": 4944,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4974,
+      "offset": 4970,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5000,
+      "offset": 4996,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5025,
+      "offset": 5021,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5052,
+      "offset": 5048,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5080,
+      "offset": 5076,
       "length": 7,
       "value": "\"TRACE\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5107,
+      "offset": 5103,
       "length": 9,
       "value": "\"CONNECT\""
     },
