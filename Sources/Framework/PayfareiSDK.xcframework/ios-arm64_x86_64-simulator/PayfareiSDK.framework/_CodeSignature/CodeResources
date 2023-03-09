@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		LfBkjte693JLtQflYepKst1sHVs=
+		R5xHvMy5iTtKAT0yvD6r2laMlec=
 		</data>
 		<key>Base.lproj/AlertModal.storyboardc/AlertExitAccountViewController.nib</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UpH3NMi+/A0PtHlMsu+7S4Ot4yw=
+		hEsIsm7/Ml5KYsannC5OsMXMUdY=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MT0yKzOxXUnrtXyu9K0YSIzsYy0=
+		ViwbDNOxtbbihiO9v9YLnACyfic=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -106,19 +106,19 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MT0yKzOxXUnrtXyu9K0YSIzsYy0=
+		ViwbDNOxtbbihiO9v9YLnACyfic=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		k/MqY5VMwAordpyfFy3dMh6SoZM=
+		uenF51VGu2SZYGnXKSnMOi8sFes=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UpH3NMi+/A0PtHlMsu+7S4Ot4yw=
+		hEsIsm7/Ml5KYsannC5OsMXMUdY=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		oQBi8GyLKUVQWBCpk8CNHRq/27s=
+		/rtipeQoOr6R778ak2fB1hJFAzU=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -126,11 +126,11 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oQBi8GyLKUVQWBCpk8CNHRq/27s=
+		/rtipeQoOr6R778ak2fB1hJFAzU=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kPHV5S+Zf9qu4QbJkmAA8dbxk1s=
+		o++e+rm1I72qXfxz5q3mFrTTtso=
 		</data>
 		<key>UniversalTextField.nib</key>
 		<data>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rUjEbFYlagqLuX4rTEcbHlAwUoeXyYULGe8u4+Cpfp8=
+			ZjtNhv7wFZuZt++AxHx/iJ3KAPL4edxaR9NIAT5Dpng=
 			</data>
 		</dict>
 		<key>Base.lproj/AlertModal.storyboardc/AlertExitAccountViewController.nib</key>
@@ -331,14 +331,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MmbXcP9RpZbuHbcxkg945Uq+z5Gj2e0iJmbf+TK/wd8=
+			ijWTbmXDj3DmIfabfM1dtA9bp9Fp9uwne9F9TiQVkHs=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			53qBych6ChPJqGSiSWuCnIBXSz49HyTDbrLmS22IUM4=
+			o2sQDYUdB7gZCAnNkI8KhT25GEFDRa3mpLItA6aLgls=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -352,28 +352,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			53qBych6ChPJqGSiSWuCnIBXSz49HyTDbrLmS22IUM4=
+			o2sQDYUdB7gZCAnNkI8KhT25GEFDRa3mpLItA6aLgls=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iXNjjypqZnYNkAsR7xLgiRMXh0xavCLPK6w+w3IdQP0=
+			rJByU7gWLKd32QQco9AwN30TChNyAVgaDKBdNho7S7I=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MmbXcP9RpZbuHbcxkg945Uq+z5Gj2e0iJmbf+TK/wd8=
+			ijWTbmXDj3DmIfabfM1dtA9bp9Fp9uwne9F9TiQVkHs=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b42GaNRym5mP8HF+yjLA/ZHDzJbKw28+FBqxxDn6r+o=
+			8i7BaeuP92swfaayHJKRDzwccGQ8NbuhgNEzWFXMTPU=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -387,14 +387,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b42GaNRym5mP8HF+yjLA/ZHDzJbKw28+FBqxxDn6r+o=
+			8i7BaeuP92swfaayHJKRDzwccGQ8NbuhgNEzWFXMTPU=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3/UBqhLgBFKy+JoaZAoa6/Dnt59JmMu8vo+DNG2xMgA=
+			9ILTmw080sI+NETHhMmYlGw4pGu6z1Va4pgCJO9Ps00=
 			</data>
 		</dict>
 		<key>UniversalTextField.nib</key>

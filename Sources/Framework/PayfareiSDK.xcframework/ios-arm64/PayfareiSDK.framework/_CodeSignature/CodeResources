@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		LfBkjte693JLtQflYepKst1sHVs=
+		R5xHvMy5iTtKAT0yvD6r2laMlec=
 		</data>
 		<key>Base.lproj/AlertModal.storyboardc/AlertExitAccountViewController.nib</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		UpH3NMi+/A0PtHlMsu+7S4Ot4yw=
+		hEsIsm7/Ml5KYsannC5OsMXMUdY=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		K8g9xvO7YMDD0zWkkeLUlO5CnI4=
+		8lrcQEVJZmEnErJO6Nuihab0PU0=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		K8g9xvO7YMDD0zWkkeLUlO5CnI4=
+		8lrcQEVJZmEnErJO6Nuihab0PU0=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0M61MN3rSF1cZHU03JaWzRqjxc4=
+		8FsdHe+OfgPhowZFQYYEljmV0Pw=
 		</data>
 		<key>UniversalTextField.nib</key>
 		<data>
@@ -164,7 +164,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rUjEbFYlagqLuX4rTEcbHlAwUoeXyYULGe8u4+Cpfp8=
+			ZjtNhv7wFZuZt++AxHx/iJ3KAPL4edxaR9NIAT5Dpng=
 			</data>
 		</dict>
 		<key>Base.lproj/AlertModal.storyboardc/AlertExitAccountViewController.nib</key>
@@ -311,14 +311,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MmbXcP9RpZbuHbcxkg945Uq+z5Gj2e0iJmbf+TK/wd8=
+			ijWTbmXDj3DmIfabfM1dtA9bp9Fp9uwne9F9TiQVkHs=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xDMOaLL/kSzkCh8pBzARrXXnovehfoISbl3WAyEZRlc=
+			6QeF7PSxE0Cj7GfX+yVlTBgu6UqUsJwSbNo6e3KIRtQ=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -332,14 +332,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xDMOaLL/kSzkCh8pBzARrXXnovehfoISbl3WAyEZRlc=
+			6QeF7PSxE0Cj7GfX+yVlTBgu6UqUsJwSbNo6e3KIRtQ=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KrOSqRDmT6H4aXu/P9H+SuOcv/BoVrsXSJL1IhyFVtU=
+			2bakALN4eySIBBk1N/aqGBIYi9PJTZCsYrGCvksqOiM=
 			</data>
 		</dict>
 		<key>UniversalTextField.nib</key>
