@@ -94,11 +94,11 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6RoDyFsuvVeG7b5B6IRyFHHG0ok=
+		I9m9OdJgC8ikKOCDNRLel4eQYk8=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+rIlz5dSwYFLvCRpXmtBnxY+dHE=
+		ViwbDNOxtbbihiO9v9YLnACyfic=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -106,19 +106,19 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+rIlz5dSwYFLvCRpXmtBnxY+dHE=
+		ViwbDNOxtbbihiO9v9YLnACyfic=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p7beQXeZFTXsEhyVQp85mqbTQf4=
+		uenF51VGu2SZYGnXKSnMOi8sFes=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6RoDyFsuvVeG7b5B6IRyFHHG0ok=
+		I9m9OdJgC8ikKOCDNRLel4eQYk8=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		lWMGB5avsvCii58m9r3AjgP1WFw=
+		/rtipeQoOr6R778ak2fB1hJFAzU=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -126,11 +126,11 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lWMGB5avsvCii58m9r3AjgP1WFw=
+		/rtipeQoOr6R778ak2fB1hJFAzU=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7XcBXSrMkKW+HMiwn9+ihSqHI5M=
+		o++e+rm1I72qXfxz5q3mFrTTtso=
 		</data>
 		<key>UniversalTextField.nib</key>
 		<data>
@@ -331,14 +331,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HFdIfB1eA0blHTwReIzXjCT2LQHElAjn5A4uFxISd08=
+			S0N85aUrqRULiA/i8mVpU2i0UQq6L55ILofXa0llk2Q=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zJyzidO8Q19yx10bKZoME+/ncCymBUd/NWNb2yG/y8Q=
+			o2sQDYUdB7gZCAnNkI8KhT25GEFDRa3mpLItA6aLgls=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -352,28 +352,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zJyzidO8Q19yx10bKZoME+/ncCymBUd/NWNb2yG/y8Q=
+			o2sQDYUdB7gZCAnNkI8KhT25GEFDRa3mpLItA6aLgls=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wkgHxlcmWtfeLMd+79PWOzMMU/+VOrKTHDB5QbrGpHg=
+			rJByU7gWLKd32QQco9AwN30TChNyAVgaDKBdNho7S7I=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HFdIfB1eA0blHTwReIzXjCT2LQHElAjn5A4uFxISd08=
+			S0N85aUrqRULiA/i8mVpU2i0UQq6L55ILofXa0llk2Q=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cnIL4G5rdN9u2plzrDfUnZ8R15PihxVDjN7RKj8J0YU=
+			8i7BaeuP92swfaayHJKRDzwccGQ8NbuhgNEzWFXMTPU=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -387,14 +387,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cnIL4G5rdN9u2plzrDfUnZ8R15PihxVDjN7RKj8J0YU=
+			8i7BaeuP92swfaayHJKRDzwccGQ8NbuhgNEzWFXMTPU=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jvrx2sxhn/d4uuMKnEB1DILc580/JQgZxN9oj5ekqYc=
+			9ILTmw080sI+NETHhMmYlGw4pGu6z1Va4pgCJO9Ps00=
 			</data>
 		</dict>
 		<key>UniversalTextField.nib</key>
