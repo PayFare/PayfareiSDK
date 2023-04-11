@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		R5xHvMy5iTtKAT0yvD6r2laMlec=
+		N4tQicW57bwsA+/4JY4L8SizTE8=
 		</data>
 		<key>Base.lproj/AlertModal.storyboardc/AlertExitAccountViewController.nib</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Base.lproj/AlertModal.storyboardc/OXU-lr-mRp-view-0NH-qd-zWv.nib</key>
 		<data>
-		q/GrYAqX+RUYFD7voEM40B/HPls=
+		/cYNPmA4OJzu0H9xPJ1yz+zlovA=
 		</data>
 		<key>Base.lproj/AlertModal.storyboardc/UIViewController-OXU-lr-mRp.nib</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Base.lproj/AlertModal.storyboardc/i97-zp-mcW-view-Sib-s6-gDZ.nib</key>
 		<data>
-		/aJt4usx3bEfbxZ1NReJCd2wXec=
+		0MUmqq81ga+6flJ0lf9ER0Ck1Uo=
 		</data>
 		<key>Base.lproj/CreateCardPIN.storyboardc/Ct0-45-RsY-view-rNS-Jv-WGE.nib</key>
 		<data>
-		4PQoSjCn4wrnUXGwS12NsGSvpDY=
+		7la5Fw5SydcXdDVJWhCTH3llhJ4=
 		</data>
 		<key>Base.lproj/CreateCardPIN.storyboardc/Info.plist</key>
 		<data>
@@ -40,33 +40,21 @@
 		<data>
 		MmqtuxRANExmiOxH8DU/y4ogne4=
 		</data>
-		<key>Base.lproj/FinishedCardActivation.storyboardc/2OV-2i-1mJ-view-2AM-Q0-Hoz.nib</key>
-		<data>
-		9PCkuMah6iwpxDnxahSVKlsEFLA=
-		</data>
-		<key>Base.lproj/FinishedCardActivation.storyboardc/Info.plist</key>
-		<data>
-		0mT3g5n2EW79Jb95fTltKIErN/8=
-		</data>
-		<key>Base.lproj/FinishedCardActivation.storyboardc/UIViewController-2OV-2i-1mJ.nib</key>
-		<data>
-		LEKmFS3mc4s4y+CZXNqNsbOICNE=
-		</data>
 		<key>Base.lproj/ShowCardDetailsForm.storyboardc/Info.plist</key>
 		<data>
 		dzuU4DL29bJh5KN8niQm7VKXyuQ=
 		</data>
 		<key>Base.lproj/ShowCardDetailsForm.storyboardc/UIViewController-rQR-qb-GL6.nib</key>
 		<data>
-		e5W22SBx48pQ6OHj0N6OEe1uEtQ=
+		Ykwm0OqvaRJO7rHRAqqT2wb27Ng=
 		</data>
 		<key>Base.lproj/ShowCardDetailsForm.storyboardc/rQR-qb-GL6-view-ybI-vt-MBk.nib</key>
 		<data>
-		Aw+INmU8aEtyae+XsJEoqFtnLVk=
+		Gr3U0K7nXuVc5GKI5ZWDcBOu5uA=
 		</data>
 		<key>Base.lproj/ShowHelpTopic.storyboardc/32t-Kh-eF8-view-LVd-eM-wQ6.nib</key>
 		<data>
-		fAoyTSa0nMMd9mA6CNtVERDYUrQ=
+		3Df0rx+YBiFjlOIWhberYs8lzIw=
 		</data>
 		<key>Base.lproj/ShowHelpTopic.storyboardc/Info.plist</key>
 		<data>
@@ -82,7 +70,7 @@
 		</data>
 		<key>Base.lproj/SimpleAlertModal.storyboardc/OXU-lr-mRp-view-0NH-qd-zWv.nib</key>
 		<data>
-		QGRWKfjRZGvWAbX9kpJkYdGa9Uw=
+		ULuQSTbWluBAO7KBdSl1IGbPqww=
 		</data>
 		<key>Base.lproj/SimpleAlertModal.storyboardc/UIViewController-OXU-lr-mRp.nib</key>
 		<data>
@@ -90,51 +78,59 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ERp0D0Wydubu2BneGrKGLmtvVak=
+		IYl24cnK+4CSSMgCkQ61P5fifdc=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		I9m9OdJgC8ikKOCDNRLel4eQYk8=
+		qBPWPxQEl8UJExtjFnzxV90g95Y=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ViwbDNOxtbbihiO9v9YLnACyfic=
+		7/gIaVk5mm5WYyoxiwP+9Gs6Plc=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OUiarZbbLTQy7WxNSzqKuFkO9+c=
+		bS0fFq2P5CDbQfYorIgcl2IidXA=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ViwbDNOxtbbihiO9v9YLnACyfic=
+		7/gIaVk5mm5WYyoxiwP+9Gs6Plc=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uenF51VGu2SZYGnXKSnMOi8sFes=
+		nlpkCYN5iiNth/YijzXruC+nkzY=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		I9m9OdJgC8ikKOCDNRLel4eQYk8=
+		qBPWPxQEl8UJExtjFnzxV90g95Y=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/rtipeQoOr6R778ak2fB1hJFAzU=
+		pnpkT9IP1pvBbaIPpPC0tC5P0+U=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NSQhN6lNTjxxGaIADtV3L9hnzNI=
+		glf2mw4Ec8wQSG+SVHaZo4IOW6Y=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/rtipeQoOr6R778ak2fB1hJFAzU=
+		pnpkT9IP1pvBbaIPpPC0tC5P0+U=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		o++e+rm1I72qXfxz5q3mFrTTtso=
+		QJQ4pMwP+QNikkGJdNFbObZivLM=
+		</data>
+		<key>OTPSMSItem.nib</key>
+		<data>
+		D3j1rHYcxR/8A0UXaRz2jgAZEo0=
+		</data>
+		<key>OTPSMSView.nib</key>
+		<data>
+		5j/yR3w9MStNi7lNO7j4k9VODE4=
 		</data>
 		<key>UniversalTextField.nib</key>
 		<data>
-		mTUwxgPq+C8AtBzXDpoGzg9DgYw=
+		2ZIJZqpwUjMr5H1H+EFzroksTlo=
 		</data>
 		<key>VCardRegistration.storyboardc/Info.plist</key>
 		<data>
@@ -148,15 +144,6 @@
 		<data>
 		KM4O+/hfGzRKOJfFXoltbOSru2Q=
 		</data>
-		<key>es.lproj/ScanQRCode.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3ZegZYXlkkCtIXYyP+uVKcwscJQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>loader.json</key>
 		<data>
 		ZngM7wlSf5HF2XdHhCGsMBFNHsg=
@@ -184,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZjtNhv7wFZuZt++AxHx/iJ3KAPL4edxaR9NIAT5Dpng=
+			hSfRoY68vHuaIayjEGZZhnjVnN6VborV/1olqwssiPU=
 			</data>
 		</dict>
 		<key>Base.lproj/AlertModal.storyboardc/AlertExitAccountViewController.nib</key>
@@ -205,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8T/YqhdgL3xlwtR2XW6HV3edcEmLDAnAK1xVWs7gdYs=
+			kYtqOEmMlBUqZgUsTb08bnRUaJNGXYjwC/C7whVlI20=
 			</data>
 		</dict>
 		<key>Base.lproj/AlertModal.storyboardc/UIViewController-OXU-lr-mRp.nib</key>
@@ -219,14 +206,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T+Q9wy1ONnfNW5z7mXVqgXchf6Pm6jqgluBkcco2FbQ=
+			St9seBPSG+QRXDLg1TfkkFn5i0OnxFnrhre0j2pUkQ4=
 			</data>
 		</dict>
 		<key>Base.lproj/CreateCardPIN.storyboardc/Ct0-45-RsY-view-rNS-Jv-WGE.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mvm10toTMTrlEKPS+gELDrIB7G+m+XvOD0cD87UsWFo=
+			9Hh96Zu+pth6hXfAGjklu5vfe1mbpVDvUCJa3jRZvro=
 			</data>
 		</dict>
 		<key>Base.lproj/CreateCardPIN.storyboardc/Info.plist</key>
@@ -243,27 +230,6 @@
 			c5CLvXPRdOrDILo7g/W8tpCGR6PTTTBuL01t76CM5Pc=
 			</data>
 		</dict>
-		<key>Base.lproj/FinishedCardActivation.storyboardc/2OV-2i-1mJ-view-2AM-Q0-Hoz.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PytRyjEIl5HzLd1SlyoSNCT6Q3qwloz637YgG36MIGs=
-			</data>
-		</dict>
-		<key>Base.lproj/FinishedCardActivation.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eqlAScDE2n0JnjjdfGxiBaZpjPj16+Ts/Dm4wM4UVKw=
-			</data>
-		</dict>
-		<key>Base.lproj/FinishedCardActivation.storyboardc/UIViewController-2OV-2i-1mJ.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			C4ptRMO0corTPc9NNEKGPfEJoh1CBN93SihjyjC3F8o=
-			</data>
-		</dict>
 		<key>Base.lproj/ShowCardDetailsForm.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -275,21 +241,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nPutJ7itR9nnzsxhlXdyCcE4qH7VmUBgSZAh4SdaOyk=
+			9O/wG4pZx69rEuLzd7mrjC0w+SZ4+xHx5zUrenP+FgU=
 			</data>
 		</dict>
 		<key>Base.lproj/ShowCardDetailsForm.storyboardc/rQR-qb-GL6-view-ybI-vt-MBk.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tVq/oQy0ns8BJ6wrZzDvTqVAvx+oae8EwjB8ydlnVKc=
+			B5dWT4RSKj1ngtG0Y+QlggYAIPVStZGFGGefXUpv6fY=
 			</data>
 		</dict>
 		<key>Base.lproj/ShowHelpTopic.storyboardc/32t-Kh-eF8-view-LVd-eM-wQ6.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gs2LhtB0AFS2XRp/TtDnFA6Boj+pgfHfEnHjgsO2qrk=
+			RKTX2jBljw8WAJOVSEZpIqvCIqVCyrrgia9Jvp2KTzQ=
 			</data>
 		</dict>
 		<key>Base.lproj/ShowHelpTopic.storyboardc/Info.plist</key>
@@ -317,7 +283,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6wL+3PACwa3wwToekg4pGLg+dYC619UuNWlZZolziGk=
+			4ME93TbxfJIoY20Yh1w5sSUQlhJZeGoGWGlWBeIPFLo=
 			</data>
 		</dict>
 		<key>Base.lproj/SimpleAlertModal.storyboardc/UIViewController-OXU-lr-mRp.nib</key>
@@ -331,77 +297,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S0N85aUrqRULiA/i8mVpU2i0UQq6L55ILofXa0llk2Q=
+			NlmE0Hmtf7OO/5BfejUTvhhz9jp3lCNDj22rQG54+Zw=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o2sQDYUdB7gZCAnNkI8KhT25GEFDRa3mpLItA6aLgls=
+			+x23T9sX7YUCGjTlMvE0kWZVAF8OZ/BRqwyuB698U04=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vxkHZR6UytTSLwyJnBMSx0urOWmwCnf2T0evp1UfmSs=
+			FPhxv40yi8UZeZYdjpNfCQfIDW4gKFAjOunRh15o45k=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o2sQDYUdB7gZCAnNkI8KhT25GEFDRa3mpLItA6aLgls=
+			+x23T9sX7YUCGjTlMvE0kWZVAF8OZ/BRqwyuB698U04=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rJByU7gWLKd32QQco9AwN30TChNyAVgaDKBdNho7S7I=
+			+sHzHIQl2GVZuzM2E/zDTQ2frq3FnlBMlXrqi+sET2g=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S0N85aUrqRULiA/i8mVpU2i0UQq6L55ILofXa0llk2Q=
+			NlmE0Hmtf7OO/5BfejUTvhhz9jp3lCNDj22rQG54+Zw=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8i7BaeuP92swfaayHJKRDzwccGQ8NbuhgNEzWFXMTPU=
+			Cy5sg2h2trvLLI56bUbXvqXU2r06nhsigxC8mQJq0+o=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zeVNSCK0YO0NDzUTTKdw0IVAsVdC5nTctv8XC23FasA=
+			B4/7dzz1u9GXdYqCEE1korOUFm86tAAWVBW8s46i4mc=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8i7BaeuP92swfaayHJKRDzwccGQ8NbuhgNEzWFXMTPU=
+			Cy5sg2h2trvLLI56bUbXvqXU2r06nhsigxC8mQJq0+o=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ILTmw080sI+NETHhMmYlGw4pGu6z1Va4pgCJO9Ps00=
+			fU8/NBTWxy8etweWIXGGQskv0wbQlW40ahVHFDZpWIs=
+			</data>
+		</dict>
+		<key>OTPSMSItem.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k62xQgEgE+Z1QDZNmwtA+bT0oFt21fbrfpSL5HrURiM=
+			</data>
+		</dict>
+		<key>OTPSMSView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hF9cx/pUjn8T3cQDA/nLw/jgcMxa+oh1w6rflCIUsq8=
 			</data>
 		</dict>
 		<key>UniversalTextField.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rt2A8CyavTspvtroAKJgoOA8y1Vym1heQYGk8oZI4VQ=
+			CMtFmoLDbWwoKqqGaHGEJX64QIJ4vgP/xxbVdxDBy8M=
 			</data>
 		</dict>
 		<key>VCardRegistration.storyboardc/Info.plist</key>
@@ -424,15 +404,6 @@
 			<data>
 			CUsfo3fkUlRQIAOVPzVXD9QM+C2JjT3CPZQ6YYVVFy8=
 			</data>
-		</dict>
-		<key>es.lproj/ScanQRCode.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+GjaEgza4BoqqIvGMmG8pkSVwAa/WHIZBTCUEWjPiyc=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>loader.json</key>
 		<dict>
