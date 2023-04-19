@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		NwQbhWO0L50zsCuTvTejBMYuZQg=
+		gF10YpnOo6HrhWyzsSeoVcCCQBA=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NwQbhWO0L50zsCuTvTejBMYuZQg=
+		gF10YpnOo6HrhWyzsSeoVcCCQBA=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -297,7 +297,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gPPycQHlUUnt6qa6JK9X8q0Htj9E/lnKtn977q9Tzss=
+			+L1TrCZxQei2uo7LWftCv5YelzihVqw3AFx9P8tHn1I=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -332,7 +332,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gPPycQHlUUnt6qa6JK9X8q0Htj9E/lnKtn977q9Tzss=
+			+L1TrCZxQei2uo7LWftCv5YelzihVqw3AFx9P8tHn1I=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
