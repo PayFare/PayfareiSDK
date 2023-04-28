@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		27c38JC96Rg/I21oXaOJoNrZuIU=
+		wyD1OgmHHOwCMzK815BOjV6Eey0=
 		</data>
 		<key>Base.lproj/AlertModal.storyboardc/AlertExitAccountViewController.nib</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3tUfqSxONHGb4V6q6uWMSFeQnbA=
+		W8nn+k0bYROTbOYCOOwfO+iPvx8=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EnOlPQVZ57w36HYRZslx0n+cX40=
+		YtUO0AUvDz8YpxTz+fEkikqhfOQ=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3tUfqSxONHGb4V6q6uWMSFeQnbA=
+		W8nn+k0bYROTbOYCOOwfO+iPvx8=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		h+32HtXbqcB5cxiEJEx4Lc9SKRQ=
+		/6gI5vUblL8b8XSWP9SAbxoCO8w=
 		</data>
 		<key>OTPSMSItem.nib</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>OTPSMSView.nib</key>
 		<data>
-		5j/yR3w9MStNi7lNO7j4k9VODE4=
+		kE1IwzEOrYDbSroyy8mNeJkhavE=
 		</data>
 		<key>UniversalTextField.nib</key>
 		<data>
@@ -171,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FhfM7wuRRxYEVDbaMvQbJY7IZ+8GSxoLcr3V+ivDf/U=
+			IqLvuB5FpsMrqe5P+Lc6vvJW3HnfGGkm1JlQVhW7GZ0=
 			</data>
 		</dict>
 		<key>Base.lproj/AlertModal.storyboardc/AlertExitAccountViewController.nib</key>
@@ -297,7 +297,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TudOqRP25LzEEkmT5JAQ/GHyjZ4wrQEFhVKFRY1a7Hc=
+			6csdpnu+/WWjdqTWR7aGjA8xYSK0DA0gDrqpPBABNzI=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -325,14 +325,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nW0GvAiM+hBaxVK39VLMD2XQgUOl0dJ0ACAvj8WR5Og=
+			dBN+sjg+X6L/d56UgJi2Bc67xa1581m8H8kJJBdbKgY=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TudOqRP25LzEEkmT5JAQ/GHyjZ4wrQEFhVKFRY1a7Hc=
+			6csdpnu+/WWjdqTWR7aGjA8xYSK0DA0gDrqpPBABNzI=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -360,7 +360,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LAR9tn9GgyLfhUelMvtJSKs6JnufzoFmJmTpza6naz8=
+			CmTUZtN1HdNbFak3tnIerv6URF3rPhy+kMTMTZEoXPg=
 			</data>
 		</dict>
 		<key>OTPSMSItem.nib</key>
@@ -374,7 +374,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hF9cx/pUjn8T3cQDA/nLw/jgcMxa+oh1w6rflCIUsq8=
+			o4ppgCMX+zQvdjStjzW9HfIklQ+tYS4w8pVIl6duXvo=
 			</data>
 		</dict>
 		<key>UniversalTextField.nib</key>
