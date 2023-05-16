@@ -50,8 +50,8 @@ public enum CallbackResult {
     get
     set
   }
-  public static func initialize(payfareID: Swift.String, tokenHandler: @escaping () -> Swift.String, callBackHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void, environment: PayfareiSDK.Environment = .uat) -> PayfareiSDK.PayfareSDK
-  public func openSDK(flow: PayfareiSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void)
+  public static func initialize(payfareID: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: PayfareiSDK.Environment = .uat) -> PayfareiSDK.PayfareSDK
+  public func openSDK(flow: PayfareiSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void)
   @objc deinit
 }
 extension PayfareiSDK.Environment : Swift.Equatable {}
