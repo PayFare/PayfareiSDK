@@ -2394,259 +2394,259 @@
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1621,
+      "offset": 1616,
       "length": 23,
       "value": "\"heightKeyboardChanged\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1776,
+      "offset": 1771,
       "length": 16,
       "value": "\"heightKeyboard\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1869,
+      "offset": 1864,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2007,
+      "offset": 2002,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2022,
+      "offset": 2017,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2026,
+      "offset": 2021,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2220,
+      "offset": 2215,
       "length": 23,
       "value": "\"heightKeyboardChanged\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2573,
+      "offset": 2340,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2856,
+      "offset": 2623,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3029,
+      "offset": 2796,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3103,
+      "offset": 2870,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3145,
+      "offset": 2912,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3334,
+      "offset": 3101,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3478,
+      "offset": 3245,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3651,
+      "offset": 3418,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3725,
+      "offset": 3492,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3767,
+      "offset": 3534,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3949,
+      "offset": 3716,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4046,
+      "offset": 3813,
       "length": 12,
       "value": "\"Change PIN\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4127,
+      "offset": 3894,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4163,
+      "offset": 3930,
       "length": 12,
       "value": "\"Change PIN\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4208,
+      "offset": 3975,
       "length": 12,
       "value": "\"Change PIN\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4272,
+      "offset": 4039,
       "length": 128,
       "value": "\"Enter a new PIN to use at ATMs or in stores. Make sure it's easy to remember and kept safe. Do not share your PIN with anyone.\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4462,
+      "offset": 4229,
       "length": 6,
       "value": "\"Next\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4518,
+      "offset": 4285,
       "length": 17,
       "value": "\"Create Your PIN\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4721,
+      "offset": 4488,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4727,
+      "offset": 4494,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4737,
+      "offset": 4504,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4749,
+      "offset": 4516,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4807,
+      "offset": 4574,
       "length": 10,
       "value": "\"helpIcon\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5576,
+      "offset": 5343,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6315,
+      "offset": 5757,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6353,
+      "offset": 5795,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6397,
+      "offset": 5839,
       "length": 28,
       "value": "\"PINs do not match criteria\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6474,
+      "offset": 5916,
       "length": 28,
       "value": "\"PINs do not match criteria\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6561,
+      "offset": 6003,
       "length": 19,
       "value": "\"PINs do not match\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6629,
+      "offset": 6071,
       "length": 19,
       "value": "\"PINs do not match\""
     },
@@ -4956,385 +4956,392 @@
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1872,
+      "offset": 1913,
       "length": 27,
       "value": "\"routeTo\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1888,
+      "offset": 1929,
       "length": 9,
       "value": "\"WithSegue:\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2201,
+      "offset": 2242,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2909,
+      "offset": 2950,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2924,
+      "offset": 2965,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2938,
+      "offset": 2979,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3079,
+      "offset": 3120,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3094,
+      "offset": 3135,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3108,
+      "offset": 3149,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3239,
+      "offset": 3280,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3254,
+      "offset": 3295,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3268,
+      "offset": 3309,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3424,
+      "offset": 3465,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3439,
+      "offset": 3480,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3479,
+      "offset": 3520,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3845,
+      "offset": 3916,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3991,
+      "offset": 4062,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4352,
+      "offset": 4423,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4409,
+      "offset": 4480,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4570,
+      "offset": 4641,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4643,
+      "offset": 4714,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4706,
+      "offset": 4777,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4867,
+      "offset": 4938,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4882,
+      "offset": 4953,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4926,
+      "offset": 4997,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4978,
+      "offset": 5049,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5251,
+      "offset": 5317,
       "length": 4,
       "value": "18.0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5657,
+      "offset": 5723,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6442,
-      "length": 9,
-      "value": "\"command\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6502,
-      "length": 7,
-      "value": "\"error\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6567,
-      "length": 15,
-      "value": "\"errorRespCode\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6640,
-      "length": 104,
-      "value": "\"Something went wrong. We are unable to display your virtual card at this time. Please try again later.\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6847,
-      "length": 5,
-      "value": "\"ORC\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6896,
-      "length": 120,
-      "value": "\"You have entered the incorrect code 3 times. For security reasons, you must wait 30 minutes to view your virtual card.\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7039,
-      "length": 4,
-      "value": "\"VE\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7087,
-      "length": 76,
-      "value": "\"Your virtual card session has expired due to inactivity. Please try again.\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7186,
-      "length": 4,
-      "value": "\"TE\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7285,
-      "length": 104,
-      "value": "\"Something went wrong. We are unable to display your virtual card at this time. Please try again later.\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7547,
+      "offset": 6117,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7639,
+      "offset": 6567,
+      "length": 9,
+      "value": "\"command\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6674,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6739,
+      "length": 15,
+      "value": "\"errorRespCode\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6812,
+      "length": 104,
+      "value": "\"Something went wrong. We are unable to display your virtual card at this time. Please try again later.\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7019,
+      "length": 5,
+      "value": "\"ORC\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7068,
+      "length": 120,
+      "value": "\"You have entered the incorrect code 3 times. For security reasons, you must wait 30 minutes to view your virtual card.\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7211,
+      "length": 4,
+      "value": "\"VE\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7259,
+      "length": 76,
+      "value": "\"Your virtual card session has expired due to inactivity. Please try again.\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7358,
+      "length": 4,
+      "value": "\"TE\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7457,
+      "length": 104,
+      "value": "\"Something went wrong. We are unable to display your virtual card at this time. Please try again later.\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7719,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7811,
       "length": 17,
       "value": "\"successRespCode\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7978,
+      "offset": 8150,
       "length": 76,
       "value": "\"Your virtual card session has expired due to inactivity. Please try again.\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8113,
+      "offset": 8285,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8187,
+      "offset": 8359,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8395,
+      "offset": 8567,
       "length": 104,
       "value": "\"Something went wrong. We are unable to display your virtual card at this time. Please try again later.\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8576,
+      "offset": 8748,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8626,
+      "offset": 8798,
       "length": 104,
       "value": "\"Something went wrong. We are unable to display your virtual card at this time. Please try again later.\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8897,
+      "offset": 9069,
       "length": 6,
       "value": "\"lock\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8935,
+      "offset": 9107,
       "length": 17,
       "value": "\"Can't View Card\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9154,
+      "offset": 9326,
       "length": 120,
       "value": "\"You’ve exceeded the time limit to enter the code to view your virtual card. Please request a new code and try again.\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9277,
+      "offset": 9449,
       "length": 18,
       "value": "\"Request New Code\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9297,
+      "offset": 9469,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9363,
+      "offset": 9535,
       "length": 120,
       "value": "\"You’ve exceeded the time limit to enter the code to view your virtual card. Please request a new code and try again.\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9539,
+      "offset": 9711,
       "length": 14,
       "value": "\"sendOtp('Y')\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9646,
+      "offset": 9818,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9878,
+      "offset": 10050,
       "length": 5,
       "value": "false"
     },
@@ -5879,155 +5886,134 @@
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 652,
-      "length": 12,
-      "value": "\"backButton\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 1065,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1126,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1255,
+      "offset": 623,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 1357,
+      "offset": 725,
       "length": 3,
       "value": "235"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 1361,
+      "offset": 729,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 1373,
+      "offset": 741,
       "length": 2,
       "value": "23"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 1376,
+      "offset": 744,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 1387,
+      "offset": 755,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "FloatLiteral",
-      "offset": 1397,
+      "offset": 765,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 1772,
+      "offset": 1140,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 1787,
+      "offset": 1155,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 1848,
+      "offset": 1216,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 1863,
+      "offset": 1231,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 1950,
+      "offset": 1318,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 2037,
+      "offset": 1405,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 2524,
+      "offset": 1892,
       "length": 18,
       "value": "\"SimpleAlertModal\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 2775,
+      "offset": 2143,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 2914,
+      "offset": 2282,
       "length": 12,
       "value": "\"AlertModal\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 3153,
+      "offset": 2521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 3470,
+      "offset": 2838,
       "length": 15,
       "value": "\"ShowHelpTopic\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/Extension\/UIViewController+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 3823,
+      "offset": 3191,
       "length": 4,
       "value": "true"
     },
@@ -6412,182 +6398,182 @@
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3332,
+      "offset": 3286,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3571,
+      "offset": 3520,
       "length": 23,
       "value": "\"Last 4 Digits of Card\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3613,
+      "offset": 3562,
       "length": 7,
       "value": "\" 0000\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3689,
+      "offset": 3638,
       "length": 27,
       "value": "\"Wrong card number or date\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4115,
+      "offset": 4064,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4209,
+      "offset": 4158,
       "length": 17,
       "value": "\"Expiration Date\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4245,
+      "offset": 4194,
       "length": 8,
       "value": "\" MM\/YY\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4323,
+      "offset": 4272,
       "length": 27,
       "value": "\"Wrong card number or date\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4749,
+      "offset": 4698,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5454,
+      "offset": 5403,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5572,
+      "offset": 5521,
       "length": 21,
       "value": "\"Invalid Card Number\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5645,
+      "offset": 5594,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5718,
+      "offset": 5667,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5819,
+      "offset": 5768,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5895,
+      "offset": 5844,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5949,
+      "offset": 5898,
       "length": 21,
       "value": "\"Invalid Expiry Date\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6043,
+      "offset": 5992,
       "length": 35,
       "value": "\"Expiry Date cannot be in the past\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6140,
+      "offset": 6089,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6209,
+      "offset": 6158,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6954,
+      "offset": 6903,
       "length": 27,
       "value": "\"Wrong card number or date\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7029,
+      "offset": 6978,
       "length": 27,
       "value": "\"Wrong card number or date\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7080,
+      "offset": 7029,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7431,
+      "offset": 7375,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7436,
+      "offset": 7380,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7493,
+      "offset": 7437,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7649,
+      "offset": 7593,
       "length": 5,
       "value": "false"
     },
