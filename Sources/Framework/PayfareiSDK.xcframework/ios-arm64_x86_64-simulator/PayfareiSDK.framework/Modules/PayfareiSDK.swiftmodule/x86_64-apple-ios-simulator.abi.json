@@ -1486,12 +1486,13 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(payfareID:tokenHandler:environment:payfareSDK:)",
+            "printedName": "initialize(payfareID:tokenHandler:environment:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "PayfareSDK",
+                "printedName": "PayfareiSDK.PayfareSDK",
+                "usr": "s:11PayfareiSDK07PayfareB0C"
               },
               {
                 "kind": "TypeNominal",
@@ -1523,37 +1524,11 @@
                 "printedName": "PayfareiSDK.Environment",
                 "hasDefaultArg": true,
                 "usr": "s:11PayfareiSDK11EnvironmentO"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayfareiSDK.PayfareSDK?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "PayfareiSDK.PayfareSDK?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PayfareSDK",
-                        "printedName": "PayfareiSDK.PayfareSDK",
-                        "usr": "s:11PayfareiSDK07PayfareB0C"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:11PayfareiSDK07PayfareB0C10initialize9payfareID12tokenHandler11environment0eB0ySS_SSycAA11EnvironmentOyACSgctFZ",
-            "mangledName": "$s11PayfareiSDK07PayfareB0C10initialize9payfareID12tokenHandler11environment0eB0ySS_SSycAA11EnvironmentOyACSgctFZ",
+            "usr": "s:11PayfareiSDK07PayfareB0C10initialize9payfareID12tokenHandler11environmentACSS_SSycAA11EnvironmentOtFZ",
+            "mangledName": "$s11PayfareiSDK07PayfareB0C10initialize9payfareID12tokenHandler11environmentACSS_SSycAA11EnvironmentOtFZ",
             "moduleName": "PayfareiSDK",
             "static": true,
             "declAttributes": [
@@ -1666,6 +1641,18 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PayfareiSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IsAlertViewController",
+        "printedName": "IsAlertViewController",
+        "declKind": "Protocol",
+        "usr": "s:11PayfareiSDK21IsAlertViewControllerP",
+        "mangledName": "$s11PayfareiSDK21IsAlertViewControllerP",
+        "moduleName": "PayfareiSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -5659,119 +5646,119 @@
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2859,
+      "offset": 2534,
       "length": 4,
       "value": "\"v6\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2916,
+      "offset": 2591,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3195,
+      "offset": 2870,
       "length": 24,
       "value": "\"subset-TTNorms-Regular\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3227,
+      "offset": 2902,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3279,
+      "offset": 2954,
       "length": 21,
       "value": "\"subset-TTNorms-Bold\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3308,
+      "offset": 2983,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3360,
+      "offset": 3035,
       "length": 23,
       "value": "\"subset-TTNorms-Medium\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3391,
+      "offset": 3066,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3443,
+      "offset": 3118,
       "length": 27,
       "value": "\"subset-TTNorms-ExtraBold.\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3478,
+      "offset": 3153,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3814,
+      "offset": 4147,
       "length": 21,
       "value": "\"ShowCardDetailsForm\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4470,
+      "offset": 4990,
       "length": 19,
       "value": "\"VCardRegistration\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5132,
+      "offset": 5839,
       "length": 15,
       "value": "\"CreateCardPIN\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 5690,
+      "offset": 6437,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6026,
+      "offset": 6936,
       "length": 70,
       "value": "\"This functionality is currently unavailable. Please try again later.\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6111,
+      "offset": 7021,
       "length": 7,
       "value": "\"Close\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6249,
+      "offset": 7159,
       "length": 12,
       "value": "\"AlertModal\""
     },

@@ -51,9 +51,11 @@ public enum CallbackResult {
     get
     set
   }
-  public static func initialize(payfareID: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: PayfareiSDK.Environment = .uat, payfareSDK: @escaping (PayfareiSDK.PayfareSDK?) -> Swift.Void)
+  public static func initialize(payfareID: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: PayfareiSDK.Environment = .uat) -> PayfareiSDK.PayfareSDK
   public func openSDK(flow: PayfareiSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void, errorHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void)
   @objc deinit
+}
+public protocol IsAlertViewController {
 }
 extension PayfareiSDK.Environment : Swift.Equatable {}
 extension PayfareiSDK.Environment : Swift.Hashable {}
