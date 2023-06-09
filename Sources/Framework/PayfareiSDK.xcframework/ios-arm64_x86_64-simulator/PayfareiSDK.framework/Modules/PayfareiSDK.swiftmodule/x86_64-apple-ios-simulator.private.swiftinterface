@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PayfareiSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -19,6 +19,27 @@ public enum Environment : Swift.String {
     get
   }
 }
+public enum DataError : Swift.Error {
+  case duplicateFailure
+  case nonExistent
+  case incomplete
+  case unauthorized
+  case accountLocked
+  case noInternet
+  case timeout
+  case updateRequired
+  case parseFailure((any Swift.Error)?)
+  case serverFailure((any Swift.Error)?)
+  case unknownReason((any Swift.Error)?)
+  case limitReached(Swift.String?)
+  case validEmailAddress
+  case profileRecentlyUpdate
+}
+extension PayfareiSDK.DataError {
+  public var localizedDescription: Swift.String {
+    get
+  }
+}
 public enum UserFlow {
   case activatePhysicalCard
   case viewVirtualCard
@@ -30,7 +51,7 @@ public enum UserFlow {
   }
 }
 public enum CallbackResult {
-  case error
+  case error((any Swift.Error)?)
   case moveBack
   case successActivationCardClosed
   case pinHasBeenChanged
@@ -39,11 +60,6 @@ public enum CallbackResult {
   case setPinFeatureDisabled
   case viewVirtualCardFeatureDisabled
   case activePhysicalCardFeatureDisabled
-  public static func == (a: PayfareiSDK.CallbackResult, b: PayfareiSDK.CallbackResult) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
 }
 @_hasMissingDesignatedInitializers public class PayfareSDK {
   public static var instance: PayfareiSDK.PayfareSDK?
@@ -57,10 +73,31 @@ public enum CallbackResult {
 }
 public protocol IsAlertViewController {
 }
+public enum CardError : Swift.Error, Swift.Equatable {
+  case noCard
+  case noCardTing
+  case mismatchCard
+  case inactiveCard
+  case exceededLimit
+  case cardActivated
+  case purseTransferFailure
+  case accountLocked
+  case nonExistent
+  case unauthorized
+  case noInternet
+  case timeout
+  case parseFailure((any Swift.Error)?)
+  case unknownReason((any Swift.Error)?)
+  case noCashDeposit
+  public static func == (lhs: PayfareiSDK.CardError, rhs: PayfareiSDK.CardError) -> Swift.Bool
+}
+extension PayfareiSDK.CardError {
+  public var localizedDescription: Swift.String {
+    get
+  }
+}
 extension PayfareiSDK.Environment : Swift.Equatable {}
 extension PayfareiSDK.Environment : Swift.Hashable {}
 extension PayfareiSDK.Environment : Swift.RawRepresentable {}
 extension PayfareiSDK.UserFlow : Swift.Equatable {}
 extension PayfareiSDK.UserFlow : Swift.Hashable {}
-extension PayfareiSDK.CallbackResult : Swift.Equatable {}
-extension PayfareiSDK.CallbackResult : Swift.Hashable {}
