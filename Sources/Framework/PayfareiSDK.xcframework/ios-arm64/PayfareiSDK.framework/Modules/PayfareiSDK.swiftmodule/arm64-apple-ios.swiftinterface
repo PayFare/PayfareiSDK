@@ -51,7 +51,7 @@ public enum UserFlow {
   }
 }
 public enum CallbackResult {
-  case error((any Swift.Error)?)
+  case error(any Swift.Error)
   case moveBack
   case successActivationCardClosed
   case pinHasBeenChanged

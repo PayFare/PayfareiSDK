@@ -1476,12 +1476,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PayfareiSDK.CallbackResult.Type) -> (Swift.Error?) -> PayfareiSDK.CallbackResult",
+                "printedName": "(PayfareiSDK.CallbackResult.Type) -> (Swift.Error) -> PayfareiSDK.CallbackResult",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> PayfareiSDK.CallbackResult",
+                    "printedName": "(Swift.Error) -> PayfareiSDK.CallbackResult",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1491,17 +1491,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.Error?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Error",
-                            "printedName": "Swift.Error",
-                            "usr": "s:s5ErrorP"
-                          }
-                        ],
-                        "usr": "s:Sq"
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
                       }
                     ]
                   },
@@ -1522,8 +1514,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK14CallbackResultO5erroryACs5Error_pSgcACmF",
-            "mangledName": "$s11PayfareiSDK14CallbackResultO5erroryACs5Error_pSgcACmF",
+            "usr": "s:11PayfareiSDK14CallbackResultO5erroryACs5Error_pcACmF",
+            "mangledName": "$s11PayfareiSDK14CallbackResultO5erroryACs5Error_pcACmF",
             "moduleName": "PayfareiSDK"
           },
           {
@@ -5576,21 +5568,21 @@
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1648,
+      "offset": 1680,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 1786,
+      "offset": 1818,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/CreateCardPIN\/CreateCardPINInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 2036,
+      "offset": 2068,
       "length": 2,
       "value": "\"\""
     },
@@ -6108,14 +6100,14 @@
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2428,
+      "offset": 2492,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 2503,
+      "offset": 2567,
       "length": 5,
       "value": "false"
     },
@@ -6920,140 +6912,140 @@
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1380,
+      "offset": 1379,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1623,
+      "offset": 1622,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1459,
+      "offset": 1458,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2548,
+      "offset": 2547,
       "length": 4,
       "value": "\"v6\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2605,
+      "offset": 2604,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2884,
+      "offset": 2883,
       "length": 24,
       "value": "\"subset-TTNorms-Regular\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2916,
+      "offset": 2915,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2968,
+      "offset": 2967,
       "length": 21,
       "value": "\"subset-TTNorms-Bold\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2997,
+      "offset": 2996,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3049,
+      "offset": 3048,
       "length": 23,
       "value": "\"subset-TTNorms-Medium\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3080,
+      "offset": 3079,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3132,
+      "offset": 3131,
       "length": 27,
       "value": "\"subset-TTNorms-ExtraBold.\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3167,
+      "offset": 3166,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4185,
+      "offset": 4184,
       "length": 21,
       "value": "\"ShowCardDetailsForm\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5028,
+      "offset": 5027,
       "length": 19,
       "value": "\"VCardRegistration\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5877,
+      "offset": 5876,
       "length": 15,
       "value": "\"CreateCardPIN\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 6475,
+      "offset": 6474,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6974,
+      "offset": 6973,
       "length": 70,
       "value": "\"This functionality is currently unavailable. Please try again later.\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 7059,
+      "offset": 7058,
       "length": 7,
       "value": "\"Close\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 7197,
+      "offset": 7196,
       "length": 12,
       "value": "\"AlertModal\""
     },
@@ -9713,182 +9705,182 @@
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 1852,
+      "offset": 1884,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2111,
+      "offset": 2143,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 2364,
+      "offset": 2396,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 2933,
+      "offset": 2965,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 3242,
+      "offset": 3274,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3368,
+      "offset": 3400,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 3441,
+      "offset": 3473,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 3517,
+      "offset": 3549,
       "length": 7,
       "value": "\"MM\/yy\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 3589,
+      "offset": 3621,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 3595,
+      "offset": 3627,
       "length": 5,
       "value": "\"\/20\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 3620,
+      "offset": 3652,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3651,
+      "offset": 3683,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 3874,
+      "offset": 3906,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 3898,
+      "offset": 3930,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3921,
+      "offset": 3953,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 3999,
+      "offset": 4031,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 4025,
+      "offset": 4057,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4048,
+      "offset": 4080,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4089,
+      "offset": 4121,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 4248,
+      "offset": 4280,
       "length": 7,
       "value": "\"MM\/yy\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 4807,
+      "offset": 4839,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 5110,
+      "offset": 5142,
       "length": 6,
       "value": "\"%02d\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 5189,
+      "offset": 5221,
       "length": 48,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 5236,
+      "offset": 5268,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 5554,
+      "offset": 5618,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 5649,
+      "offset": 5713,
       "length": 1,
       "value": "1"
     },
