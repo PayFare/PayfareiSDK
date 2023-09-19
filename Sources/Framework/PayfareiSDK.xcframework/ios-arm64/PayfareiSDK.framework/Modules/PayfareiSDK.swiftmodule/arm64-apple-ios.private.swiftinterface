@@ -89,6 +89,9 @@ public enum CardError : Swift.Error, Swift.Equatable {
   case parseFailure((any Swift.Error)?)
   case unknownReason((any Swift.Error)?)
   case noCashDeposit
+  case OTP_NOT_VALIDATED
+  case I2C_TOKEN_EXPIRED
+  case OTP_ENTER_TIME_EXPIRE
   public static func == (lhs: PayfareiSDK.CardError, rhs: PayfareiSDK.CardError) -> Swift.Bool
 }
 extension PayfareiSDK.CardError {
