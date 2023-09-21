@@ -1757,46 +1757,6 @@
           },
           {
             "kind": "Var",
-            "name": "viewVirtualCardFeatureDisabled",
-            "printedName": "viewVirtualCardFeatureDisabled",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayfareiSDK.CallbackResult.Type) -> PayfareiSDK.CallbackResult",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CallbackResult",
-                    "printedName": "PayfareiSDK.CallbackResult",
-                    "usr": "s:11PayfareiSDK14CallbackResultO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PayfareiSDK.CallbackResult.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CallbackResult",
-                        "printedName": "PayfareiSDK.CallbackResult",
-                        "usr": "s:11PayfareiSDK14CallbackResultO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK14CallbackResultO30viewVirtualCardFeatureDisabledyA2CmF",
-            "mangledName": "$s11PayfareiSDK14CallbackResultO30viewVirtualCardFeatureDisabledyA2CmF",
-            "moduleName": "PayfareiSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "activePhysicalCardFeatureDisabled",
             "printedName": "activePhysicalCardFeatureDisabled",
             "children": [
@@ -2345,8 +2305,8 @@
           },
           {
             "kind": "Var",
-            "name": "noCardTing",
-            "printedName": "noCardTing",
+            "name": "NO_CARD_TING",
+            "printedName": "NO_CARD_TING",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -2376,8 +2336,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO02noC4TingyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO02noC4TingyA2CmF",
+            "usr": "s:11PayfareiSDK9CardErrorO12NO_CARD_TINGyA2CmF",
+            "mangledName": "$s11PayfareiSDK9CardErrorO12NO_CARD_TINGyA2CmF",
             "moduleName": "PayfareiSDK"
           },
           {
@@ -2493,8 +2453,8 @@
           },
           {
             "kind": "Var",
-            "name": "cardActivated",
-            "printedName": "cardActivated",
+            "name": "CARD_ALREADY_ACTIVE",
+            "printedName": "CARD_ALREADY_ACTIVE",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -2524,8 +2484,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO13cardActivatedyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO13cardActivatedyA2CmF",
+            "usr": "s:11PayfareiSDK9CardErrorO19CARD_ALREADY_ACTIVEyA2CmF",
+            "mangledName": "$s11PayfareiSDK9CardErrorO19CARD_ALREADY_ACTIVEyA2CmF",
             "moduleName": "PayfareiSDK"
           },
           {
@@ -2905,8 +2865,8 @@
           },
           {
             "kind": "Var",
-            "name": "OTP_NOT_VALIDATED",
-            "printedName": "OTP_NOT_VALIDATED",
+            "name": "VC_OTP_NOT_VALIDATED",
+            "printedName": "VC_OTP_NOT_VALIDATED",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -2936,14 +2896,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO17OTP_NOT_VALIDATEDyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO17OTP_NOT_VALIDATEDyA2CmF",
+            "usr": "s:11PayfareiSDK9CardErrorO20VC_OTP_NOT_VALIDATEDyA2CmF",
+            "mangledName": "$s11PayfareiSDK9CardErrorO20VC_OTP_NOT_VALIDATEDyA2CmF",
             "moduleName": "PayfareiSDK"
           },
           {
             "kind": "Var",
-            "name": "I2C_TOKEN_EXPIRED",
-            "printedName": "I2C_TOKEN_EXPIRED",
+            "name": "VC_I2C_TOKEN_EXPIRED",
+            "printedName": "VC_I2C_TOKEN_EXPIRED",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -2973,14 +2933,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO17I2C_TOKEN_EXPIREDyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO17I2C_TOKEN_EXPIREDyA2CmF",
+            "usr": "s:11PayfareiSDK9CardErrorO20VC_I2C_TOKEN_EXPIREDyA2CmF",
+            "mangledName": "$s11PayfareiSDK9CardErrorO20VC_I2C_TOKEN_EXPIREDyA2CmF",
             "moduleName": "PayfareiSDK"
           },
           {
             "kind": "Var",
-            "name": "OTP_ENTER_TIME_EXPIRE",
-            "printedName": "OTP_ENTER_TIME_EXPIRE",
+            "name": "VC_OTP_ENTER_TIME_EXPIRE",
+            "printedName": "VC_OTP_ENTER_TIME_EXPIRE",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -3010,8 +2970,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO21OTP_ENTER_TIME_EXPIREyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO21OTP_ENTER_TIME_EXPIREyA2CmF",
+            "usr": "s:11PayfareiSDK9CardErrorO24VC_OTP_ENTER_TIME_EXPIREyA2CmF",
+            "mangledName": "$s11PayfareiSDK9CardErrorO24VC_OTP_ENTER_TIME_EXPIREyA2CmF",
             "moduleName": "PayfareiSDK"
           },
           {
@@ -6211,35 +6171,35 @@
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 2063,
+      "offset": 1906,
       "length": 5,
       "value": "\"ORC\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 2168,
+      "offset": 1997,
       "length": 4,
       "value": "\"VE\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 2272,
+      "offset": 2087,
       "length": 4,
       "value": "\"TE\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2630,
+      "offset": 2519,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 2705,
+      "offset": 2594,
       "length": 5,
       "value": "false"
     },
@@ -6722,105 +6682,105 @@
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7946,
+      "offset": 8013,
       "length": 76,
       "value": "\"Your virtual card session has expired due to inactivity. Please try again.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8081,
+      "offset": 8148,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8155,
+      "offset": 8222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8363,
+      "offset": 8430,
       "length": 104,
       "value": "\"Something went wrong. We are unable to display your virtual card at this time. Please try again later.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8544,
+      "offset": 8611,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8594,
+      "offset": 8661,
       "length": 104,
       "value": "\"Something went wrong. We are unable to display your virtual card at this time. Please try again later.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8865,
+      "offset": 8932,
       "length": 6,
       "value": "\"lock\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8903,
+      "offset": 8970,
       "length": 17,
       "value": "\"Can't View Card\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9122,
+      "offset": 9189,
       "length": 120,
       "value": "\"You’ve exceeded the time limit to enter the code to view your virtual card. Please request a new code and try again.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9245,
+      "offset": 9312,
       "length": 18,
       "value": "\"Request New Code\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9265,
+      "offset": 9332,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9331,
+      "offset": 9398,
       "length": 120,
       "value": "\"You’ve exceeded the time limit to enter the code to view your virtual card. Please request a new code and try again.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9507,
+      "offset": 9574,
       "length": 14,
       "value": "\"sendOtp('Y')\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9614,
+      "offset": 9681,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/UI\/VirtualCardRegistration\/VirtualCardRegistrationWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9846,
+      "offset": 9851,
       "length": 5,
       "value": "false"
     },
@@ -7037,140 +6997,140 @@
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1379,
+      "offset": 1271,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1622,
+      "offset": 1514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1458,
+      "offset": 1350,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2547,
+      "offset": 2439,
       "length": 4,
       "value": "\"v6\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2604,
+      "offset": 2496,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2883,
+      "offset": 2775,
       "length": 24,
       "value": "\"subset-TTNorms-Regular\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2915,
+      "offset": 2807,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2967,
+      "offset": 2859,
       "length": 21,
       "value": "\"subset-TTNorms-Bold\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2996,
+      "offset": 2888,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3048,
+      "offset": 2940,
       "length": 23,
       "value": "\"subset-TTNorms-Medium\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3079,
+      "offset": 2971,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3131,
+      "offset": 3023,
       "length": 27,
       "value": "\"subset-TTNorms-ExtraBold.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3166,
+      "offset": 3058,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4184,
+      "offset": 4076,
       "length": 21,
       "value": "\"ShowCardDetailsForm\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5027,
+      "offset": 4919,
       "length": 19,
       "value": "\"VCardRegistration\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5876,
+      "offset": 5768,
       "length": 15,
       "value": "\"CreateCardPIN\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 6474,
+      "offset": 6366,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6973,
+      "offset": 6865,
       "length": 70,
       "value": "\"This functionality is currently unavailable. Please try again later.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 7058,
+      "offset": 6950,
       "length": 7,
       "value": "\"Close\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 7196,
+      "offset": 7088,
       "length": 12,
       "value": "\"AlertModal\""
     },
@@ -7520,217 +7480,217 @@
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1497,
+      "offset": 1514,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1503,
+      "offset": 1520,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1744,
+      "offset": 1761,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1749,
+      "offset": 1766,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1800,
+      "offset": 1817,
       "length": 2,
       "value": "97"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1851,
+      "offset": 1874,
       "length": 4,
       "value": "2023"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1897,
+      "offset": 1920,
       "length": 4,
       "value": "2032"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1947,
+      "offset": 1972,
       "length": 4,
       "value": "2027"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1953,
+      "offset": 1978,
       "length": 4,
       "value": "2054"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2005,
+      "offset": 2030,
       "length": 4,
       "value": "2055"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2057,
+      "offset": 2082,
       "length": 4,
       "value": "2069"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2117,
+      "offset": 2142,
       "length": 4,
       "value": "2016"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2170,
+      "offset": 2195,
       "length": 4,
       "value": "8202"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 2464,
+      "offset": 2489,
       "length": 64,
       "value": "\"Currently you don't have any active cards. Activate your card.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 2562,
-      "length": 64,
-      "value": "\"Currently you don't have any active cards. Activate your card.\""
+      "offset": 2589,
+      "length": 21,
+      "value": "\"No card ting found.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 2663,
+      "offset": 2653,
       "length": 34,
       "value": "\"Card has already been activated.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 2733,
+      "offset": 2723,
       "length": 122,
       "value": "\"Activation code does not match. Please check the number and try again. If the problem continues, please contact support.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 2891,
+      "offset": 2881,
       "length": 56,
       "value": "\"Your card cannot be activated. Please contact support.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 2984,
+      "offset": 2974,
       "length": 53,
       "value": "\"For security reasons, your account has been locked.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3081,
+      "offset": 3071,
       "length": 86,
       "value": "\"Sorry, we are unable to process your request at this moment. Please try again later.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3204,
+      "offset": 3194,
       "length": 113,
       "value": "\"There are too many failed attempts to enter the verifications code. For help with your account contact support.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3352,
+      "offset": 3342,
       "length": 38,
       "value": "\"No data was found for your request. \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3426,
+      "offset": 3416,
       "length": 39,
       "value": "\"No data was found for your request.  \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3499,
+      "offset": 3489,
       "length": 40,
       "value": "\"No data was found for your request.   \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3570,
+      "offset": 3560,
       "length": 42,
       "value": "\"No data was found for your request.     \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3648,
+      "offset": 3638,
       "length": 43,
       "value": "\"No data was found for your request.      \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3728,
+      "offset": 3718,
       "length": 39,
       "value": "\" No data was found for your request. \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3804,
+      "offset": 3794,
       "length": 40,
       "value": "\" No data was found for your request.  \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3897,
+      "offset": 3890,
       "length": 19,
       "value": "\"OTP not validated\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3969,
+      "offset": 3965,
       "length": 19,
       "value": "\"I2C token expired\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 4045,
+      "offset": 4044,
       "length": 24,
       "value": "\"OTP enter time expired\""
     },
