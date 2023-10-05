@@ -1,14 +1,17 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PayfareiSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import DeveloperToolsSupport
 import Foundation
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public enum Environment : Swift.String {
   case sandbox
   case uat
@@ -67,7 +70,7 @@ public enum CallbackResult {
     set
   }
   public static func initialize(payfareID: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: PayfareiSDK.Environment = .uat) -> PayfareiSDK.PayfareSDK
-  public func openSDK(flow: PayfareiSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void, errorHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void)
+  public func openSDK(flow: PayfareiSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void, errorHandler: @escaping (PayfareiSDK.CallbackResult, Swift.String?) -> Swift.Void)
   @objc deinit
 }
 public protocol IsAlertViewController {
@@ -91,10 +94,18 @@ public enum CardError : Swift.Error, Swift.Equatable {
   case VC_OTP_NOT_VALIDATED
   case VC_I2C_TOKEN_EXPIRED
   case VC_OTP_ENTER_TIME_EXPIRE
+  case VIRTUAL_CARD_ERROR(Swift.String)
+  case CARD_ACTIVATION_ERROR(Swift.String)
+  case CARD_PIN_ERROR(Swift.String)
   public static func == (lhs: PayfareiSDK.CardError, rhs: PayfareiSDK.CardError) -> Swift.Bool
 }
 extension PayfareiSDK.CardError {
   public var localizedDescription: Swift.String {
+    get
+  }
+}
+extension PayfareiSDK.CardError {
+  public var rawValue: Swift.String {
     get
   }
 }
