@@ -70,7 +70,7 @@ public enum CallbackResult {
     set
   }
   public static func initialize(payfareID: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: PayfareiSDK.Environment = .uat) -> PayfareiSDK.PayfareSDK
-  public func openSDK(flow: PayfareiSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void, errorHandler: @escaping (PayfareiSDK.CallbackResult, Swift.String?) -> Swift.Void)
+  public func openSDK(flow: PayfareiSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void, errorHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void)
   @objc deinit
 }
 public protocol IsAlertViewController {
@@ -79,24 +79,16 @@ public enum CardError : Swift.Error, Swift.Equatable {
   case noCard
   case NO_CARD_TING
   case mismatchCard
-  case inactiveCard
   case exceededLimit
   case CARD_ALREADY_ACTIVE
-  case purseTransferFailure
-  case accountLocked
-  case nonExistent
   case unauthorized
   case noInternet
   case timeout
   case parseFailure((any Swift.Error)?)
-  case unknownReason((any Swift.Error)?)
-  case noCashDeposit
+  case unknownReason(Swift.String?, Swift.Int?)
   case VC_OTP_NOT_VALIDATED
   case VC_I2C_TOKEN_EXPIRED
   case VC_OTP_ENTER_TIME_EXPIRE
-  case VIRTUAL_CARD_ERROR(Swift.String)
-  case CARD_ACTIVATION_ERROR(Swift.String)
-  case CARD_PIN_ERROR(Swift.String)
   public static func == (lhs: PayfareiSDK.CardError, rhs: PayfareiSDK.CardError) -> Swift.Bool
 }
 extension PayfareiSDK.CardError {
