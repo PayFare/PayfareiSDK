@@ -9773,336 +9773,511 @@
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 2399,
+      "offset": 2196,
       "length": 137,
       "value": "\"Error \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "IntegerLiteral",
-      "offset": 2459,
+      "offset": 2256,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 2461,
+      "offset": 2258,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 2519,
+      "offset": 2316,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 2522,
+      "offset": 2319,
       "length": 3,
       "value": "\" has occurred\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 2589,
-      "length": 69,
-      "value": "\"Error \""
-    },
-    {
-      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 2613,
-      "length": 1,
-      "value": "\", \""
-    },
-    {
-      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 2644,
-      "length": 3,
-      "value": "\" has occurred\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 4574,
+      "offset": 2564,
       "length": 137,
       "value": "\"Error \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "IntegerLiteral",
-      "offset": 4634,
+      "offset": 2624,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 4636,
+      "offset": 2626,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 4694,
+      "offset": 2684,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 4697,
+      "offset": 2687,
       "length": 3,
       "value": "\" has occurred\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 4764,
+      "offset": 2754,
       "length": 69,
       "value": "\"Error \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 4788,
+      "offset": 2778,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 4819,
+      "offset": 2809,
       "length": 3,
       "value": "\" has occurred\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 5812,
+      "offset": 4536,
       "length": 137,
       "value": "\"Error \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "IntegerLiteral",
-      "offset": 5872,
+      "offset": 4596,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 5874,
+      "offset": 4598,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 5932,
+      "offset": 4656,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 5935,
+      "offset": 4659,
       "length": 3,
       "value": "\" has occurred\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 6002,
-      "length": 69,
-      "value": "\"Error \""
-    },
-    {
-      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 6026,
-      "length": 1,
-      "value": "\", \""
-    },
-    {
-      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 6057,
-      "length": 3,
-      "value": "\" has occurred\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 7989,
+      "offset": 4904,
       "length": 137,
       "value": "\"Error \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "IntegerLiteral",
-      "offset": 8049,
+      "offset": 4964,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 8051,
+      "offset": 4966,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 8109,
+      "offset": 5024,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 8112,
+      "offset": 5027,
       "length": 3,
       "value": "\" has occurred\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 8179,
+      "offset": 5094,
       "length": 69,
       "value": "\"Error \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 8203,
+      "offset": 5118,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 8234,
+      "offset": 5149,
       "length": 3,
       "value": "\" has occurred\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 10282,
+      "offset": 5939,
       "length": 137,
       "value": "\"Error \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "IntegerLiteral",
-      "offset": 10342,
+      "offset": 5999,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 10344,
+      "offset": 6001,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 10402,
+      "offset": 6059,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 10405,
+      "offset": 6062,
       "length": 3,
       "value": "\" has occurred\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 10472,
-      "length": 69,
-      "value": "\"Error \""
-    },
-    {
-      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 10496,
-      "length": 1,
-      "value": "\", \""
-    },
-    {
-      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 10527,
-      "length": 3,
-      "value": "\" has occurred\""
-    },
-    {
-      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 12253,
+      "offset": 6307,
       "length": 137,
       "value": "\"Error \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "IntegerLiteral",
-      "offset": 12313,
+      "offset": 6367,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 12315,
+      "offset": 6369,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 12373,
+      "offset": 6427,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 12376,
+      "offset": 6430,
       "length": 3,
       "value": "\" has occurred\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 12443,
+      "offset": 6497,
       "length": 69,
       "value": "\"Error \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 12467,
+      "offset": 6521,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 12498,
+      "offset": 6552,
+      "length": 3,
+      "value": "\" has occurred\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8281,
+      "length": 137,
+      "value": "\"Error \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8341,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8343,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8401,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8404,
+      "length": 3,
+      "value": "\" has occurred\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8649,
+      "length": 137,
+      "value": "\"Error \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8709,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8711,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8769,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8772,
+      "length": 3,
+      "value": "\" has occurred\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8839,
+      "length": 69,
+      "value": "\"Error \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8863,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 8894,
+      "length": 3,
+      "value": "\" has occurred\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 10739,
+      "length": 137,
+      "value": "\"Error \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10799,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 10801,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 10859,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 10862,
+      "length": 3,
+      "value": "\" has occurred\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 11107,
+      "length": 137,
+      "value": "\"Error \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11167,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 11169,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 11227,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 11230,
+      "length": 3,
+      "value": "\" has occurred\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 11297,
+      "length": 69,
+      "value": "\"Error \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 11321,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 11352,
+      "length": 3,
+      "value": "\" has occurred\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 13078,
+      "length": 137,
+      "value": "\"Error \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13138,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 13140,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 13198,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 13201,
+      "length": 3,
+      "value": "\" has occurred\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 13268,
+      "length": 69,
+      "value": "\"Error \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 13292,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 13323,
       "length": 3,
       "value": "\" has occurred\""
     },

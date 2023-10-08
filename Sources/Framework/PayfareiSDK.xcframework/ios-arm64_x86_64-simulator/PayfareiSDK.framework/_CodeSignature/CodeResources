@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		8dDbAKBz1lq4HqjQusdHZlNNpQk=
+		JrThB2IV8fStSzLiZSgeiWGRCyU=
 		</data>
 		<key>Base.lproj/AlertModal.storyboardc/AlertExitAccountViewController.nib</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/E0SVZTuItu2CkLEF2wimKMWuYc=
+		pkFGUQkYe8j73JGJpYUxT469FUY=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/E0SVZTuItu2CkLEF2wimKMWuYc=
+		pkFGUQkYe8j73JGJpYUxT469FUY=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -171,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5WwtAATE85lMBwfJ98+R2KnF4r4ZVsF/r931bjvhZcI=
+			zCo9SMDBCF7vBYqcclEzQ3yM4JETFaclw06V0bbz9m4=
 			</data>
 		</dict>
 		<key>Base.lproj/AlertModal.storyboardc/AlertExitAccountViewController.nib</key>
@@ -297,7 +297,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dPAnqXYZrQ8PZdi57gbkaKH5thbambUrIKYrwUcAjEc=
+			ptH7SiBxmh9dcZh/fWnyHZvA2Tm7zpKL95ER+BG/Cgk=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -332,7 +332,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dPAnqXYZrQ8PZdi57gbkaKH5thbambUrIKYrwUcAjEc=
+			ptH7SiBxmh9dcZh/fWnyHZvA2Tm7zpKL95ER+BG/Cgk=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
