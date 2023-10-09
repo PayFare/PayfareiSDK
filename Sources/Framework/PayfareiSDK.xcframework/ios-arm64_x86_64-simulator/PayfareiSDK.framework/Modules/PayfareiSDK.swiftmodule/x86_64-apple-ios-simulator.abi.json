@@ -7548,146 +7548,146 @@
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
       "offset": 2344,
-      "length": 21,
-      "value": "\"No card ting found.\""
+      "length": 20,
+      "value": "\"No card ting found\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 2408,
-      "length": 34,
-      "value": "\"Card has already been activated.\""
+      "offset": 2407,
+      "length": 33,
+      "value": "\"Card has already been activated\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 2478,
+      "offset": 2476,
       "length": 122,
       "value": "\"Activation code does not match. Please check the number and try again. If the problem continues, please contact support.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 2637,
+      "offset": 2635,
       "length": 113,
       "value": "\"There are too many failed attempts to enter the verifications code. For help with your account contact support.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 2786,
+      "offset": 2784,
       "length": 18,
       "value": "\"Not authorized  \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 2838,
+      "offset": 2836,
       "length": 40,
       "value": "\"No data was found for your request.   \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 2909,
+      "offset": 2907,
       "length": 60,
       "value": "\"The server could not be reached. Please try again shortly.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3005,
+      "offset": 3003,
       "length": 43,
       "value": "\"No data was found for your request.      \""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3108,
+      "offset": 3106,
       "length": 23,
       "value": "\"Something went wrong.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3187,
+      "offset": 3185,
       "length": 32,
       "value": "\"Virtual Card OTP not validated\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3275,
+      "offset": 3273,
       "length": 32,
       "value": "\"Virtual Card I2C token expired\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3367,
+      "offset": 3365,
       "length": 37,
       "value": "\"Virtual Card OTP enter time expired\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3549,
+      "offset": 3547,
       "length": 14,
       "value": "\"NO_CARD_TING\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3618,
+      "offset": 3616,
       "length": 21,
       "value": "\"CARD_ALREADY_ACTIVE\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3695,
+      "offset": 3693,
       "length": 22,
       "value": "\"VC_OTP_NOT_VALIDATED\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3773,
+      "offset": 3771,
       "length": 22,
       "value": "\"VC_I2C_TOKEN_EXPIRED\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3855,
+      "offset": 3853,
       "length": 26,
       "value": "\"VC_OTP_ENTER_TIME_EXPIRE\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3943,
+      "offset": 3941,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3954,
+      "offset": 3952,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3956,
+      "offset": 3954,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/CardError.swift",
       "kind": "StringLiteral",
-      "offset": 3994,
+      "offset": 3992,
       "length": 28,
       "value": "\"UNIDENTIFIED_ERROR_MESSAGE\""
     },
