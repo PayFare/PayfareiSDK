@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "PayfareiOSSDK",
+    name: "PayfareiSDK",
     platforms: [
         .iOS(.v14)
     ],
     products: [
         .library(
-            name: "PayfareiOSSDK",
+            name: "PayfareiSDK",
             targets: ["PayfareiSDK"]),
     ],
     dependencies: [
