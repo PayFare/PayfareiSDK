@@ -1,4 +1,4 @@
-# PayfareiSDK, 0.1.29
+# PayfareiSDK, 0.2.1
  This package provide:
     * Activation physical card.
     * View Virtual card.
