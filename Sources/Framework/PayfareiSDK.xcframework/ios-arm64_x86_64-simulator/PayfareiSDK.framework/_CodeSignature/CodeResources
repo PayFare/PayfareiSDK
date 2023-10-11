@@ -30,7 +30,7 @@
 		</data>
 		<key>Base.lproj/CreateCardPIN.storyboardc/Ct0-45-RsY-view-rNS-Jv-WGE.nib</key>
 		<data>
-		7TnzkJqmlIF2ahq1zJ1ehxt6tTM=
+		A+bNYzW1xuu4F1VwLidxbwP3swM=
 		</data>
 		<key>Base.lproj/CreateCardPIN.storyboardc/Info.plist</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gE9CwsBBWervVFBif/e+qxVASOI=
+		vXqOaMDFPtEfWU+Ba6CmJw3mL8Q=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CBRh+RA2AHyNtwK7DoHE6e2HYzg=
+		a52LDvTF0aafvFAuRhwMz0kG39k=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -94,19 +94,19 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CBRh+RA2AHyNtwK7DoHE6e2HYzg=
+		a52LDvTF0aafvFAuRhwMz0kG39k=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kwBMj/FTR4K0mnU/mtGoqAiQp/c=
+		ZHurGaJG8+z6MqjDgKtmreVvtgk=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gE9CwsBBWervVFBif/e+qxVASOI=
+		vXqOaMDFPtEfWU+Ba6CmJw3mL8Q=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		3RyIxoOuJ+gCVAaeUFgxR50FHEE=
+		dWcdFVUcJ8j6TZ3XwvHbwnZZMSM=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -114,11 +114,11 @@
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3RyIxoOuJ+gCVAaeUFgxR50FHEE=
+		dWcdFVUcJ8j6TZ3XwvHbwnZZMSM=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hgob1lXsKQtLHB4C/4cNG0VP+yE=
+		O9TG5U54HGpy8GsJgVChjm4JH+c=
 		</data>
 		<key>OTPSMSItem.nib</key>
 		<data>
@@ -213,7 +213,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2HXmOPk4eo/A+G2A/zrgN9QYyhA7bWfdulqg2OuQ+30=
+			Mnhfa7/mxg8YOz9lxLiQR3kUSC3+PXd6NNsDg7YiQS0=
 			</data>
 		</dict>
 		<key>Base.lproj/CreateCardPIN.storyboardc/Info.plist</key>
@@ -297,14 +297,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HBfPXSsJC7lFXpODCUfqEFVXUBOsXII1Wevdm+Llx7U=
+			2sxSkNPbSdMcAnhJiRmQXw6NVMc8o6JbmoQZmwq/4gM=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ojyPYgyeriCVJWGXhpGmKxp0R+QGGSe59XuL50BuUdo=
+			KXhTEmIYYBlPnVjwYA6t4X8bzFFqTMYa0VYdLf6YRKw=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -318,28 +318,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ojyPYgyeriCVJWGXhpGmKxp0R+QGGSe59XuL50BuUdo=
+			KXhTEmIYYBlPnVjwYA6t4X8bzFFqTMYa0VYdLf6YRKw=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tm0f0fuLbozxcylHDy+tVKGF6bMUZ3AnOFHg3mClHvY=
+			ZNnaIfbr6wKCIHtjzmSb1m1KD2QU26n7xf9djFSJ830=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HBfPXSsJC7lFXpODCUfqEFVXUBOsXII1Wevdm+Llx7U=
+			2sxSkNPbSdMcAnhJiRmQXw6NVMc8o6JbmoQZmwq/4gM=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wVWf1zYhWkoFfPOW1Sagvpas+jPU9QZLJQL4A9Mngks=
+			yYIIIb4oLdiht/Rxb+qHP9GVqR3SxB1QnBQL3TyAS/o=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -353,14 +353,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wVWf1zYhWkoFfPOW1Sagvpas+jPU9QZLJQL4A9Mngks=
+			yYIIIb4oLdiht/Rxb+qHP9GVqR3SxB1QnBQL3TyAS/o=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wmEBZBx1w+U907UZ1p5+YB+ibrWR0Za5sh+hEgigxDs=
+			rgwoH6K7JEuCGz5/IlNN8SuCWSXGHc2Ut3WHee8WU80=
 			</data>
 		</dict>
 		<key>OTPSMSItem.nib</key>
