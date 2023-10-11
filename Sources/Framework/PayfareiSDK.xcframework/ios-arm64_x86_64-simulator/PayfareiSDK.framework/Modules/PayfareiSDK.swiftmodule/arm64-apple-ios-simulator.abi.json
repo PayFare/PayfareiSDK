@@ -2073,6 +2073,7 @@
                     "usr": "s:Sb"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               }
             ],
@@ -6987,133 +6988,140 @@
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 2370,
+      "offset": 1769,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2377,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2559,
+      "offset": 2566,
       "length": 4,
       "value": "\"v6\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2616,
+      "offset": 2623,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2925,
+      "offset": 2932,
       "length": 24,
       "value": "\"subset-TTNorms-Regular\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2957,
+      "offset": 2964,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3009,
+      "offset": 3016,
       "length": 21,
       "value": "\"subset-TTNorms-Bold\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3038,
+      "offset": 3045,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3090,
+      "offset": 3097,
       "length": 23,
       "value": "\"subset-TTNorms-Medium\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3121,
+      "offset": 3128,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3173,
+      "offset": 3180,
       "length": 27,
       "value": "\"subset-TTNorms-ExtraBold.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 3208,
+      "offset": 3215,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4213,
+      "offset": 4220,
       "length": 5,
       "value": "\"401\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 4554,
+      "offset": 4561,
       "length": 21,
       "value": "\"ShowCardDetailsForm\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5397,
+      "offset": 5404,
       "length": 19,
       "value": "\"VCardRegistration\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6246,
+      "offset": 6253,
       "length": 15,
       "value": "\"CreateCardPIN\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 6844,
+      "offset": 6851,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 7343,
+      "offset": 7350,
       "length": 70,
       "value": "\"This functionality is currently unavailable. Please try again later.\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 7428,
+      "offset": 7435,
       "length": 7,
       "value": "\"Close\""
     },
     {
       "filePath": "\/Users\/apple\/Desktop\/Projects\/payfare-ios-sdk\/PayfareiSDK\/PayfareiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 7566,
+      "offset": 7573,
       "length": 12,
       "value": "\"AlertModal\""
     },
