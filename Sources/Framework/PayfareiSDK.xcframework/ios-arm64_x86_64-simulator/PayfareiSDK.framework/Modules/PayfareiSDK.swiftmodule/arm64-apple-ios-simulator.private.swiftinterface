@@ -1,14 +1,17 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PayfareiSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import DeveloperToolsSupport
 import Foundation
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public enum Environment : Swift.String {
   case sandbox
   case uat
@@ -16,27 +19,6 @@ public enum Environment : Swift.String {
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
-    get
-  }
-}
-public enum DataError : Swift.Error {
-  case duplicateFailure
-  case nonExistent
-  case incomplete
-  case unauthorized
-  case accountLocked
-  case noInternet
-  case timeout
-  case updateRequired
-  case parseFailure((any Swift.Error)?)
-  case serverFailure((any Swift.Error)?)
-  case unknownReason((any Swift.Error)?)
-  case limitReached(Swift.String?)
-  case validEmailAddress
-  case profileRecentlyUpdate
-}
-extension PayfareiSDK.DataError {
-  public var localizedDescription: Swift.String {
     get
   }
 }
@@ -50,6 +32,10 @@ public enum UserFlow {
     get
   }
 }
+public protocol SDKErrorType : Swift.Error {
+  var localizedDescription: Swift.String { get }
+  var errorCode: Swift.Int { get }
+}
 public enum CallbackResult {
   case error(any Swift.Error)
   case moveBack
@@ -58,7 +44,6 @@ public enum CallbackResult {
   case virtualCardHasBeenViewed
   case maintenanceMode
   case setPinFeatureDisabled
-  case viewVirtualCardFeatureDisabled
   case activePhysicalCardFeatureDisabled
 }
 @_hasMissingDesignatedInitializers public class PayfareSDK {
@@ -67,32 +52,35 @@ public enum CallbackResult {
     get
     set
   }
-  public static func initialize(payfareID: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: PayfareiSDK.Environment = .uat) -> PayfareiSDK.PayfareSDK
-  public func openSDK(flow: PayfareiSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void, errorHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void)
+  public static func initialize(payfareID: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: PayfareiSDK.Environment = .uat, debugEnabled: Swift.Bool? = true) -> PayfareiSDK.PayfareSDK
+  public func openSDK(flow: PayfareiSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (PayfareiSDK.CallbackResult) -> Swift.Void, errorHandler: @escaping (any PayfareiSDK.SDKErrorType) -> Swift.Void)
   @objc deinit
 }
 public protocol IsAlertViewController {
 }
 public enum CardError : Swift.Error, Swift.Equatable {
   case noCard
-  case noCardTing
+  case NO_CARD_TING
   case mismatchCard
-  case inactiveCard
   case exceededLimit
-  case cardActivated
-  case purseTransferFailure
-  case accountLocked
-  case nonExistent
-  case unauthorized
+  case CARD_ALREADY_ACTIVE
+  case unauthorized(Swift.String?, Swift.Int?)
   case noInternet
   case timeout
   case parseFailure((any Swift.Error)?)
-  case unknownReason((any Swift.Error)?)
-  case noCashDeposit
+  case unknownReason(Swift.String?, Swift.Int?)
+  case VC_OTP_NOT_VALIDATED
+  case VC_I2C_TOKEN_EXPIRED
+  case VC_OTP_ENTER_TIME_EXPIRE
   public static func == (lhs: PayfareiSDK.CardError, rhs: PayfareiSDK.CardError) -> Swift.Bool
 }
 extension PayfareiSDK.CardError {
   public var localizedDescription: Swift.String {
+    get
+  }
+}
+extension PayfareiSDK.CardError {
+  public var rawValue: Swift.String {
     get
   }
 }
