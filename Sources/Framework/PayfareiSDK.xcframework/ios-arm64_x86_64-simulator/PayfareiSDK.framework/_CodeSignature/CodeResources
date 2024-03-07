@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		GBUfBqD/a4JUEbR0gJl4EO9hdSQ=
+		046koNy7oV1+9JINOQr4NqkMT4k=
 		</data>
 		<key>Base.lproj/AlertModal.storyboardc/AlertExitAccountViewController.nib</key>
 		<data>
@@ -78,47 +78,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iBJtCr130QpmyaFLxovuAszYWh0=
+		FVNHjsf5YzIzMBdmHZp/8YmctWE=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		n+5oKYp7pCozy13k4xe+uyXyStI=
+		IHGrL3bVAyBrK75eiOMXTU7sMrE=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2JAe29/Ft1EhJKQlN/bP9qX26Qs=
+		gqI/tfcdXxreg5FMi8XnCeP0lHo=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		pbd02InOpgPeCXz54cbjiC/lmpI=
+		NKyRp5kfkhG7ecIW2zdLq1yBcuc=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2JAe29/Ft1EhJKQlN/bP9qX26Qs=
+		gqI/tfcdXxreg5FMi8XnCeP0lHo=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2VqG+TY+dlHMFwBo8CcaDfhc888=
+		wlxrHpWee1msCJpHnZ46zFenRHc=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		n+5oKYp7pCozy13k4xe+uyXyStI=
+		IHGrL3bVAyBrK75eiOMXTU7sMrE=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LqIswIhu1n+WlgQwSjqGBX8kDUg=
+		GanO17P0zwcvHPUtTujgNEYHj/M=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CvmuOgSgjfLaIB6cNK7UxR7pIOQ=
+		ASOqtfBzxM3aBlwLp7z3DHXdbQI=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LqIswIhu1n+WlgQwSjqGBX8kDUg=
+		GanO17P0zwcvHPUtTujgNEYHj/M=
 		</data>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CqFMrIXGXai/kgJ/1+cqfn57lXA=
+		YYSOQLpdRY1nDHVWkivgoq841+s=
 		</data>
 		<key>OTPSMSItem.nib</key>
 		<data>
@@ -171,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W2RzpDnt/XMtY0NWP3CBeYBRuFXxLbe7JFv9tFncj30=
+			f70Zgv7rsyMOpFm1/8Elv0NLsK60jXbtC1VbSXoHnjk=
 			</data>
 		</dict>
 		<key>Base.lproj/AlertModal.storyboardc/AlertExitAccountViewController.nib</key>
@@ -297,70 +297,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VgJztIYRuUW2ZS/7RO8234q3gnZXGBqVXvBOb3y9pB8=
+			AxGmVqTxQMTYYq0EaF1iWoSsmHL1ri+bGB1nja6uBp0=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6xq3alasswHp8X1x71QNWkrO95x4AfltPegMkyffVcs=
+			+3bDv6N++yrvE3leE7lo/KtzCucGdh7M667ahi0WAiQ=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0PK/hbgGADYCCNBEzw92eSSCDW5mLYkLBiZ9ZE2pfxM=
+			3rz+k4hSsKRxzQvLInnTkyDU6YdqKP+Db1qEHOe76+E=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6xq3alasswHp8X1x71QNWkrO95x4AfltPegMkyffVcs=
+			+3bDv6N++yrvE3leE7lo/KtzCucGdh7M667ahi0WAiQ=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jC3UKnl08rI7uGMwni9SnlcbWSH7XSdFOmpnyspZaL0=
+			QtGo7SjZ4XQKqBAU0aCh+JRLMTLZCOhWSNcBMUS3DEQ=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VgJztIYRuUW2ZS/7RO8234q3gnZXGBqVXvBOb3y9pB8=
+			AxGmVqTxQMTYYq0EaF1iWoSsmHL1ri+bGB1nja6uBp0=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fdu+Ky/qhfxKzLRyARkke2VM0JtnsBkga4+ut4PSrfY=
+			4ZsutonguxXLieLqvw6QapJMpWRIsm27WrCiTt+xOx0=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2bRwX8wMVTWm6397YGMg6J8bq6IM/MeBSl/f1VqEyXU=
+			9eHBCD39mWuu1TczaAZU4vAgcqr1gt3ZWodmOTKVh6E=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fdu+Ky/qhfxKzLRyARkke2VM0JtnsBkga4+ut4PSrfY=
+			4ZsutonguxXLieLqvw6QapJMpWRIsm27WrCiTt+xOx0=
 			</data>
 		</dict>
 		<key>Modules/PayfareiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sTYv1T62xUddpKM6JRFTXtJbYIkPly6h6WJHqdARKuk=
+			jZX2c5yCKaDoWVeidviri9mP8GwD70Cu9Pf9YwCi6no=
 			</data>
 		</dict>
 		<key>OTPSMSItem.nib</key>
