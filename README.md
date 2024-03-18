@@ -1,4 +1,4 @@
-# PayfareiSDK, 0.1.22(errorHandler)
+# PayfareiSDK, 0.1.23(errorHandler)
  This package provide:
     * Activation phisycal card.
     * View Virtual card.
