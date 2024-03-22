@@ -75,22 +75,15 @@ public enum CallbackResult {
 public protocol IsAlertViewController {
 }
 public enum CardError : Swift.Error, Swift.Equatable {
-  case NO_CARD
+  case CARD_ACTIVATION_ERROR(Swift.Int, Swift.String)
+  case VIRTUAL_CARD_ERROR(Swift.Int, Swift.String)
+  case CARD_PIN_ERROR(Swift.Int, Swift.String)
   case NO_CARD_TING
-  case LIMIT_EXCEEDED
   case CARD_ALREADY_ACTIVE
-  case UNAUTHORIZED(Swift.String?, Swift.Int?)
-  case NO_INTERNET
-  case REQUEST_TIMEOUT
-  case REQUEST_FAILURE((any Swift.Error)?)
-  case ERROR_UNKNOWN(Swift.String?, Swift.Int?)
+  case UNAUTHORIZED(Swift.Int, Swift.String)
   case VC_OTP_NOT_VALIDATED
   case VC_I2C_TOKEN_EXPIRED
   case VC_OTP_ENTER_TIME_EXPIRE
-  case CARD_DETAILS_MISMATCH
-  case VIRTUAL_CARD_ERROR
-  case CARD_ACTIVATION_ERROR
-  case CARD_PIN_ERROR
   public static func == (lhs: PayfareiSDK.CardError, rhs: PayfareiSDK.CardError) -> Swift.Bool
 }
 extension PayfareiSDK.CardError {

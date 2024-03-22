@@ -2283,19 +2283,45 @@
         "children": [
           {
             "kind": "Var",
-            "name": "NO_CARD",
-            "printedName": "NO_CARD",
+            "name": "CARD_ACTIVATION_ERROR",
+            "printedName": "CARD_ACTIVATION_ERROR",
             "children": [
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PayfareiSDK.CardError.Type) -> PayfareiSDK.CardError",
+                "printedName": "(PayfareiSDK.CardError.Type) -> (Swift.Int, Swift.String) -> PayfareiSDK.CardError",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "CardError",
-                    "printedName": "PayfareiSDK.CardError",
-                    "usr": "s:11PayfareiSDK9CardErrorO"
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.String) -> PayfareiSDK.CardError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardError",
+                        "printedName": "PayfareiSDK.CardError",
+                        "usr": "s:11PayfareiSDK9CardErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
                   },
                   {
                     "kind": "TypeNominal",
@@ -2314,8 +2340,134 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO7NO_CARDyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO7NO_CARDyA2CmF",
+            "usr": "s:11PayfareiSDK9CardErrorO21CARD_ACTIVATION_ERRORyACSi_SStcACmF",
+            "mangledName": "$s11PayfareiSDK9CardErrorO21CARD_ACTIVATION_ERRORyACSi_SStcACmF",
+            "moduleName": "PayfareiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "VIRTUAL_CARD_ERROR",
+            "printedName": "VIRTUAL_CARD_ERROR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayfareiSDK.CardError.Type) -> (Swift.Int, Swift.String) -> PayfareiSDK.CardError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.String) -> PayfareiSDK.CardError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardError",
+                        "printedName": "PayfareiSDK.CardError",
+                        "usr": "s:11PayfareiSDK9CardErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PayfareiSDK.CardError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardError",
+                        "printedName": "PayfareiSDK.CardError",
+                        "usr": "s:11PayfareiSDK9CardErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11PayfareiSDK9CardErrorO18VIRTUAL_CARD_ERRORyACSi_SStcACmF",
+            "mangledName": "$s11PayfareiSDK9CardErrorO18VIRTUAL_CARD_ERRORyACSi_SStcACmF",
+            "moduleName": "PayfareiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "CARD_PIN_ERROR",
+            "printedName": "CARD_PIN_ERROR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayfareiSDK.CardError.Type) -> (Swift.Int, Swift.String) -> PayfareiSDK.CardError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.String) -> PayfareiSDK.CardError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardError",
+                        "printedName": "PayfareiSDK.CardError",
+                        "usr": "s:11PayfareiSDK9CardErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PayfareiSDK.CardError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardError",
+                        "printedName": "PayfareiSDK.CardError",
+                        "usr": "s:11PayfareiSDK9CardErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11PayfareiSDK9CardErrorO14CARD_PIN_ERRORyACSi_SStcACmF",
+            "mangledName": "$s11PayfareiSDK9CardErrorO14CARD_PIN_ERRORyACSi_SStcACmF",
             "moduleName": "PayfareiSDK"
           },
           {
@@ -2353,43 +2505,6 @@
             "declKind": "EnumElement",
             "usr": "s:11PayfareiSDK9CardErrorO12NO_CARD_TINGyA2CmF",
             "mangledName": "$s11PayfareiSDK9CardErrorO12NO_CARD_TINGyA2CmF",
-            "moduleName": "PayfareiSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "LIMIT_EXCEEDED",
-            "printedName": "LIMIT_EXCEEDED",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayfareiSDK.CardError.Type) -> PayfareiSDK.CardError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CardError",
-                    "printedName": "PayfareiSDK.CardError",
-                    "usr": "s:11PayfareiSDK9CardErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PayfareiSDK.CardError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CardError",
-                        "printedName": "PayfareiSDK.CardError",
-                        "usr": "s:11PayfareiSDK9CardErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO14LIMIT_EXCEEDEDyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO14LIMIT_EXCEEDEDyA2CmF",
             "moduleName": "PayfareiSDK"
           },
           {
@@ -2437,12 +2552,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PayfareiSDK.CardError.Type) -> (Swift.String?, Swift.Int?) -> PayfareiSDK.CardError",
+                "printedName": "(PayfareiSDK.CardError.Type) -> (Swift.Int, Swift.String) -> PayfareiSDK.CardError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String?, Swift.Int?) -> PayfareiSDK.CardError",
+                    "printedName": "(Swift.Int, Swift.String) -> PayfareiSDK.CardError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2453,35 +2568,19 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.String?, Swift.Int?)",
+                        "printedName": "(Swift.Int, Swift.String)",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "Swift.String?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              }
-                            ],
-                            "usr": "s:Sq"
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "Swift.Int?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Int",
-                                "printedName": "Swift.Int",
-                                "usr": "s:Si"
-                              }
-                            ],
-                            "usr": "s:Sq"
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
                           }
                         ]
                       }
@@ -2504,219 +2603,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO12UNAUTHORIZEDyACSSSg_SiSgtcACmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO12UNAUTHORIZEDyACSSSg_SiSgtcACmF",
-            "moduleName": "PayfareiSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "NO_INTERNET",
-            "printedName": "NO_INTERNET",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayfareiSDK.CardError.Type) -> PayfareiSDK.CardError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CardError",
-                    "printedName": "PayfareiSDK.CardError",
-                    "usr": "s:11PayfareiSDK9CardErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PayfareiSDK.CardError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CardError",
-                        "printedName": "PayfareiSDK.CardError",
-                        "usr": "s:11PayfareiSDK9CardErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO11NO_INTERNETyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO11NO_INTERNETyA2CmF",
-            "moduleName": "PayfareiSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "REQUEST_TIMEOUT",
-            "printedName": "REQUEST_TIMEOUT",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayfareiSDK.CardError.Type) -> PayfareiSDK.CardError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CardError",
-                    "printedName": "PayfareiSDK.CardError",
-                    "usr": "s:11PayfareiSDK9CardErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PayfareiSDK.CardError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CardError",
-                        "printedName": "PayfareiSDK.CardError",
-                        "usr": "s:11PayfareiSDK9CardErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO15REQUEST_TIMEOUTyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO15REQUEST_TIMEOUTyA2CmF",
-            "moduleName": "PayfareiSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "REQUEST_FAILURE",
-            "printedName": "REQUEST_FAILURE",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayfareiSDK.CardError.Type) -> ((any Swift.Error)?) -> PayfareiSDK.CardError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "((any Swift.Error)?) -> PayfareiSDK.CardError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CardError",
-                        "printedName": "PayfareiSDK.CardError",
-                        "usr": "s:11PayfareiSDK9CardErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "(any Swift.Error)?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Error",
-                            "printedName": "any Swift.Error",
-                            "usr": "s:s5ErrorP"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PayfareiSDK.CardError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CardError",
-                        "printedName": "PayfareiSDK.CardError",
-                        "usr": "s:11PayfareiSDK9CardErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO15REQUEST_FAILUREyACs0D0_pSgcACmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO15REQUEST_FAILUREyACs0D0_pSgcACmF",
-            "moduleName": "PayfareiSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "ERROR_UNKNOWN",
-            "printedName": "ERROR_UNKNOWN",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayfareiSDK.CardError.Type) -> (Swift.String?, Swift.Int?) -> PayfareiSDK.CardError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String?, Swift.Int?) -> PayfareiSDK.CardError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CardError",
-                        "printedName": "PayfareiSDK.CardError",
-                        "usr": "s:11PayfareiSDK9CardErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(Swift.String?, Swift.Int?)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "Swift.String?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "Swift.Int?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Int",
-                                "printedName": "Swift.Int",
-                                "usr": "s:Si"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PayfareiSDK.CardError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CardError",
-                        "printedName": "PayfareiSDK.CardError",
-                        "usr": "s:11PayfareiSDK9CardErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO13ERROR_UNKNOWNyACSSSg_SiSgtcACmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO13ERROR_UNKNOWNyACSSSg_SiSgtcACmF",
+            "usr": "s:11PayfareiSDK9CardErrorO12UNAUTHORIZEDyACSi_SStcACmF",
+            "mangledName": "$s11PayfareiSDK9CardErrorO12UNAUTHORIZEDyACSi_SStcACmF",
             "moduleName": "PayfareiSDK"
           },
           {
@@ -2828,154 +2716,6 @@
             "declKind": "EnumElement",
             "usr": "s:11PayfareiSDK9CardErrorO24VC_OTP_ENTER_TIME_EXPIREyA2CmF",
             "mangledName": "$s11PayfareiSDK9CardErrorO24VC_OTP_ENTER_TIME_EXPIREyA2CmF",
-            "moduleName": "PayfareiSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "CARD_DETAILS_MISMATCH",
-            "printedName": "CARD_DETAILS_MISMATCH",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayfareiSDK.CardError.Type) -> PayfareiSDK.CardError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CardError",
-                    "printedName": "PayfareiSDK.CardError",
-                    "usr": "s:11PayfareiSDK9CardErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PayfareiSDK.CardError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CardError",
-                        "printedName": "PayfareiSDK.CardError",
-                        "usr": "s:11PayfareiSDK9CardErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO21CARD_DETAILS_MISMATCHyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO21CARD_DETAILS_MISMATCHyA2CmF",
-            "moduleName": "PayfareiSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "VIRTUAL_CARD_ERROR",
-            "printedName": "VIRTUAL_CARD_ERROR",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayfareiSDK.CardError.Type) -> PayfareiSDK.CardError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CardError",
-                    "printedName": "PayfareiSDK.CardError",
-                    "usr": "s:11PayfareiSDK9CardErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PayfareiSDK.CardError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CardError",
-                        "printedName": "PayfareiSDK.CardError",
-                        "usr": "s:11PayfareiSDK9CardErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO18VIRTUAL_CARD_ERRORyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO18VIRTUAL_CARD_ERRORyA2CmF",
-            "moduleName": "PayfareiSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "CARD_ACTIVATION_ERROR",
-            "printedName": "CARD_ACTIVATION_ERROR",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayfareiSDK.CardError.Type) -> PayfareiSDK.CardError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CardError",
-                    "printedName": "PayfareiSDK.CardError",
-                    "usr": "s:11PayfareiSDK9CardErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PayfareiSDK.CardError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CardError",
-                        "printedName": "PayfareiSDK.CardError",
-                        "usr": "s:11PayfareiSDK9CardErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO21CARD_ACTIVATION_ERRORyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO21CARD_ACTIVATION_ERRORyA2CmF",
-            "moduleName": "PayfareiSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "CARD_PIN_ERROR",
-            "printedName": "CARD_PIN_ERROR",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PayfareiSDK.CardError.Type) -> PayfareiSDK.CardError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CardError",
-                    "printedName": "PayfareiSDK.CardError",
-                    "usr": "s:11PayfareiSDK9CardErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PayfareiSDK.CardError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CardError",
-                        "printedName": "PayfareiSDK.CardError",
-                        "usr": "s:11PayfareiSDK9CardErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11PayfareiSDK9CardErrorO14CARD_PIN_ERRORyA2CmF",
-            "mangledName": "$s11PayfareiSDK9CardErrorO14CARD_PIN_ERRORyA2CmF",
             "moduleName": "PayfareiSDK"
           },
           {
@@ -3431,126 +3171,126 @@
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4911,
+      "offset": 4652,
       "length": 9,
       "value": "\"OPTIONS\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4940,
+      "offset": 4681,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4965,
+      "offset": 4706,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4991,
+      "offset": 4732,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5017,
+      "offset": 4758,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5042,
+      "offset": 4783,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5069,
+      "offset": 4810,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5097,
+      "offset": 4838,
       "length": 7,
       "value": "\"TRACE\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5124,
+      "offset": 4865,
       "length": 9,
       "value": "\"CONNECT\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4911,
+      "offset": 4652,
       "length": 9,
       "value": "\"OPTIONS\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4940,
+      "offset": 4681,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4965,
+      "offset": 4706,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 4991,
+      "offset": 4732,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5017,
+      "offset": 4758,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5042,
+      "offset": 4783,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5069,
+      "offset": 4810,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5097,
+      "offset": 4838,
       "length": 7,
       "value": "\"TRACE\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/NetworkModel\/APIRouter.swift",
       "kind": "StringLiteral",
-      "offset": 5124,
+      "offset": 4865,
       "length": 9,
       "value": "\"CONNECT\""
     },
@@ -4746,73 +4486,185 @@
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2218,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 2982,
+      "offset": 2275,
+      "length": 13,
+      "value": "\"No messages\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3034,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 3037,
+      "length": 13,
+      "value": "\"Parse Error\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3316,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 3319,
+      "length": 13,
+      "value": "\"Parse Error\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5004,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 5061,
+      "length": 12,
+      "value": "\"No message\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5868,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 5871,
+      "length": 18,
+      "value": "\"No body response\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6163,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 6166,
       "length": 13,
       "value": "\"Parse error\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6893,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 3261,
+      "offset": 6950,
+      "length": 13,
+      "value": "\"No messages\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7751,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 7754,
       "length": 13,
       "value": "\"Parse error\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8040,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 5712,
+      "offset": 8043,
       "length": 13,
       "value": "\"Parse error\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8888,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 5996,
+      "offset": 8945,
+      "length": 12,
+      "value": "\"No message\""
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9625,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "StringLiteral",
+      "offset": 9628,
       "length": 13,
       "value": "\"Parse error\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9900,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 7533,
+      "offset": 9903,
       "length": 13,
       "value": "\"Parse error\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 7819,
-      "length": 13,
-      "value": "\"Parse error\""
+      "kind": "IntegerLiteral",
+      "offset": 10561,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
       "kind": "StringLiteral",
-      "offset": 9354,
-      "length": 13,
-      "value": "\"Parse error\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 9626,
-      "length": 13,
-      "value": "\"Parse error\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 11772,
-      "length": 13,
-      "value": "\"Parse error\""
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/NetworkSessions\/CardNetworkStore.swift",
-      "kind": "StringLiteral",
-      "offset": 12715,
-      "length": 13,
-      "value": "\"Parse error\""
+      "offset": 10618,
+      "length": 12,
+      "value": "\"No message\""
     },
     {
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
@@ -4825,13 +4677,6 @@
       "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kostiantynkolontai\/Projects\/payfare-sdk-ios\/PayfareiSDK\/PayfareiSDK\/UI\/ShowCardDetailsForm\/ShowCardDetailsFormInteractor.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3276,
       "length": 1,
       "value": "0"
     },
