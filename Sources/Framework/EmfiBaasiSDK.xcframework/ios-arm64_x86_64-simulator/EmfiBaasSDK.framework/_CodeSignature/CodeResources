@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		uuxbrVx6ZAujWmVI0zy7SWCWJHk=
+		cBLxMcNtCmfoBrGWllt+3XLchSQ=
 		</data>
 		<key>Configuration.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WNvR6gWZ0eFRiZJK8HYdFRPTteU=
+		nZIHLkX+V9bUMx7XrwcAL3AOfmA=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ga96TSmJ1BxuF5Mvw6VpSrRwhw0=
+		tEU6K5h1zF7Sko9FYrIDilIX6Yw=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ga96TSmJ1BxuF5Mvw6VpSrRwhw0=
+		tEU6K5h1zF7Sko9FYrIDilIX6Yw=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SChigZvuwmzi+pqMFa9eeyzaMPA=
+		pMHDuvBz6Gcl57oCUM2tyv23IXE=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WNvR6gWZ0eFRiZJK8HYdFRPTteU=
+		nZIHLkX+V9bUMx7XrwcAL3AOfmA=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4RnQ8YcA9ChAKOJelKHSARPdJ9M=
+		AtyYA4HAn/j9cFqNb70Pl4WepNc=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4RnQ8YcA9ChAKOJelKHSARPdJ9M=
+		AtyYA4HAn/j9cFqNb70Pl4WepNc=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1QPk5yrtCDNd068Tz1ulftsP/e0=
+		CX+t/BW7sbRzO4i4RYBX0m7mACI=
 		</data>
 		<key>OpenSans-Bold.ttf</key>
 		<data>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9alOTO+btur0rjm1uPc7YaozK0znmNritbcubQQDxq8=
+			KNk83hRNBBw4n+OFRrNUGLNMFgAvcrHs8dJco9mQQrk=
 			</data>
 		</dict>
 		<key>Configuration.plist</key>
@@ -129,14 +129,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YUtBY4LzTJtkxDcsORNZJ6bDQWsipKyuZ69BMiKmoWs=
+			8nEFx089xhjiWkxVh/z30bcGTkgr7cGmNahRJzAwsD8=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			plsYimrPF8jxEqbx6kiE4hkpsFHFMaufm8HM1fowM8o=
+			p2VVD7jk8kQu6jkXou4nv4XbHVoWlPcUV9ZbR5ZBhNU=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -150,28 +150,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			plsYimrPF8jxEqbx6kiE4hkpsFHFMaufm8HM1fowM8o=
+			p2VVD7jk8kQu6jkXou4nv4XbHVoWlPcUV9ZbR5ZBhNU=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+nNKAVTZ08pu5hursb2Y80J0+2OaywmUEHElNepkfcA=
+			WPeWMkBPoXt4LhS8TkeCJ2Efks6rh47uBR4TOh2Hyyw=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YUtBY4LzTJtkxDcsORNZJ6bDQWsipKyuZ69BMiKmoWs=
+			8nEFx089xhjiWkxVh/z30bcGTkgr7cGmNahRJzAwsD8=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zrhoxzh1GjTW4+VFPVIofl1yIz5XKHAHRBUsu93VKRo=
+			1aI7ZejuWYjYB8WL6jvTKuBvCvzw5ARxLrJwsEyi2FY=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -185,14 +185,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zrhoxzh1GjTW4+VFPVIofl1yIz5XKHAHRBUsu93VKRo=
+			1aI7ZejuWYjYB8WL6jvTKuBvCvzw5ARxLrJwsEyi2FY=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6UE6nnuFGn/8qfg3PajpExG0YJSAl+uZLv3jU/p75+M=
+			uCMC1vT4U4C8q7jyVuLnWOO4lDfUKWgpK41dDM1dZFU=
 			</data>
 		</dict>
 		<key>OpenSans-Bold.ttf</key>

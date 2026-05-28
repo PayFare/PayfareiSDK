@@ -2302,7 +2302,7 @@ public class AuthenticationViewModel : @unchecked Swift.Sendable {
   }
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(apiInteractor: (any EmfiBaasSDK.ProfileAPIType)?, appName: Swift.String, fetchPrimaryPhoneNumber: (() async -> Swift.String?)?)
+  public init(apiInteractor: (any EmfiBaasSDK.ProfileAPIType)?, appName: Swift.String)
   #endif
   public func imageForBiometricPopup() -> Swift.String
   public func titleForBiometric() -> Swift.String
@@ -4581,7 +4581,7 @@ public class ManageCardViewModel<Content> : EmfiBaasSDK.ToastViewModelType, @unc
   }
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)?, profileAPIInteractor: (any EmfiBaasSDK.ProfileAPIType)?, destination: EmfiBaasSDK.DestinationViewModel?, toastModelReceiver: Combine.PassthroughSubject<EmfiBaasSDK.ToastModel?, Swift.Never>, loginViewModel: (any EmfiBaasSDK.ToastViewModelType)?, resissueCardReasonFieldsClean: (() -> Swift.Void)?, needHelpContent: @escaping (Swift.String, @escaping () -> Swift.Void) -> Content, fetchPrimaryPhoneNumber: (() async -> Swift.String?)?)
+  public init(apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)?, profileAPIInteractor: (any EmfiBaasSDK.ProfileAPIType)?, destination: EmfiBaasSDK.DestinationViewModel?, toastModelReceiver: Combine.PassthroughSubject<EmfiBaasSDK.ToastModel?, Swift.Never>, loginViewModel: (any EmfiBaasSDK.ToastViewModelType)?, resissueCardReasonFieldsClean: (() -> Swift.Void)?, needHelpContent: @escaping (Swift.String, @escaping () -> Swift.Void) -> Content)
   #endif
   @objc deinit
 }
