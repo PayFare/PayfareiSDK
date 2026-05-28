@@ -1,24 +1,24 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "PayfareiSDK",
+    name: "EmfiBaasiSDK",
     platforms: [
-        .iOS(.v14)
+      .iOS(.v17)
     ],
     products: [
         .library(
-            name: "PayfareiSDK",
-            targets: ["PayfareiSDK"]),
+            name: "EmfiBaasiSDK",
+            targets: ["EmfiBaasiSDK"]),
     ],
     dependencies: [
     ],
     targets: [
         .binaryTarget(
-                    name: "PayfareiSDK",
-                    path: "Sources/Framework/PayfareiSDK.xcframework"
+                    name: "EmfiBaasiSDK",
+                    path: "Sources/Framework/EmfiBaasiSDK.xcframework"
                 ),
     ]
 )
