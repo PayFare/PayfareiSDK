@@ -70515,6 +70515,43 @@
             "moduleName": "EmfiBaasSDK"
           },
           {
+            "kind": "Var",
+            "name": "dev",
+            "printedName": "dev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EmfiBaasSDK.Environments.Type) -> EmfiBaasSDK.Environments",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environments",
+                    "printedName": "EmfiBaasSDK.Environments",
+                    "usr": "s:11EmfiBaasSDK12EnvironmentsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EmfiBaasSDK.Environments.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environments",
+                        "printedName": "EmfiBaasSDK.Environments",
+                        "usr": "s:11EmfiBaasSDK12EnvironmentsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EmfiBaasSDK12EnvironmentsO3devyA2CmF",
+            "mangledName": "$s11EmfiBaasSDK12EnvironmentsO3devyA2CmF",
+            "moduleName": "EmfiBaasSDK"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -193566,28 +193603,28 @@
     {
       "filePath": "\/Users\/lovish.dogra\/Desktop\/SDK\/EmfiBaasiSDK\/EmfiBaasiSDK\/Configuration\/Configuration.swift",
       "kind": "StringLiteral",
-      "offset": 4804,
+      "offset": 5119,
       "length": 12,
       "value": "\"%+.2d:%.2d\""
     },
     {
       "filePath": "\/Users\/lovish.dogra\/Desktop\/SDK\/EmfiBaasiSDK\/EmfiBaasiSDK\/Configuration\/Configuration.swift",
       "kind": "IntegerLiteral",
-      "offset": 4834,
+      "offset": 5149,
       "length": 4,
       "value": "3600"
     },
     {
       "filePath": "\/Users\/lovish.dogra\/Desktop\/SDK\/EmfiBaasiSDK\/EmfiBaasiSDK\/Configuration\/Configuration.swift",
       "kind": "IntegerLiteral",
-      "offset": 4860,
+      "offset": 5175,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/lovish.dogra\/Desktop\/SDK\/EmfiBaasiSDK\/EmfiBaasiSDK\/Configuration\/Configuration.swift",
       "kind": "IntegerLiteral",
-      "offset": 4866,
+      "offset": 5181,
       "length": 2,
       "value": "60"
     },
