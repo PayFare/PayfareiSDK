@@ -60,7 +60,7 @@ public enum CardError : Swift.Error {
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor public class EmfiBaasiSDK {
   @_Concurrency.MainActor public static var instance: EmfiBaasSDK.EmfiBaasiSDK?
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor public static func initialize(payfareID: Swift.String, companyId: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: EmfiBaasSDK.Environments = .uat, primaryColor: Swift.String?) -> EmfiBaasSDK.EmfiBaasiSDK
+  @_Concurrency.MainActor public static func initialize(payfareID: Swift.String, companyId: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: EmfiBaasSDK.Environments = .dev, primaryColor: Swift.String?) -> EmfiBaasSDK.EmfiBaasiSDK
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public func openSDK(flow: EmfiBaasSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (EmfiBaasSDK.CallbackResult) -> Swift.Void, errorHandler: @escaping (EmfiBaasSDK.CardError) -> Swift.Void)
@@ -2325,7 +2325,7 @@ public struct AppConfiguration {
   #endif
 }
 public enum Environments {
-  case prod, uat
+  case prod, uat, dev
   public static func == (a: EmfiBaasSDK.Environments, b: EmfiBaasSDK.Environments) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
