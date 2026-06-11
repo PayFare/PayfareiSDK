@@ -1,15 +1,15 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
-// swift-module-flags: -target arm64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name EmfiBaasSDK
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name EmfiBaasSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
 import Combine
 import CoreLocation
 import CoreText
 import DeveloperToolsSupport
 import Foundation
-import LocalAuthentication
+@preconcurrency import LocalAuthentication
 import Lottie
-import MapKit
+@preconcurrency import MapKit
 import Network
 import OSLog
 import PDFKit
@@ -59,57 +59,29 @@ public enum CardError : Swift.Error {
 }
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor public class EmfiBaasiSDK {
   @_Concurrency.MainActor public static var instance: EmfiBaasSDK.EmfiBaasiSDK?
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor public static func initialize(payfareID: Swift.String, companyId: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: EmfiBaasSDK.Environments = .dev, primaryColor: Swift.String?) -> EmfiBaasSDK.EmfiBaasiSDK
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor public static func initialize(payfareID: Swift.String, companyId: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: EmfiBaasSDK.Environments = .devstudio, primaryColor: Swift.String?) -> EmfiBaasSDK.EmfiBaasiSDK
   @_Concurrency.MainActor public func openSDK(flow: EmfiBaasSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (EmfiBaasSDK.CallbackResult) -> Swift.Void, errorHandler: @escaping (EmfiBaasSDK.CardError) -> Swift.Void)
-  #endif
   @objc deinit
 }
 public protocol LoginModelType {
   associatedtype UserType
   associatedtype UserTagsType
   var bibson: Swift.String { get set }
-  #if compiler(>=5.3) && $NonescapableTypes
   var session_id: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var user_id: Swift.Int? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var user_ting: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var user: Self.UserType? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var user_tags: Self.UserTagsType? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var is_temporary: Swift.Int? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var verification_required: Swift.Bool? { get set }
-  #endif
 }
 public protocol DashboardQuickServicesType : Swift.Sendable {
   var id: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var title: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var imageURL: Foundation.URL? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var position: Swift.Int? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var clickAction: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var backgroundColor: Swift.String? { get }
-  #endif
 }
 public enum ProfileScreenDestination : Swift.Hashable, Swift.Sendable, Swift.Identifiable {
   public var id: Swift.Int {
@@ -136,117 +108,53 @@ public enum ProfileScreenDestination : Swift.Hashable, Swift.Sendable, Swift.Ide
   }
 }
 public protocol CardType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var ting: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var proxy: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var userId: Swift.Int? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var providerId: Swift.Int? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var createdAt: Foundation.Date? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var cardStatus: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var activationDate: Foundation.Date? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var cardNumberMasked: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var internalCardStatus: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var isVirtual: Swift.Bool? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var updatedAt: Foundation.Date? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var isPinSet: Swift.Bool? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var reissueLimitReached: Swift.Bool? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var profileRecentlyUpdated: Swift.Bool? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var instantIssuanceCard: Swift.Bool? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var code: Swift.Int? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var isReissuable: Swift.Bool? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var isExpired: Swift.Bool? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var isExpiring: Swift.Bool? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var restrictions: (any EmfiBaasSDK.CardRestrictionsType)? { get set }
-  #endif
 }
 public protocol CardRestrictionsType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var atmAllowed: Swift.Bool? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var intAllowed: Swift.Bool? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var ecomAllowed: Swift.Bool? { get set }
-  #endif
 }
 public protocol CardModelType {
   associatedtype CardType
-  #if compiler(>=5.3) && $NonescapableTypes
   var cards: [Self.CardType?] { get set }
-  #endif
 }
 public protocol ReasonCodeType {
-  #if compiler(>=5.3) && $NonescapableTypes
   var code: Swift.Int? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var message: Swift.String? { get set }
-  #endif
 }
 public protocol VirtualCardType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var encryptedURL: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var vnToken: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var authToken: Swift.String? { get set }
-  #endif
 }
 public protocol VirtualCardOTPVerificationType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var bibson: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var userId: Swift.String? { get set }
-  #endif
 }
 public struct EnrollAppleWalletRequest : EmfiBaasSDK.EnrollAppleWalletRequestType {
   public var passThru: Swift.String?
   public var deviceId: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(deviceId: Swift.String?, passThru: Swift.String?)
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct GenericMobileCardView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -265,9 +173,7 @@ public struct EnrollAppleWalletRequest : EmfiBaasSDK.EnrollAppleWalletRequestTyp
 }
 
 @_Concurrency.MainActor @preconcurrency public struct SearchTextField : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(title: Swift.String = "", placeHolder: Swift.String = "", clearButtonIcon: SwiftUICore.Image? = nil, customText: SwiftUICore.Binding<Swift.String>, onChange: @escaping (Swift.String?) -> Swift.Void = { _ in }, keyboardType: UIKit.UIKeyboardType = .default, isEnabled: Swift.Bool = true, focusState: SwiftUICore.Binding<Swift.Bool> = .constant(false))
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -289,77 +195,35 @@ public struct EnrollAppleWalletRequest : EmfiBaasSDK.EnrollAppleWalletRequestTyp
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK31ActivatePhysicalCardDetailsViewV4bodyQrvp", 0) __<Content>
 }
 public protocol TransactionAPIType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchBankAccount() async throws -> (any EmfiBaasSDK.BankAccountType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchTransactionHistoryFilter() async throws -> [any EmfiBaasSDK.TransactionFilterType]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchTransactions(dateInterval: Foundation.DateInterval, limit: Swift.Int?, offset: Swift.Int?, status: Swift.String?) async throws -> (transactions: [any EmfiBaasSDK.TransactionType]?, hasTransactionsBefore: Swift.Bool?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchStatements() async throws -> [any EmfiBaasSDK.StatementType]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchTransactionDetail(transactionId: Swift.String) async throws -> (any EmfiBaasSDK.TransactionDetailType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchUserFullName() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchDirectDepositForm() async throws -> Foundation.URL?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func cancelBankTransfer(transferTing: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
 }
 public protocol ManageCardsAPIType : EmfiBaasSDK.AppNameType {
-  #if compiler(>=5.3) && $NonescapableTypes
   func getCards() async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func setCardPIN(pin: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func changeCardStatus(status: Swift.String, reason: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getCard() async -> (any EmfiBaasSDK.CardType)?
-  #endif
   func setCardStatus(status: Swift.String) async
-  #if compiler(>=5.3) && $NonescapableTypes
   func activateCard(lastSixProxy: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func activateCard(maskedCardNumber: Swift.String, expiryYear: Swift.String, expiryMonth: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func enrollAppleWallet(passThru: Swift.String) async throws -> (encryptedPaymentData: (any EmfiBaasSDK.EncryptedPaymentDataType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchCardShipmentTracker() async throws -> (shippingInfoDetail: (any EmfiBaasSDK.ShippingInfoDetailType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func reissueCard(status: Swift.String, reason: Swift.String, isExpress: Swift.Bool) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getCardShipmentFee() async throws -> (shippingInfoDetail: (any EmfiBaasSDK.CardShipmentFeeType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func setCardControls(restrictionValues: any EmfiBaasSDK.CardRestrictionsType) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
 }
 public protocol ResissueCardAPIType : AnyObject, Swift.Sendable {
   var selectedReason: Swift.String { get }
   var selectedReasonKey: Swift.String { get }
   var selectedDescription: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   func reissueCard(isExpress: Swift.Bool) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getCardShipmentFee() async throws -> (shippingInfoDetail: (any EmfiBaasSDK.CardShipmentFeeType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
 }
 extension Foundation.Date {
   public var minus30Days: Foundation.Date {
@@ -412,15 +276,11 @@ extension Foundation.UserDefaults {
     public init(_ key: Swift.String)
     @objc deinit
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public subscript<T>(key: Foundation.UserDefaults.Key<T?>) -> T? {
     get
     set
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func remove<T>(_ key: Foundation.UserDefaults.Key<T?>)
-  #endif
 }
 extension Foundation.UserDefaults {
   public func removeAll()
@@ -445,44 +305,24 @@ extension Foundation.UserDefaults.Keys {
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK13CreatePINViewV4bodyQrvp", 0) __<Content>
 }
 public struct LocationAPICore : EmfiBaasSDK.LocationAPIType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>? = nil)
-  #endif
   public func readATMLocation(request: any EmfiBaasSDK.MapLocationType) async throws -> [any EmfiBaasSDK.ATMLocationType]
   public func readMerchantLocation(request: any EmfiBaasSDK.MapLocationType, category: Swift.String) async throws -> [any EmfiBaasSDK.MerchantLocationType]
 }
 public struct Validator {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func isEmailValid(email: Swift.String?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func isSecurityAnswerValid(answer: Swift.String?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func isNumericCodeValid(code: Swift.String?, limit: Swift.Int) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func isCodeCompleted(code: Swift.String?, limit: Swift.Int) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func hasSymbols(string: Swift.String?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func hasOnlyAlphabet(string: Swift.String?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func hasProhibitSymbolsAddressesMemo(string: Swift.String?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func passcodeErrorCriteria(code: Swift.String?, limit: Swift.Int = 6) -> EmfiBaasSDK.PasscodeCriteria?
-  #endif
   public static func isCardExpiryDateValid(month: Swift.Int, year: Swift.Int) -> Swift.Bool
   public static func isCardExpiryDateValid(expiryString: Swift.String) -> Swift.Bool
   public static func isBirthdayValid(month: Swift.Int, day: Swift.Int, year: Swift.Int) -> Swift.Bool
   public static func isBirthdayValid(birthdayString: Swift.String) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func hasNumber(_ text: Swift.String?) -> Swift.Bool
-  #endif
 }
 public protocol CustomTextEditorProtocol : SwiftUICore.ViewModifier {
 }
@@ -492,33 +332,17 @@ extension SwiftUI.TextEditor {
 }
 
 public struct UpdatePhoneAPICore : EmfiBaasSDK.UpdatePhoneNumberType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchUserEmail() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func send2FANewPhone(newPhone: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func validate2FANewPhone(newPhone: Swift.String, twofac: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func send2FACurrentEmail() async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func validate2FACurrentEmail(twofac: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func changePhoneNumber(newPhone: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
   public func forceLogout()
 }
 @_Concurrency.MainActor @preconcurrency public struct DeleteBottomSheet : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(model: EmfiBaasSDK.DeleteBottomSheetModel?)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -534,9 +358,7 @@ public struct DeleteBottomSheetModel : Swift.Identifiable {
   public var secondButtonTitle: Swift.String?
   public var firstButtonAction: (() -> Swift.Void)?
   public var secondButtonAction: (() -> Swift.Void)?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(title: Swift.String, subtitle: Swift.String, firstButtonTitle: Swift.String, secondButtonTitle: Swift.String? = nil, firstButtonAction: (() -> Swift.Void)? = nil, secondButtonAction: (() -> Swift.Void)? = nil)
-  #endif
   public typealias ID = Swift.String
 }
 
@@ -556,45 +378,19 @@ extension EmfiBaasSDK.NetworkError {
 }
 public protocol MobileCardType : Swift.Sendable {
   var id: Swift.Int { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var title_text: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var title_colour: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var category_text: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var category_text_colour: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var body_text: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var body_text_colour: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var icon: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var accept_text: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var accept_text_colour: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var accept_click: EmfiBaasSDK.AcceptClick? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var dismissable: Swift.Bool? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var device: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var additional_information: EmfiBaasSDK.AdditionalInfo? { get }
-  #endif
 }
 @_Concurrency.MainActor public protocol NotificationManagerProtocol {
   @_Concurrency.MainActor var shouldShowSettingsBanner: Swift.Bool { get set }
@@ -619,12 +415,8 @@ public protocol MobileCardType : Swift.Sendable {
 }
 
 public class HelpViewModel : @unchecked Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(helpStore: (any EmfiBaasSDK.HelpContentfulProtocol)?, destination: EmfiBaasSDK.DestinationViewModel?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getPrimaryNumber() async -> Swift.String?
-  #endif
   @_Concurrency.MainActor public func getHelpTopic(title: Swift.String, content: Swift.String)
   @_Concurrency.MainActor public func getHelpTopic(id: Swift.String)
   @objc deinit
@@ -652,18 +444,14 @@ public enum MoreHelpCallOptions : Swift.Sendable, Swift.CaseIterable {
 extension EmfiBaasSDK.HelpViewModel : nonisolated Observation.Observable {
 }
 @_Concurrency.MainActor @preconcurrency public struct GenericLegalListView<Item, CellContent, FullScreenContent> : SwiftUICore.View where Item : Swift.Identifiable, CellContent : SwiftUICore.View, FullScreenContent : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(title: Swift.String, subtitle: Swift.String, items: [Item], selectedItem: SwiftUICore.Binding<Item?>, backButtonStyle: EmfiBaasSDK.BackButtonStyle = .crossButton, onAppear: (() -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder cellContent: @escaping (Item) -> CellContent, @SwiftUICore.ViewBuilder fullScreenContent: @escaping (Item) -> FullScreenContent)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK20GenericLegalListViewV4bodyQrvp", 0) __<Item, CellContent, FullScreenContent>
 }
 extension EmfiBaasSDK.GenericLegalListView where FullScreenContent == SwiftUICore.EmptyView {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(title: Swift.String, subtitle: Swift.String, items: [Item], backButtonStyle: EmfiBaasSDK.BackButtonStyle = .crossButton, onAppear: (() -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder cellContent: @escaping (Item) -> CellContent)
-  #endif
 }
 public struct TransactionModelsRequest : EmfiBaasSDK.TransactionsRequestType {
   public var ting: Swift.String
@@ -671,9 +459,7 @@ public struct TransactionModelsRequest : EmfiBaasSDK.TransactionsRequestType {
   public var limit: Swift.Int?
   public var offset: Swift.Int?
   public var status: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(ting: Swift.String, dateInterval: Foundation.DateInterval, limit: Swift.Int?, offset: Swift.Int?, status: Swift.String?)
-  #endif
 }
 public enum APIRoute {
   case login(request: any EmfiBaasSDK.LoginRequestType)
@@ -774,79 +560,39 @@ public enum TwoFAOriginalValue {
 }
 public enum DeviceVerificationType : Swift.String, Swift.Sendable {
   case phone, email
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 public protocol ShippingAddressType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var identifier: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var password: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var firstName: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var lastName: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var embossedName: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var dateOfBirth: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var addressLine1: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var addressLine2: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var addressLine3: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var addressLine4: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var city: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var country: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var region: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var postalCode: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var phoneNumber: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var email: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var userId: Swift.Int? { get }
-  #endif
   init(address: any EmfiBaasSDK.HomeAddressType)
 }
 extension EmfiBaasSDK.ShippingAddressType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fullAddress(country: @escaping () -> Swift.String?) -> Swift.String
-  #endif
 }
 extension Swift.Dictionary where Key == Swift.String {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var jsonString: Swift.String? {
     get
   }
-  #endif
 }
 public struct InfoBottomSheetModel : EmfiBaasSDK.InfoBottomSheetType {
   public var id: Swift.String {
@@ -858,16 +604,12 @@ public struct InfoBottomSheetModel : EmfiBaasSDK.InfoBottomSheetType {
   public var secondButtonTitle: Swift.String?
   public var firstButtonAction: (@Sendable () -> Swift.Void)?
   public var secondButtonAction: (@Sendable () -> Swift.Void)?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(title: Swift.String, subtitle: Swift.String, firstButtonTitle: Swift.String, secondButtonTitle: Swift.String? = nil, firstButtonAction: (@Sendable () -> Swift.Void)? = nil, secondButtonAction: (@Sendable () -> Swift.Void)? = nil)
-  #endif
   public typealias ID = Swift.String
 }
 public enum FontNameType : Swift.String, Swift.CaseIterable {
   case bold, light, lightItalic, regular, medium, semibold, italic, heavy, boldItalic
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [EmfiBaasSDK.FontNameType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [EmfiBaasSDK.FontNameType] {
@@ -880,14 +622,10 @@ public enum FontNameType : Swift.String, Swift.CaseIterable {
 extension Swift.Array where Element == Swift.String {
   public func fetchFont(fontType: EmfiBaasSDK.FontNameType, size: EmfiBaasSDK.FontSize) -> SwiftUICore.Font
   public func fontCreator(size: EmfiBaasSDK.FontSize, fontWeight: SwiftUICore.Font.Weight, filter: @escaping @Sendable (Swift.String) -> Swift.Bool) -> SwiftUICore.Font
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchSuffix(fontName: Swift.String) -> Swift.String?
-  #endif
 }
 public struct FontFamilies : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(fontOne: EmfiBaasSDK.FontFamily? = nil, fontTwo: EmfiBaasSDK.FontFamily? = nil)
-  #endif
   public func fetchFontOne(fontWeight: EmfiBaasSDK.FontFamily.Weight, size: EmfiBaasSDK.FontSize) -> SwiftUICore.Font
   public func fetchFontTwo(fontWeight: EmfiBaasSDK.FontFamily.Weight, size: EmfiBaasSDK.FontSize) -> SwiftUICore.Font
 }
@@ -904,9 +642,7 @@ public enum FontWeightSuffix : Swift.String {
   case regular
   case medium
   case bold
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -923,16 +659,12 @@ public struct ChangeEmailRequest : EmfiBaasSDK.ChangeEmailRequestType {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(dataSource: EmfiBaasSDK.TransactionLimitsViewDataSource?, errorDataSource: EmfiBaasSDK.TransactionLimitsErrorDataSource?)
-  #endif
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK28GenericTransactionLimitsViewV4bodyQrvp", 0) __
 }
 
 @_Concurrency.MainActor @preconcurrency public struct LockCardBottomSheet : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(model: EmfiBaasSDK.LockCardBottomSheetModel?)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -1063,9 +795,7 @@ public enum TwoFAReason : Swift.String, Swift.Decodable {
   case expiredDevice
   case foreignCountry
   case threat
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -1080,9 +810,7 @@ public enum TwoFAReason : Swift.String, Swift.Decodable {
 }
 
 @_Concurrency.MainActor @preconcurrency public struct ViewWrapper<Content> : SwiftUICore.View where Content : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(title: Swift.String = " ", spinnerRun: SwiftUICore.Binding<Swift.Bool> = .constant(false), backButtonStyle: EmfiBaasSDK.BackButtonStyle = .backButton, customBackAction: (() -> Swift.Void)? = nil, rightButtonIcon: Swift.String = "questionMark", helpButtonAction: (@Sendable () -> Swift.Void)? = nil, navigationbarTitleDisplayMode: @escaping () -> SwiftUI.NavigationBarItem.TitleDisplayMode = { .inline }, regularAlertModel: SwiftUICore.Binding<EmfiBaasSDK.RegularAlertModel?> = .constant(nil), toastModel: SwiftUICore.Binding<EmfiBaasSDK.ToastModel?> = .constant(nil), callSupportModel: SwiftUICore.Binding<EmfiBaasSDK.CallSupportBottomSheetModel?> = .constant(nil), backgroundColorOfView: SwiftUICore.Color = AppViewColor.white.color, hasLogoImage: Swift.Bool = false, companyLogo: SwiftUICore.Binding<Swift.String?> = .constant(nil), companyLogoVisible: Swift.Bool = false, @SwiftUICore.ViewBuilder content: @escaping () -> Content)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -1094,9 +822,7 @@ public enum BackButtonStyle : Swift.String {
   case noBackButton
   case titleName
   case backButtonWithTitleName
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -1114,29 +840,19 @@ public enum BackButtonStyle : Swift.String {
     set
     _modify
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor final public var deeplinkRoute: EmfiBaasSDK.LinkRoute? {
     get
     set
     _modify
   }
-  #endif
   @_Concurrency.MainActor public init(destination: [EmfiBaasSDK.ScreenDestination] = [])
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor final public func setEndSession(_ endSession: (() -> Swift.Void)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor final public func navigateTo(_ screen: EmfiBaasSDK.ScreenDestination, tabState: EmfiBaasSDK.TabState? = nil, deeplinkFlow: Swift.Bool = false)
-  #endif
   @_Concurrency.MainActor final public func navigateTo(_ screens: [EmfiBaasSDK.ScreenDestination])
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor final public func getCurrentScreen() -> EmfiBaasSDK.ScreenDestination?
-  #endif
   @_Concurrency.MainActor final public func navigateBack(to last: Swift.Int = 1)
   @_Concurrency.MainActor final public func removeStack(_ screens: [EmfiBaasSDK.ScreenDestination])
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor final public func hasScreen(screen: EmfiBaasSDK.ScreenDestination) -> EmfiBaasSDK.ScreenDestination?
-  #endif
   @_Concurrency.MainActor final public func logout()
   @_Concurrency.MainActor final public func logoutIfActiveSession()
   @_Concurrency.MainActor final public func isActiveSession() -> Swift.Bool
@@ -1181,9 +897,7 @@ public enum AppLocality : Swift.Sendable, Swift.CaseIterable, Swift.Identifiable
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(password: Swift.String, title: Swift.String? = nil, subTitle: Swift.String? = nil, actionButtonTitle: Swift.String? = nil, cancelButtonTitle: Swift.String? = nil, error: SwiftUICore.Binding<Swift.String>, mainAction: ((Swift.String) -> Swift.Void)? = nil, cancelButtonAction: (() -> Swift.Void)? = nil, isActive: Swift.Bool)
-  #endif
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK23AuthenticationAlertViewV4bodyQrvp", 0) __
 }
 
@@ -1213,9 +927,7 @@ public enum ManageCardScreenDestination : Swift.Hashable, Swift.Sendable, Swift.
   }
 }
 @_Concurrency.MainActor @preconcurrency public struct InfoBottomSheet : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(model: (any EmfiBaasSDK.InfoBottomSheetType)?)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -1223,12 +935,8 @@ public enum ManageCardScreenDestination : Swift.Hashable, Swift.Sendable, Swift.
 }
 
 public class NavigationWrapperViewModel {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(toastModel: EmfiBaasSDK.ToastModel? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchToastReceiver() -> Combine.PassthroughSubject<EmfiBaasSDK.ToastModel?, Swift.Never>
-  #endif
   @objc deinit
 }
 extension EmfiBaasSDK.NavigationWrapperViewModel : nonisolated Observation.Observable {
@@ -1240,9 +948,7 @@ public class CardProvisioningViewModel {
   public var profileInteractor: (any EmfiBaasSDK.HomeShippingAddressesType & EmfiBaasSDK.ProfileAPIType)? {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public init(apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)?, profileInteractor: (any EmfiBaasSDK.HomeShippingAddressesType & EmfiBaasSDK.ProfileAPIType)?, destination: EmfiBaasSDK.DestinationViewModel?, loginViewModel: (any EmfiBaasSDK.ToastViewModelType)?, localeLanguage: Swift.String, localeCountry: Swift.String, fetchPrimaryPhone: (() async -> Swift.String?)?)
-  #endif
   public func setInitialFlow(with flow: EmfiBaasSDK.AppleCardFlow)
   @objc deinit
 }
@@ -1256,30 +962,14 @@ extension PassKit.PKAddPaymentPassRequestConfiguration : @retroactive Swift.Iden
 extension EmfiBaasSDK.CardProvisioningViewModel : nonisolated Observation.Observable {
 }
 public protocol OnboardingAPIType : EmfiBaasSDK.AppNameType {
-  #if compiler(>=5.3) && $NonescapableTypes
   func validateSentVerificationCode(email: Swift.String, code: Swift.String) async throws -> (userOnboarded: Swift.Bool, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func sendVerificationCode(email: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func validateSentVerificationCode(phone: Swift.String, code: Swift.String) async throws -> (userOnboarded: Swift.Bool, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func sendVerificationCode(phone: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func setPassword(newPassword: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func postSecurityQuestions(securityQuestions: [(question: Swift.String, answer: Swift.String)]) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getSecurityQuestions() async throws -> (securityQuestion: [any EmfiBaasSDK.QuestionType], error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var userEmail: Swift.String? { get async }
-  #endif
   func cleanSessionInfo() async
 }
 @_Concurrency.MainActor @preconcurrency public struct CarouselPagerView : SwiftUICore.View {
@@ -1316,20 +1006,14 @@ public struct MobileCard : EmfiBaasSDK.MobileCardType, Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol ToastViewModelType {
-  #if compiler(>=5.3) && $NonescapableTypes
   var toastModel: Combine.PassthroughSubject<EmfiBaasSDK.ToastModel?, Swift.Never> { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var alertModel: EmfiBaasSDK.RegularAlertModel? { get set }
-  #endif
 }
 public struct ToastModel : Swift.Equatable {
   public var title: Swift.String
   public var duration: Swift.Double
   public var onCompletion: (() -> Swift.Void)?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(title: Swift.String, duration: Swift.Double = 3, onCompletion: (() -> Swift.Void)? = nil)
-  #endif
   public static func == (lhs: EmfiBaasSDK.ToastModel, rhs: EmfiBaasSDK.ToastModel) -> Swift.Bool
 }
 public struct RegularAlertModel : EmfiBaasSDK.RegularAlertModelType, Swift.Identifiable, Swift.Sendable {
@@ -1347,9 +1031,7 @@ public struct RegularAlertModel : EmfiBaasSDK.RegularAlertModelType, Swift.Ident
   public var closeButtonAction: (@Sendable () -> Swift.Void)?
   public var isDismissable: Swift.Bool
   public var messageAllignment: SwiftUICore.TextAlignment
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(imageURL: Foundation.URL? = nil, imageName: Swift.String? = nil, title: Swift.String?, message: Swift.String, mainButtonTitle: Swift.String?, secondButtonTitle: Swift.String?, mainButtonAction: (@Sendable () -> Swift.Void)?, secondButtonAction: (@Sendable () -> Swift.Void)?, closeButtonAction: (@Sendable () -> Swift.Void)? = nil, isDismissable: Swift.Bool = true, messageAllignment: SwiftUICore.TextAlignment = .center)
-  #endif
   public init()
   public init(item: any EmfiBaasSDK.RegularAlertModelType)
   public typealias ID = Swift.String
@@ -1357,15 +1039,9 @@ public struct RegularAlertModel : EmfiBaasSDK.RegularAlertModelType, Swift.Ident
 public protocol TransactionsRequestType : Swift.Sendable {
   var ting: Swift.String { get }
   var dateInterval: Foundation.DateInterval { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var limit: Swift.Int? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var offset: Swift.Int? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var status: Swift.String? { get }
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct TextLTextStyle : EmfiBaasSDK.TextStyle {
   @_Concurrency.MainActor @preconcurrency public init(font: EmfiBaasSDK.FontFamilies, fontWeight: Swift.String = FontWeightSuffix.regular.rawValue, appColor: SwiftUICore.Binding<EmfiBaasSDK.AppViewColor> = .constant(.labelDefault))
@@ -1389,9 +1065,7 @@ public protocol ChangePhoneRequestType : Swift.Encodable {
   var secret: Swift.String { get }
 }
 extension Foundation.URL {
-  #if compiler(>=5.3) && $NonescapableTypes
   public func queryItem(for parameter: Swift.String) -> Swift.String?
-  #endif
 }
 public struct BankAccount : EmfiBaasSDK.BankAccountType, Swift.Decodable {
   public var routingNumber: Swift.String?
@@ -1407,21 +1081,11 @@ extension EmfiBaasSDK.HelpScreen {
   public init(from object: any EmfiBaasSDK.HelpScreenType)
 }
 public protocol VirtualCardAPIType : EmfiBaasSDK.AppNameType {
-  #if compiler(>=5.3) && $NonescapableTypes
   func getUserProfile(userId: Swift.String?) async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func validate2FAForPhone(_ receiver: EmfiBaasSDK.DeviceVerificationType, twofac: Swift.String) async throws -> (verificationResponse: (any EmfiBaasSDK.VirtualCardOTPVerificationType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchVirtualCard(bibson: Swift.String) async throws -> (virtualCard: (any EmfiBaasSDK.VirtualCardType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func virtualCardCalbackRequest(responseCode: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func sendVerificationCode(receiver: EmfiBaasSDK.DeviceVerificationType, orinig: EmfiBaasSDK.TwoFAOptionalValue) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
 }
 public struct ShippingInfoDetail : Swift.Codable, EmfiBaasSDK.ShippingInfoDetailType {
   public let firstName: Swift.String?
@@ -1437,9 +1101,7 @@ public struct ShippingInfoDetail : Swift.Codable, EmfiBaasSDK.ShippingInfoDetail
   public let state: Swift.String?
   public let date: Swift.String?
   public let shippedDate: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, addressLine1: Swift.String? = nil, addressLine2: Swift.String? = nil, addressLine3: Swift.String? = nil, addressLine4: Swift.String? = nil, city: Swift.String? = nil, region: Swift.String? = nil, countryCode: Swift.String? = nil, postalCode: Swift.String? = nil, state: Swift.String? = nil, date: Swift.String? = nil, shippedDate: Swift.String? = nil)
-  #endif
   public init(item: any EmfiBaasSDK.ShippingInfoDetailType)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -1467,16 +1129,12 @@ final public class APIInteractor<T> : @unchecked Swift.Sendable where T : EmfiBa
   final public let actorSessionInfo: EmfiBaasSDK.SessionInfo
   final public var onUnauthorized: ((Swift.Int?) -> Swift.Void)?
   final public var crashlyticsCallback: (Foundation.NSError, Swift.String) -> Swift.Void
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(globalParameters: any EmfiBaasSDK.ConfigurationType, session: T, tokenHandler: @escaping () -> Swift.String, sessionInfo: EmfiBaasSDK.SessionInfo = SessionInfo(), apiVersion: Swift.String, unauthorized: ((Swift.Int?) -> Swift.Void)? = nil, crashlyticsCallback: @escaping (Foundation.NSError, Swift.String) -> Swift.Void)
-  #endif
   final public func updateBaseURL(_ url: Swift.String)
   @objc deinit
 }
 extension EmfiBaasSDK.APIInteractor {
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func manageRequest(with route: EmfiBaasSDK.APIRoute, skipUnauthorized: Swift.Bool = false, fetchToken: (() -> Swift.String?)? = nil) async throws -> Swift.Result<EmfiBaasSDK.DataResponse, EmfiBaasSDK.NetworkError>
-  #endif
   final public func cleanSession()
 }
 public enum ForgotPasswordScreenDestination : Swift.Hashable, Swift.Sendable, Swift.Identifiable {
@@ -1499,16 +1157,10 @@ public enum ForgotPasswordScreenDestination : Swift.Hashable, Swift.Sendable, Sw
   public static let standart: EmfiBaasSDK.KeychainHelper
   @discardableResult
   final public func save(value: Swift.String, keyChain: EmfiBaasSDK.KeyChainKeys) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func read(keyChain: EmfiBaasSDK.KeyChainKeys) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   final public func save(value: Swift.String, context: LocalAuthentication.LAContext, keyChain: EmfiBaasSDK.KeyChainKeys, cancel: (() -> Swift.Void)?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func read(keyChain: EmfiBaasSDK.KeyChainKeys, context: LocalAuthentication.LAContext) -> Swift.String?
-  #endif
   @discardableResult
   final public func delete(keyChain: EmfiBaasSDK.KeyChainKeys) -> Swift.Bool
   @objc deinit
@@ -1519,37 +1171,19 @@ open class KeychainSwift {
   open var synchronizable: Swift.Bool
   public init()
   public init(keyPrefix: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func set(_ value: Swift.String, forKey key: Swift.String, withAccess access: EmfiBaasSDK.KeychainSwiftAccessOptions? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func set(_ value: Swift.String, context: LocalAuthentication.LAContext, forKey key: Swift.String, cancel: (() -> Swift.Void)?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func set(_ value: Foundation.Data, forKey key: Swift.String, withAccess access: EmfiBaasSDK.KeychainSwiftAccessOptions? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func set(_ value: Foundation.Data, context: LocalAuthentication.LAContext, forKey key: Swift.String, cancel: (() -> Swift.Void)?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func set(_ value: Swift.Bool, forKey key: Swift.String, withAccess access: EmfiBaasSDK.KeychainSwiftAccessOptions? = nil) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func get(_ key: Swift.String) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func get(_ key: Swift.String, context: LocalAuthentication.LAContext) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func getData(_ key: Swift.String, context: LocalAuthentication.LAContext, asReference: Swift.Bool = false) -> Foundation.Data?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   open func getData(_ key: Swift.String, asReference: Swift.Bool = false) -> Foundation.Data?
-  #endif
   open func getBool(_ key: Swift.String) -> Swift.Bool
   @discardableResult
   open func delete(_ key: Swift.String) -> Swift.Bool
@@ -1599,28 +1233,18 @@ public struct VerifyAccountDetailRequest : EmfiBaasSDK.VerifyAccountDetailReques
   public let expiryDateYear: Swift.String?
   public let cardCode: Swift.String?
   public let zipCode: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(birthday: Swift.String, expiryMonth: Swift.String?, expiryYear: Swift.String?, cardCode: Swift.String?, zipCode: Swift.String)
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 final public class HelpContenfulStore : EmfiBaasSDK.HelpContentfulProtocol, @unchecked Swift.Sendable {
   final public var phoneNumber: Swift.String?
   final public var secondaryNumber: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>?, spaceID: Swift.String, environmentID: Swift.String, accessToken: Swift.String, tag: Swift.String, aws: Swift.String)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func readFAQTopic(with request: Swift.String) async -> (any EmfiBaasSDK.HelpTopicType)?
-  #endif
   final public func fetchSupportContactInfo() async throws
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func readFAQScreen(with screenName: Swift.String) async -> (any EmfiBaasSDK.HelpScreenType)?
-  #endif
   final public func readFAQCategories() async throws -> [any EmfiBaasSDK.HelpCategoryType]
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func readFAQTopics(with request: Swift.String?) async throws -> [any EmfiBaasSDK.HelpTopicType]
-  #endif
   final public func searchFAQTopics(with request: Swift.String) async throws -> [any EmfiBaasSDK.HelpTopicType]
   final public func fetchTermsAndConditionsItems() async throws -> [any EmfiBaasSDK.LegalPolicyType]
   final public func readTermsAndConditions(with requestId: Swift.String) async throws -> any EmfiBaasSDK.LegalPolicyType
@@ -1630,9 +1254,7 @@ extension EmfiBaasSDK.HelpContenfulStore {
   final public func fetchNeedMoreHelpCategories(with request: Swift.String) async throws -> [any EmfiBaasSDK.NeedMoreHelpType]
 }
 extension EmfiBaasSDK.HelpContenfulStore {
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func fetchIOSConfiguration() async throws -> (any EmfiBaasSDK.ContentIOSMaintenanceConfiguratorType)?
-  #endif
 }
 public struct EnrollAppleWalletModel : EmfiBaasSDK.EnrollAppleWalletType, Swift.Decodable {
   public var encryptedPaymentData: Swift.String?
@@ -1692,97 +1314,41 @@ public enum DistanceMetricType {
 }
 public protocol ATMLocationType : Swift.Hashable, Swift.Identifiable, Swift.Sendable {
   var id: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var latitude: Swift.Double? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var longitude: Swift.Double? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var address: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var city: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var region: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var country: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var postalCode: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var locName: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var notes: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var free: Swift.Bool? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var terminalID: Swift.String? { get set }
-  #endif
   init(item: any EmfiBaasSDK.ATMLocationType)
   func timeTravel() -> Swift.String
   func distance(unit: EmfiBaasSDK.DistanceMetricType) -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   func dDistance(location: _LocationEssentials.CLLocation?, unit: EmfiBaasSDK.DistanceMetricType) -> Swift.Double
-  #endif
   func fullAddress() -> Swift.String
   func locationName() -> Swift.String
 }
 public protocol MerchantLocationType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var place_id: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var latitude: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var longitude: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var address: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var city: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var region: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var country: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var postal_code: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var loc_name: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var notes: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var free: Swift.Bool? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var phone: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var offer_amount: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var formatted_address: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var logo_url: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var distance: Swift.String? { get set }
-  #endif
   init(item: any EmfiBaasSDK.MerchantLocationType)
 }
 public protocol LocationAPIType : Swift.Sendable {
@@ -1802,14 +1368,10 @@ public struct VirtualCardModel : Swift.Codable, EmfiBaasSDK.VirtualCardType {
   public var encryptedURL: Swift.String?
   public var vnToken: Swift.String?
   public var authToken: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public var virtualCardUrl: Foundation.URL? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(encryptedURL: Swift.String? = nil, vnToken: Swift.String? = nil, authToken: Swift.String? = nil)
-  #endif
   public init(item: any EmfiBaasSDK.VirtualCardType)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -1827,33 +1389,17 @@ public struct SaveACHRecipientRequest : EmfiBaasSDK.SaveACHRecipientRequestType 
   public let accountNumber: Swift.String
   public let routingNumber: Swift.String
   public let status: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(firstName: Swift.String, lastName: Swift.String, nickName: Swift.String?, phone: Swift.String, accountNumber: Swift.String, routingNumber: Swift.String, status: Swift.String)
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct LoginAPICore : EmfiBaasSDK.LoginAPIType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchUserEmail() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchUserPhoneNumber() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func login(email: Swift.String, passcode: Swift.String, isMultistaging: Swift.Bool = true, isolation: isolated (any _Concurrency.Actor)?) async throws -> (user: (any EmfiBaasSDK.UserType)?, additionalAuthenticationRequests: EmfiBaasSDK.AdditionalLoginRequest, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func validateSentVerificationCode(receiver: EmfiBaasSDK.DeviceVerificationType, firebaseToken: Swift.String?, code: Swift.String, rememberDevice: Swift.Bool, orinig: EmfiBaasSDK.TwoFAOptionalValue) async throws -> (temporary: Swift.Bool?, verificationRequired: Swift.Bool?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func registerDevice(firebase: Swift.String?) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func sendVerificationCode(receiver: EmfiBaasSDK.DeviceVerificationType, orinig: EmfiBaasSDK.TwoFAOptionalValue) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
   public func cleanSessionInfo() async
 }
 public protocol ConfigurationType : Swift.Sendable {
@@ -1883,12 +1429,8 @@ extension EmfiBaasSDK.AdditionalInfo {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol RegisterDeviceRequestType {
-  #if compiler(>=5.3) && $NonescapableTypes
   var token: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var deviceModel: Swift.String? { get }
-  #endif
   var osVersion: Swift.String { get }
   var appVersion: Swift.String { get }
   var deviceID: Swift.String { get }
@@ -1905,36 +1447,18 @@ public protocol LoginRequestType {
   var deviceID: Swift.String { get }
 }
 public protocol ACHRecipientListType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var recipients: [any EmfiBaasSDK.ACHRecipientType]? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var countLimit: Swift.Double? { get }
-  #endif
 }
 public protocol ACHRecipientType : Swift.Identifiable, Swift.Sendable {
   var id: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var firstName: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var lastName: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var nickName: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var phone: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var ting: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var bankAccount: (any EmfiBaasSDK.ACHRecipientBankDetailsType)? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var status: Swift.String? { get }
-  #endif
 }
 extension EmfiBaasSDK.ACHRecipientType {
   public var fullName: Swift.String {
@@ -1943,15 +1467,9 @@ extension EmfiBaasSDK.ACHRecipientType {
 }
 public protocol ACHRecipientBankDetailsType : Swift.Identifiable, Swift.Sendable {
   var id: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var accountNumber: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var routingNumber: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var accountType: EmfiBaasSDK.ACHBankAccountType? { get }
-  #endif
 }
 public enum ACHBankAccountType : Swift.String, Swift.CaseIterable, Swift.Codable, Swift.Sendable, Swift.Identifiable {
   public var id: Swift.String {
@@ -1959,12 +1477,8 @@ public enum ACHBankAccountType : Swift.String, Swift.CaseIterable, Swift.Codable
   }
   case savings
   case checking
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(rawValue: Swift.String?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [EmfiBaasSDK.ACHBankAccountType]
   public typealias ID = Swift.String
   public typealias RawValue = Swift.String
@@ -1976,9 +1490,7 @@ public enum ACHBankAccountType : Swift.String, Swift.CaseIterable, Swift.Codable
   }
 }
 @_Concurrency.MainActor @preconcurrency public struct ImageCache<Content> : SwiftUICore.View where Content : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(url: Foundation.URL?, @SwiftUICore.ViewBuilder content: @escaping (SwiftUI.AsyncImagePhase) -> Content)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -1997,20 +1509,16 @@ extension EmfiBaasSDK.ACHRecipientBankDetails : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @_Concurrency.MainActor @preconcurrency public struct PinOTPTextField : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(code: SwiftUICore.Binding<Swift.String>, isInfocus: SwiftUI.FocusState<Swift.Bool>.Binding, isAlert: SwiftUICore.Binding<Swift.Bool> = .constant(false), alertMessage: SwiftUICore.Binding<Swift.String> = .constant(""), alertWithMessageImage: Swift.Bool = true, numberOfDigits: Swift.Int = 6, isPin: Swift.Bool = false, onChange: (() -> Swift.Void)?)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK15PinOTPTextFieldV4bodyQrvp", 0) __
 }
 extension Swift.String {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var hexStringToColor: SwiftUICore.Color? {
     get
   }
-  #endif
   public var capitalizedSentence: Swift.String {
     get
   }
@@ -2022,43 +1530,23 @@ extension Swift.String {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(viewModel: EmfiBaasSDK.AuthenticationViewModel, success: (() -> Swift.Void)? = nil, failed: ((Swift.Int?) -> Swift.Void)? = nil, dismiss: (() -> Swift.Void)? = nil)
-  #endif
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK18AuthenticationViewV4bodyQrvp", 0) __
 }
 
 public protocol DashboardAPIType : EmfiBaasSDK.BalanceCardAPIType {
   var userName: Swift.String { get async }
-  #if compiler(>=5.3) && $NonescapableTypes
   var firstName: Swift.String? { get async }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchBalance() async throws -> (any EmfiBaasSDK.DashboardBalanceType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchFeaturesFlag() async throws -> [any EmfiBaasSDK.HolocroneFeatureFlagType]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchMobileCards() async throws -> [any EmfiBaasSDK.MobileCardType]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func addResponseNotificationPopup(response: any EmfiBaasSDK.InterceptionScreenUserType) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchNotificationPopups() async throws -> [EmfiBaasSDK.PopupItem]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchBanner() async throws -> EmfiBaasSDK.Banner?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchQuickServises() async -> [any EmfiBaasSDK.DashboardQuickServicesType]?
-  #endif
 }
 public protocol BalanceCardAPIType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchBalance() async throws -> (any EmfiBaasSDK.DashboardBalanceType)?
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct RegularAlert : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(item: any EmfiBaasSDK.RegularAlertModelType, onClose: @escaping () -> Swift.Void)
@@ -2154,95 +1642,47 @@ public struct CardRestrictions : Swift.Decodable, Swift.Sendable, EmfiBaasSDK.Ca
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol ErrorResponseType : Swift.Decodable, Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var code: Swift.Int? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var message: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var field: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var lockoutTime: Swift.Int? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var remainingAttempt: Swift.Int? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var loginAttemptLeft: Swift.Int? { get set }
-  #endif
   init(item: any EmfiBaasSDK.ErrorResponseType)
-  #if compiler(>=5.3) && $NonescapableTypes
   init(code: Swift.Int?, message: Swift.String?, field: Swift.String?, lockoutTime: Swift.Int?, remainingAttempt: Swift.Int?, loginAttemptLeft: Swift.Int?)
-  #endif
 }
 public protocol InternalErrorType : Swift.Error {
-  #if compiler(>=5.3) && $NonescapableTypes
   var code: Swift.Int? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var field: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var message: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var loginAttemptLeft: Swift.Int? { get set }
-  #endif
 }
 public protocol NetworkErrorType : Swift.Error {
-  #if compiler(>=5.3) && $NonescapableTypes
   var headerValues: [Swift.String : any Swift.Sendable]? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var serverData: Foundation.Data? { get set }
-  #endif
   var statusCode: Swift.Int { get set }
-  #if compiler(>=5.3) && $NonescapableTypes
   var baseUrl: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var internalError: [any EmfiBaasSDK.InternalErrorType]? { get set }
-  #endif
   init(item: any EmfiBaasSDK.NetworkErrorType)
-  #if compiler(>=5.3) && $NonescapableTypes
   init(statusCode: Swift.Int, headerValues: [Swift.String : any Swift.Sendable]?, serverData: Foundation.Data?, baseUrl: Swift.String?)
-  #endif
 }
 public protocol ServerResponseType : Swift.Decodable {
   associatedtype Model : Swift.Decodable
-  #if compiler(>=5.3) && $NonescapableTypes
   var status: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var data: Self.Model? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var errors: [any EmfiBaasSDK.ErrorResponseType]? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var message: Swift.String? { get set }
-  #endif
 }
 public protocol DataResponseType {
   var data: Foundation.Data { get set }
-  #if compiler(>=5.3) && $NonescapableTypes
   var headers: [Swift.String : any Swift.Sendable]? { get set }
-  #endif
   var statusCode: Swift.Int { get set }
-  #if compiler(>=5.3) && $NonescapableTypes
   var internalError: (any Swift.Error)? { get set }
-  #endif
   init(item: any EmfiBaasSDK.DataResponseType)
 }
 public protocol AdditonalInfoType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var reward_category: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var isRotating: Swift.String? { get }
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct MoreHelpScreenNameView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -2254,56 +1694,32 @@ public protocol AdditonalInfoType : Swift.Sendable {
 
 
 public protocol EnrollAppleWalletType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var encryptedPaymentData: Swift.String? { get set }
-  #endif
 }
 public protocol EncryptedPaymentDataType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var activationData: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var encryptedData: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var ephemeralPublicKey: Swift.String? { get set }
-  #endif
 }
 public protocol EnrollAppleWalletRequestType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var deviceId: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var passThru: Swift.String? { get set }
-  #endif
 }
 public struct PhoneValidator {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func phoneValidator(phone: Swift.String?) -> Swift.Bool
-  #endif
 }
 public struct PhoneFormatter {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func formatter(phone: Swift.String?) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func formatterWithoutCountryCode(phone: Swift.String?) -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func formatterWithBracket(phone: Swift.String?) -> Swift.String?
-  #endif
 }
 public class AuthenticationViewModel : @unchecked Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var alertModel: EmfiBaasSDK.RegularAlertModel? {
     get
     set
     _modify
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: (any EmfiBaasSDK.ProfileAPIType)?, appName: Swift.String)
-  #endif
   public func imageForBiometricPopup() -> Swift.String
   public func titleForBiometric() -> Swift.String
   public func messageForBiometric() -> Swift.String
@@ -2317,15 +1733,11 @@ public struct AppConfiguration {
     get
   }
   @_Concurrency.MainActor public static func projectConfiguration(environment: EmfiBaasSDK.Environments, companyId: Swift.String, langCode: @escaping @Sendable () -> Swift.String, _ obfuscator: any EmfiBaasSDK.ObfuscatorType) -> any EmfiBaasSDK.ConfigurationType
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func getPLISTConfiguration() -> [Swift.String : any Swift.Sendable]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func fetchConfiguration(source: [Swift.String : any Swift.Sendable]?, environment: EmfiBaasSDK.Environments, companyId: Swift.String, langCode: @escaping @Sendable () -> Swift.String, obfuscator: (any EmfiBaasSDK.ObfuscatorType)?) -> any EmfiBaasSDK.ConfigurationType
-  #endif
 }
 public enum Environments {
-  case prod, uat, dev
+  case prod, uat, devstudio, cert
   public static func == (a: EmfiBaasSDK.Environments, b: EmfiBaasSDK.Environments) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -2388,23 +1800,17 @@ final public class OTPResendTimer {
     set
     _modify
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var cancellable: Combine.AnyCancellable? {
     get
     set
     _modify
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var timerComplete: (() -> Swift.Void)? {
     get
     set
     _modify
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(timeLabel: Swift.String, currentTimeReceiver: ((Swift.String) -> Swift.String)?, timerComplete: (() -> Swift.Void)? = nil)
-  #endif
   final public func startTimer(with sec: Swift.Int)
   final public func cancel()
   @objc deinit
@@ -2413,24 +1819,12 @@ extension EmfiBaasSDK.OTPResendTimer : nonisolated Observation.Observable {
 }
 public typealias LoginAPIType = EmfiBaasSDK.LoginType & EmfiBaasSDK.LogoutAPIType
 public protocol LoginType : EmfiBaasSDK.AppNameType {
-  #if compiler(>=5.3) && $NonescapableTypes
   func login(email: Swift.String, passcode: Swift.String, isMultistaging: Swift.Bool, isolation: isolated (any _Concurrency.Actor)?) async throws -> (user: (any EmfiBaasSDK.UserType)?, additionalAuthenticationRequests: EmfiBaasSDK.AdditionalLoginRequest, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchUserEmail() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchUserPhoneNumber() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func registerDevice(firebase: Swift.String?) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func validateSentVerificationCode(receiver: EmfiBaasSDK.DeviceVerificationType, firebaseToken: Swift.String?, code: Swift.String, rememberDevice: Swift.Bool, orinig: EmfiBaasSDK.TwoFAOptionalValue) async throws -> (temporary: Swift.Bool?, verificationRequired: Swift.Bool?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func sendVerificationCode(receiver: EmfiBaasSDK.DeviceVerificationType, orinig: EmfiBaasSDK.TwoFAOptionalValue) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
   func cleanSessionInfo() async
 }
 public enum AdditionalLoginRequest : Swift.Sendable {
@@ -2444,18 +1838,14 @@ public enum AdditionalLoginRequest : Swift.Sendable {
 public enum TwoFAOptionalValue : Swift.String {
   case onboarding, login, virtualCard
   public func toOriginalValue() -> EmfiBaasSDK.TwoFAOriginalValue
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 @_Concurrency.MainActor @preconcurrency public struct TextPickerView : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(text: SwiftUICore.Binding<Swift.String>, errorMessage: SwiftUICore.Binding<Swift.String> = .constant(""), showError: SwiftUICore.Binding<Swift.Bool> = .constant(false), placeholder: Swift.String? = nil, showArrow: Swift.Bool = true, onContentTapped: @escaping () -> Swift.Void)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -2477,9 +1867,7 @@ public enum TwoFAOptionalValue : Swift.String {
 }
 
 @_Concurrency.MainActor @preconcurrency public struct GeneralTextView : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(title: Swift.String = "", placeHolder: Swift.String = "", customText: SwiftUICore.Binding<Swift.String>, alertText: SwiftUICore.Binding<Swift.String> = .constant(""), isAlert: SwiftUICore.Binding<Swift.Bool> = .constant(false), onChange: @escaping (Swift.String?) -> Swift.Void = { _ in }, keyboardType: UIKit.UIKeyboardType = .default, characterLimit: Swift.Int = 255, focusState: SwiftUICore.Binding<Swift.Bool> = .constant(false))
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -2537,13 +1925,11 @@ public enum SettingsScreenDestination : Swift.Hashable, Swift.Sendable, Swift.Id
 }
 @objc final public class LocationManager : ObjectiveC.NSObject {
   final public var callback: (CoreLocation.CLAuthorizationStatus?) -> Swift.Void
-  #if compiler(>=5.3) && $NonescapableTypes
   weak final public var delegate: (any EmfiBaasSDK.LocationUpdateDelegate)? {
     get
     set
     _modify
   }
-  #endif
   final public var locationNotDetermined: Swift.Bool {
     get
     set
@@ -2554,27 +1940,21 @@ public enum SettingsScreenDestination : Swift.Hashable, Swift.Sendable, Swift.Id
     set
     _modify
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var currentLocation: _LocationEssentials.CLLocation? {
     get
     set
     _modify
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var currentCenter: _LocationEssentials.CLLocation? {
     get
     set
     _modify
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var lastCenter: _LocationEssentials.CLLocation? {
     get
     set
     _modify
   }
-  #endif
   final public var shouldShowSearchHereButton: Swift.Bool {
     get
     set
@@ -2610,23 +1990,17 @@ public enum SettingsScreenDestination : Swift.Hashable, Swift.Sendable, Swift.Id
     set
     _modify
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var choosenPlace: MapKit.MKLocalSearchCompletion? {
     get
     set
     _modify
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var choosenPlacemark: CoreLocation.CLPlacemark? {
     get
     set
     _modify
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(callback: @escaping (CoreLocation.CLAuthorizationStatus?) -> Swift.Void)
-  #endif
   final public func updateCameraCenter(_ newCenter: _LocationEssentials.CLLocation)
   @objc deinit
 }
@@ -2664,18 +2038,10 @@ extension EmfiBaasSDK.LocationManager : nonisolated Observation.Observable {
 }
 
 public protocol StatementType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var url: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var last4: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var startDate: Foundation.Date? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var endDate: Foundation.Date? { get }
-  #endif
 }
 public protocol ObfuscatorType : Swift.Sendable {
   func reveal(keyString: Swift.String) -> Swift.String
@@ -2710,9 +2076,7 @@ extension SwiftUICore.EnvironmentValues {
   }
 }
 @_Concurrency.MainActor @preconcurrency public struct ListCellView : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(leftIcon: SwiftUICore.Image? = nil, titleText: Swift.String = "", bodyText: Swift.String = "", trailingText: Swift.String? = nil, trailingTextWithBackground: Swift.String? = nil, trailingIcon: SwiftUICore.Image? = nil, showSeparator: Swift.Bool = false, onTap: @escaping () -> Swift.Void, trailingIconAction: (() -> Swift.Void)? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -2730,9 +2094,7 @@ public struct Question : Swift.Decodable, EmfiBaasSDK.QuestionType {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct CallSupport {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public static func call(phone: Swift.String = "", callback: ((Swift.Bool) -> Swift.Void)?)
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct ConfirmPINView<Content> : SwiftUICore.View where Content : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(viewModel: EmfiBaasSDK.PINCardViewModel<Content>)
@@ -2761,39 +2123,19 @@ extension SwiftUICore.EnvironmentValues {
 }
 
 public protocol MoveMoneyAPIType : EmfiBaasSDK.AppNameType {
-  #if compiler(>=5.3) && $NonescapableTypes
   func addBankRecipient(recipient: any EmfiBaasSDK.SaveACHRecipientRequestType) async throws -> (achRecipient: (any EmfiBaasSDK.ACHRecipientType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchBankRecipients() async throws -> (achRecipient: (any EmfiBaasSDK.ACHRecipientListType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func editBankRecipients(recipientTing: Swift.String, recipient: any EmfiBaasSDK.SaveACHRecipientRequestType) async throws -> (achRecipient: (any EmfiBaasSDK.ACHRecipientType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func deleteBankRecipients(recipientTing: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchBankTransferLimits() async throws -> (limits: (any EmfiBaasSDK.TransferLimitsType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func sendBankTransfer(recipientTing: Swift.String, amount: Swift.Double, memo: Swift.String?) async throws -> (confirmation: Swift.String?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getAppUser() async -> (any EmfiBaasSDK.UserType)?
-  #endif
 }
 public protocol VerifyAccountDetailRequestType : Swift.Encodable {
   var birthday: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var expiryDateMonth: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var expiryDateYear: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var cardCode: Swift.String? { get }
-  #endif
   var zipCode: Swift.String { get }
 }
 @_Concurrency.MainActor public struct InteractiveSTextStyle : EmfiBaasSDK.TextStyle {
@@ -2816,38 +2158,22 @@ public struct ChardShipmentFee : Swift.Codable, EmfiBaasSDK.CardShipmentFeeType 
   public var replacementFee: Swift.Float?
   public var expressShipping: Swift.Float?
   public var standardShipping: Swift.Float?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(replacementFee: Swift.Float? = nil, expressShipping: Swift.Float? = nil, standardShipping: Swift.Float? = nil)
-  #endif
   public init(item: any EmfiBaasSDK.CardShipmentFeeType)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public typealias ProfileAPICoreType = EmfiBaasSDK.HomeShippingAddressesType & EmfiBaasSDK.ProfileAPIType
 public protocol ProfileAPIType {
-  #if compiler(>=5.3) && $NonescapableTypes
   func getUser() async -> (any EmfiBaasSDK.UserType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func verifyCredentials(username: Swift.String, password: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
 }
 public protocol HomeShippingAddressesType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   func getHomeAddress() async throws -> (address: (any EmfiBaasSDK.HomeAddressType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func postHomeAddress(addressLine2: Swift.String, addressLine1: Swift.String, city: Swift.String, region: Swift.String, postalCode: Swift.String, country: Swift.String, updateShipping: Swift.Bool) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getShippingAddress() async throws -> (address: (any EmfiBaasSDK.ShippingAddressType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func postShippingAddress(addressLine2: Swift.String, addressLine1: Swift.String, city: Swift.String, region: Swift.String, postalCode: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func validateAddress(addressLine2: Swift.String?, addressLine1: Swift.String, city: Swift.String, region: Swift.String, postalCode: Swift.String, country: Swift.String) async throws -> (address: (any EmfiBaasSDK.HomeAddressType)?, isOriginalAddressValid: Swift.Bool?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
 }
 public struct Banner : Swift.Decodable, Swift.Sendable {
   public let title: Swift.String?
@@ -2892,9 +2218,7 @@ public enum BannerClickType : Swift.String, Swift.CaseIterable, Swift.Codable, S
   case webview
   case helptopic
   case exlink
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [EmfiBaasSDK.BannerClickType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [EmfiBaasSDK.BannerClickType] {
@@ -2949,9 +2273,7 @@ public struct NotificationGroupModel : Swift.Decodable, EmfiBaasSDK.Notification
   @_Concurrency.MainActor public var apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)? {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public init(apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)?, generalAPIInteractor: (any EmfiBaasSDK.GeneralAPIType)?, manageScreentoastModel: (any EmfiBaasSDK.ToastViewModelType)?, destination: EmfiBaasSDK.DestinationViewModel?, needHelpContent: @escaping (Swift.String, @escaping () -> Swift.Void) -> Content)
-  #endif
   @_Concurrency.MainActor public func setPinFlow(_ flow: EmfiBaasSDK.SetPinFlow)
   @objc deinit
 }
@@ -2966,24 +2288,14 @@ public protocol HelpTopicType : Swift.Sendable {
   var content: Swift.String { get }
   var categories: [any EmfiBaasSDK.HelpCategoryType] { get }
   var relatedTopics: [any EmfiBaasSDK.HelpTopicType] { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var supportChannel: Swift.String? { get }
-  #endif
 }
 public protocol HelpCategoryType : Swift.Sendable {
   var id: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var title: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var imageURL: Foundation.URL? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var position: Swift.Int? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var subTitle: Swift.String? { get }
-  #endif
 }
 public protocol HelpScreenType : Swift.Sendable {
   var id: Swift.String { get }
@@ -2992,88 +2304,48 @@ public protocol HelpScreenType : Swift.Sendable {
 }
 public protocol LegalPolicyType : Swift.Sendable {
   var id: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var title: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var content: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var document: Foundation.URL? { get }
-  #endif
 }
 public protocol NeedMoreHelpTypeResponse : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var configs: [any EmfiBaasSDK.NeedMoreHelpType]? { get set }
-  #endif
 }
 public protocol NeedMoreHelpType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var title: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var subtitle: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var supportline: Swift.String? { get set }
-  #endif
 }
 public protocol RewardTopicType {
   var topics: [Swift.String] { get }
 }
 public protocol ContentIOSMaintenanceConfiguratorType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var title: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var localizedTitle: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var body: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var localizedBody: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var isSystemDown: Swift.Bool? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var learnMoreId: Swift.String? { get }
-  #endif
 }
 public protocol HelpContentfulProtocol : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var phoneNumber: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var secondaryNumber: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func readFAQTopic(with requestId: Swift.String) async -> (any EmfiBaasSDK.HelpTopicType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func readFAQScreen(with screenName: Swift.String) async -> (any EmfiBaasSDK.HelpScreenType)?
-  #endif
   func readFAQCategories() async throws -> [any EmfiBaasSDK.HelpCategoryType]
-  #if compiler(>=5.3) && $NonescapableTypes
   func readFAQTopics(with request: Swift.String?) async throws -> [any EmfiBaasSDK.HelpTopicType]
-  #endif
   func searchFAQTopics(with request: Swift.String) async throws -> [any EmfiBaasSDK.HelpTopicType]
   func readTermsAndConditions(with requestId: Swift.String) async throws -> any EmfiBaasSDK.LegalPolicyType
   func fetchTermsAndConditionsItems() async throws -> [any EmfiBaasSDK.LegalPolicyType]
   func fetchNeedMoreHelpCategories(with request: Swift.String) async throws -> [any EmfiBaasSDK.NeedMoreHelpType]
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchIOSConfiguration() async throws -> (any EmfiBaasSDK.ContentIOSMaintenanceConfiguratorType)?
-  #endif
   func fetchSupportContactInfo() async throws
 }
 public struct MaintanenceModel : Swift.Sendable {
   public let title: Swift.String
   public let body: Swift.String
   public let learnMoreId: Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(_ model: (any EmfiBaasSDK.ContentIOSMaintenanceConfiguratorType)?)
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct SecondaryButton : SwiftUI.ButtonStyle {
   @_Concurrency.MainActor @preconcurrency public var backgroundActiveColor: SwiftUICore.Color
@@ -3127,35 +2399,17 @@ public struct DashboardAPICore : EmfiBaasSDK.DashboardAPIType {
   public var userName: Swift.String {
     get async
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public var firstName: Swift.String? {
     get async
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>?, contentful: (any EmfiBaasSDK.ServicesContentfulProtocol)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchBalance() async throws -> (any EmfiBaasSDK.DashboardBalanceType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchFeaturesFlag() async throws -> [any EmfiBaasSDK.HolocroneFeatureFlagType]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchQuickServises() async -> [any EmfiBaasSDK.DashboardQuickServicesType]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchMobileCards() async throws -> [any EmfiBaasSDK.MobileCardType]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func addResponseNotificationPopup(response: any EmfiBaasSDK.InterceptionScreenUserType) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchNotificationPopups() async throws -> [EmfiBaasSDK.PopupItem]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchBanner() async throws -> EmfiBaasSDK.Banner?
-  #endif
 }
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func automaticPresentationDetents() -> some SwiftUICore.View
@@ -3174,9 +2428,7 @@ public struct DirectionCoordinateModel : Swift.Codable, Swift.Identifiable {
   }
   public let latitude: Swift.Double?
   public let longitude: Swift.Double?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(latitude: Swift.Double? = nil, longitude: Swift.Double? = nil)
-  #endif
   public typealias ID = Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -3228,9 +2480,7 @@ extension SwiftUI.TextField {
 public protocol SaveACHRecipientRequestType : Swift.Encodable {
   var firstName: Swift.String { get }
   var lastName: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var nickName: Swift.String? { get }
-  #endif
   var phone: Swift.String { get }
   var accountNumber: Swift.String { get }
   var routingNumber: Swift.String { get }
@@ -3243,89 +2493,39 @@ public class ActivateCardViewModel<Content> : @unchecked Swift.Sendable where Co
   public var apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)? {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)? = nil, destination: EmfiBaasSDK.DestinationViewModel? = nil, callBackHandler: ((EmfiBaasSDK.CallbackResult) -> Swift.Void)?, errorHandler: ((EmfiBaasSDK.CardError) -> Swift.Void)?, needHelpContent: @escaping (Swift.String, @escaping () -> Swift.Void) -> Content, cardStatus: Swift.String? = nil)
-  #endif
   @objc deinit
 }
 extension EmfiBaasSDK.ActivateCardViewModel : nonisolated Observation.Observable {
 }
 public protocol DashboardBalanceType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var balance: Swift.Double? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var ledgerBalance: Swift.Double? { get }
-  #endif
 }
 public protocol TransactionType : Swift.Identifiable, Swift.Sendable {
   var id: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_filter_type: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_currency: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_amount: Swift.Double? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var card_reference_id: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var is_payout: Swift.Bool? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_id: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var balances: EmfiBaasSDK.BalanceTransaction? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_details: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_status: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_original_description: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_code: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var pos: EmfiBaasSDK.POSTransaction? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var pan_last_four: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var user_transaction_date: Foundation.Date? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var original_transaction_id: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var merchant_info: EmfiBaasSDK.MerchantTransactionInfo? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_settlement_date: Foundation.Date? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_date: Foundation.Date? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_description: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_type_description: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transaction_category: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var is_reversible: Swift.Bool? { get }
-  #endif
 }
 extension EmfiBaasSDK.TransactionType {
   public var isTransactionPending: Swift.Bool {
@@ -3352,15 +2552,9 @@ public struct MerchantTransactionInfo : Swift.Sendable, Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol TransactionInfoType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var title: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var body: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var shortDescription: Swift.String? { get }
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct HeaderView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(headingText: Swift.String, subheadingText: Swift.String = "", lineSpacing: CoreFoundation.CGFloat = 2.0, contentAlignment: SwiftUICore.Alignment = .leading, subtitileForegroundColor: SwiftUICore.Color = AppViewColor.bodyText.color)
@@ -3374,9 +2568,7 @@ public class CardControlViewModel {
   public var apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)? {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)?, destination: EmfiBaasSDK.DestinationViewModel?, toastModel: Combine.PassthroughSubject<EmfiBaasSDK.ToastModel?, Swift.Never>)
-  #endif
   @objc deinit
 }
 extension EmfiBaasSDK.CardControlViewModel : nonisolated Observation.Observable {
@@ -3387,21 +2579,15 @@ public struct Obfuscator : EmfiBaasSDK.ObfuscatorType, Swift.Sendable {
   public func reveal(key: [Swift.UInt8]) -> Swift.String
 }
 public struct POBoxValidator {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func homeAppartmentIsValid(appartment: Swift.String?) -> Swift.Bool
-  #endif
 }
 public protocol SessionProtocol {
   associatedtype DataMessage : Swift.Equatable
   associatedtype ErrorMessage : Swift.Equatable, Swift.Error
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchData(urlRequest: Foundation.URLRequest) async throws -> Swift.Result<Self.DataMessage, Self.ErrorMessage>
-  #endif
 }
 public struct Countries {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func getCountryFullName(key: Swift.String) -> Swift.String?
-  #endif
 }
 public struct HelpTopic : EmfiBaasSDK.HelpTopicType, @unchecked Swift.Sendable {
   public let id: Swift.String
@@ -3423,35 +2609,17 @@ extension EmfiBaasSDK.HelpTopic {
 }
 
 public struct OnboardingAPICore : EmfiBaasSDK.OnboardingAPIType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var userEmail: Swift.String? {
     get async
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func validateSentVerificationCode(email: Swift.String, code: Swift.String) async throws -> (userOnboarded: Swift.Bool, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func validateSentVerificationCode(phone: Swift.String, code: Swift.String) async throws -> (userOnboarded: Swift.Bool, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func sendVerificationCode(email: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func setPassword(newPassword: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func sendVerificationCode(phone: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func postSecurityQuestions(securityQuestions: [(question: Swift.String, answer: Swift.String)]) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getSecurityQuestions() async throws -> (securityQuestion: [any EmfiBaasSDK.QuestionType], error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
   public func cleanSessionInfo() async
 }
 public enum FontManagerError : Swift.Error {
@@ -3495,24 +2663,12 @@ public enum DashboardScreenDestination : Swift.Hashable, Swift.Sendable, Swift.I
   }
 }
 public struct ForgotPasswordAPICore : EmfiBaasSDK.ForgotPasswordType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func send2FAForgotPassword(_ newEmail: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func validate2FAForgotPassword(_ newEmail: Swift.String, twofac: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func checkIfCardExistForgotPassword() async -> (exists: Swift.Bool, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func verifyAccountDetailForgotPassword(with request: any EmfiBaasSDK.VerifyAccountDetailRequestType) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func setPassword(newPassword: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
 }
 public enum FontSize : CoreFoundation.CGFloat {
   case fz10
@@ -3535,9 +2691,7 @@ public enum FontSize : CoreFoundation.CGFloat {
   case fz38
   case fz40
   case fz44
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: CoreFoundation.CGFloat)
-  #endif
   public typealias RawValue = CoreFoundation.CGFloat
   public var rawValue: CoreFoundation.CGFloat {
     get
@@ -3547,28 +2701,16 @@ public struct Session : EmfiBaasSDK.SessionProtocol, @unchecked Swift.Sendable {
   public typealias DataResponseType = EmfiBaasSDK.DataResponse
   public typealias NetworkErrorType = EmfiBaasSDK.NetworkError
   public init(environment: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchData(urlRequest: Foundation.URLRequest) async throws -> Swift.Result<EmfiBaasSDK.Session.DataResponseType, EmfiBaasSDK.Session.NetworkErrorType>
-  #endif
   public typealias DataMessage = EmfiBaasSDK.Session.DataResponseType
   public typealias ErrorMessage = EmfiBaasSDK.Session.NetworkErrorType
 }
 public protocol ForgotPasswordType : EmfiBaasSDK.AppNameType {
-  #if compiler(>=5.3) && $NonescapableTypes
   func send2FAForgotPassword(_ newEmail: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func validate2FAForgotPassword(_ newEmail: Swift.String, twofac: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func checkIfCardExistForgotPassword() async -> (exists: Swift.Bool, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func verifyAccountDetailForgotPassword(with request: any EmfiBaasSDK.VerifyAccountDetailRequestType) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func setPassword(newPassword: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct CallSupportBottomAlertView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(model: EmfiBaasSDK.CallSupportBottomSheetModel)
@@ -3582,15 +2724,11 @@ public struct CallSupportBottomSheetModel : Swift.Identifiable, Swift.Sendable {
   public var id: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(buttonTitle: Swift.String, imageName: Swift.String? = "callSupport", action: (@Sendable () -> Swift.Void)?)
-  #endif
   public typealias ID = Swift.String
 }
 @_Concurrency.MainActor public protocol AddMoneyMenuViewModelType {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor var bottomSheetInfo: EmfiBaasSDK.InfoBottomSheetModel? { get set }
-  #endif
   @_Concurrency.MainActor func fetchBankAccountInfo()
   @_Concurrency.MainActor func navigateToDirectDeposit()
 }
@@ -3628,45 +2766,21 @@ extension SwiftUICore.EnvironmentValues {
   }
 }
 public struct ManageCardsAPICore : EmfiBaasSDK.ManageCardsAPIType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getCard() async -> (any EmfiBaasSDK.CardType)?
-  #endif
   public func setCardStatus(status: Swift.String) async
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getCards() async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func setCardPIN(pin: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func enrollAppleWallet(passThru: Swift.String) async throws -> (encryptedPaymentData: (any EmfiBaasSDK.EncryptedPaymentDataType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func changeCardStatus(status: Swift.String, reason: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func reissueCard(status: Swift.String, reason: Swift.String, isExpress: Swift.Bool) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getCardShipmentFee() async throws -> (shippingInfoDetail: (any EmfiBaasSDK.CardShipmentFeeType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func activateCard(lastSixProxy: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func activateCard(maskedCardNumber: Swift.String, expiryYear: Swift.String, expiryMonth: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func setCardControls(restrictionValues: any EmfiBaasSDK.CardRestrictionsType) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
 }
 extension EmfiBaasSDK.ManageCardsAPICore {
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchCardShipmentTracker() async throws -> (shippingInfoDetail: (any EmfiBaasSDK.ShippingInfoDetailType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct TextMTextFieldStyle : EmfiBaasSDK.TextFieldCustomStyle {
   @_Concurrency.MainActor @preconcurrency public init(font: EmfiBaasSDK.FontFamilies, fontWeight: Swift.String = FontWeightSuffix.regular.rawValue, appColor: SwiftUICore.Binding<EmfiBaasSDK.AppViewColor> = .constant(.labelDefault))
@@ -3686,12 +2800,8 @@ extension SwiftUICore.EnvironmentValues {
   }
 }
 public protocol TransactionFilterType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var type: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var display_name: Swift.String? { get }
-  #endif
 }
 public protocol SecureTextFieldCustomStyle : SwiftUICore.ViewModifier {
 }
@@ -3700,31 +2810,15 @@ extension SwiftUI.SecureField {
   
 }
 public protocol MoreMenuAPIType : EmfiBaasSDK.AppNameType {
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchUserDetails() async -> (any EmfiBaasSDK.UserType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchCard() async -> (any EmfiBaasSDK.CardType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func changePassword(newPassword: Swift.String, currentPassword: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func readAllNotifications() async throws -> (notifications: [any EmfiBaasSDK.NotificationType], error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func updateNotificationGroup(groupTypeId: Swift.String, enabled: Swift.Bool) async throws -> (notifications: [any EmfiBaasSDK.NotificationType], error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func submitFeedback(topic: Swift.String, message: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getUserPasswordFromKeychain() -> Swift.String?
-  #endif
   func fetchUserLanguage() async throws -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   func saveUserLanguage(language: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct TextMTextStyle : EmfiBaasSDK.TextStyle {
   @_Concurrency.MainActor @preconcurrency public init(font: EmfiBaasSDK.FontFamilies, fontWeight: Swift.String = FontWeightSuffix.regular.rawValue, appColor: SwiftUICore.Binding<EmfiBaasSDK.AppViewColor> = .constant(.labelDefault))
@@ -3750,9 +2844,7 @@ extension SwiftUICore.EnvironmentValues {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(title: Swift.String, message: Swift.String? = nil, buttonTitle: Swift.String? = nil, buttonAction: (() -> Swift.Void)? = nil)
-  #endif
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK21GenericEmptyStateViewV4bodyQrvp", 0) __
 }
 
@@ -3781,15 +2873,11 @@ public enum LinkRoute : Swift.Equatable, Swift.Sendable {
   case extLink(Foundation.URL?)
   case webView(Foundation.URL?, Swift.String?)
   case transactionHistory
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(route: Swift.String?, fullScreen: Swift.Bool, linkValue: Foundation.URL? = nil, screenTitle: Swift.String? = nil)
-  #endif
   public static func == (lhs: EmfiBaasSDK.LinkRoute, rhs: EmfiBaasSDK.LinkRoute) -> Swift.Bool
 }
 extension Foundation.DateFormatter {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func expiryDateFormatter(code: Swift.String?) -> Swift.String
-  #endif
   public static let fullTime: Foundation.DateFormatter
   public static let filterTime: Foundation.DateFormatter
   public static let statementsYear: Foundation.DateFormatter
@@ -3817,9 +2905,7 @@ public struct ValidateVerification2FACodeRequest : EmfiBaasSDK.TwoFAVerification
   public let firebaseToken: Swift.String?
   public let deviceVerification: EmfiBaasSDK.DeviceVerificationType
   public let model: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(twofac: Swift.String, deviceId: Swift.String, orinig: EmfiBaasSDK.TwoFAOriginalValue, multistage: Swift.Bool, receiver: Swift.String, rememberDevice: Swift.Bool, firebaseToken: Swift.String?, deviceVerification: EmfiBaasSDK.DeviceVerificationType, osVersion: Swift.String?, model: Swift.String? = nil)
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct GenericWebView : SwiftUI.UIViewRepresentable {
   @_Concurrency.MainActor @preconcurrency public init(url: Foundation.URL)
@@ -3846,62 +2932,28 @@ extension EmfiBaasSDK.GenericWebView {
   @_Concurrency.MainActor @preconcurrency public func onI2CEvent(onSuccess: @escaping ([Swift.String : Any]) -> Swift.Void, onFailure: @escaping ([Swift.String : Any]) -> Swift.Void, onReady: @escaping ([Swift.String : Any]) -> Swift.Void) -> EmfiBaasSDK.GenericWebView
 }
 public protocol GeneralAPIType : EmfiBaasSDK.AppNameType {
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchEncryptionKey() async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func getVersionCheck() async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
 }
 public struct MoreMenuAPICore : EmfiBaasSDK.MoreMenuAPIType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchUserDetails() async -> (any EmfiBaasSDK.UserType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchCard() async -> (any EmfiBaasSDK.CardType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func changePassword(newPassword: Swift.String, currentPassword: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func readAllNotifications() async throws -> (notifications: [any EmfiBaasSDK.NotificationType], error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func updateNotificationGroup(groupTypeId: Swift.String, enabled: Swift.Bool) async throws -> (notifications: [any EmfiBaasSDK.NotificationType], error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func submitFeedback(topic: Swift.String, message: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func saveUserLanguage(language: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
   public func fetchUserLanguage() async throws -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getUserPasswordFromKeychain() -> Swift.String?
-  #endif
 }
 public protocol UpdatePhoneNumberType : EmfiBaasSDK.AppNameType {
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchUserEmail() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func send2FANewPhone(newPhone: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func validate2FANewPhone(newPhone: Swift.String, twofac: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func send2FACurrentEmail() async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func validate2FACurrentEmail(twofac: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func changePhoneNumber(newPhone: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
   func forceLogout()
 }
 public struct TransactionLimit {
@@ -3926,9 +2978,7 @@ public struct CardRestrictionRequest : EmfiBaasSDK.CardRestrictionsType {
   public var atmAllowed: Swift.Bool?
   public var intAllowed: Swift.Bool?
   public var ecomAllowed: Swift.Bool?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(atmAllowed: Swift.Bool? = nil, intAllowed: Swift.Bool? = nil, ecomAllowed: Swift.Bool? = nil)
-  #endif
 }
 public struct ShippingAddress : Swift.Decodable, EmfiBaasSDK.ShippingAddressType {
   public var identifier: Swift.String?
@@ -3948,9 +2998,7 @@ public struct ShippingAddress : Swift.Decodable, EmfiBaasSDK.ShippingAddressType
   public var email: Swift.String?
   public var userId: Swift.Int?
   public var country: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(identifier: Swift.String?, password: Swift.String?, firstName: Swift.String?, lastName: Swift.String?, embossedName: Swift.String?, dateOfBirth: Swift.String?, addressLine1: Swift.String?, addressLine2: Swift.String? = nil, addressLine3: Swift.String? = nil, addressLine4: Swift.String? = nil, city: Swift.String?, region: Swift.String?, postalCode: Swift.String?, country: Swift.String?, phoneNumber: Swift.String?, email: Swift.String?, userId: Swift.Int?)
-  #endif
   public init(address: any EmfiBaasSDK.HomeAddressType)
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -4043,15 +3091,9 @@ extension SwiftUICore.EnvironmentValues {
   public typealias UIViewType = UIKit.UIView
 }
 public struct GeneralAPICore : EmfiBaasSDK.GeneralAPIType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchEncryptionKey() async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getVersionCheck() async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
 }
 extension EmfiBaasSDK.DestinationViewModel {
   @_Concurrency.MainActor final public func handleDeepLinkUrl(_ url: Foundation.URL)
@@ -4060,128 +3102,62 @@ extension EmfiBaasSDK.DestinationViewModel {
   @_Concurrency.MainActor final public func navigateToDeeplinkFromDashboard()
 }
 public struct ProfileAPICore : EmfiBaasSDK.ProfileAPICoreType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getUser() async -> (any EmfiBaasSDK.UserType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func verifyCredentials(username: Swift.String, password: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getHomeAddress() async throws -> (address: (any EmfiBaasSDK.HomeAddressType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func postHomeAddress(addressLine2: Swift.String, addressLine1: Swift.String, city: Swift.String, region: Swift.String, postalCode: Swift.String, country: Swift.String, updateShipping: Swift.Bool) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getShippingAddress() async throws -> (address: (any EmfiBaasSDK.ShippingAddressType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func validateAddress(addressLine2: Swift.String?, addressLine1: Swift.String, city: Swift.String, region: Swift.String, postalCode: Swift.String, country: Swift.String = "US") async throws -> (address: (any EmfiBaasSDK.HomeAddressType)?, isOriginalAddressValid: Swift.Bool?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func postShippingAddress(addressLine2: Swift.String, addressLine1: Swift.String, city: Swift.String, region: Swift.String, postalCode: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
 }
 public protocol ShippingInfoDetailType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var firstName: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var lastName: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var addressLine1: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var addressLine2: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var addressLine3: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var addressLine4: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var city: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var region: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var countryCode: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var postalCode: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var state: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var date: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var shippedDate: Swift.String? { get }
-  #endif
   init(item: any EmfiBaasSDK.ShippingInfoDetailType)
 }
 public protocol CardShipmentFeeType : Swift.Decodable, Swift.Encodable, Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var replacementFee: Swift.Float? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var expressShipping: Swift.Float? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var standardShipping: Swift.Float? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var replacementFeeDouble: Swift.Double? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var expressShippingDouble: Swift.Double? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var standardShippingDouble: Swift.Double? { get }
-  #endif
   init(item: any EmfiBaasSDK.CardShipmentFeeType)
 }
 extension EmfiBaasSDK.CardShipmentFeeType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var replacementFeeDouble: Swift.Double? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var expressShippingDouble: Swift.Double? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var standardShippingDouble: Swift.Double? {
     get
   }
-  #endif
 }
 public struct RSAEncryption {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func encrypt(pin: Swift.String, publicKey: Swift.String) -> Swift.String?
-  #endif
 }
 public protocol HTTPServiceType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   func get(url: Swift.String, parameters: [Swift.String : Any], headers: [Swift.String : Swift.String]?) async throws -> Swift.Result<EmfiBaasSDK.DataResponse, EmfiBaasSDK.NetworkError>
-  #endif
 }
 public struct HTTPService : EmfiBaasSDK.HTTPServiceType {
   public init()
 }
 extension EmfiBaasSDK.HTTPService {
-  #if compiler(>=5.3) && $NonescapableTypes
   public func get(url: Swift.String, parameters: [Swift.String : Any], headers: [Swift.String : Swift.String]?) async throws -> Swift.Result<EmfiBaasSDK.DataResponse, EmfiBaasSDK.NetworkError>
-  #endif
 }
 public protocol MapLocationType : Swift.Sendable {
   var latitude: Swift.Double { get set }
@@ -4195,9 +3171,7 @@ public protocol MapLocationType : Swift.Sendable {
 }
 public enum BiometricalType {
   case touchId, faceId, unknown
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(item: EmfiBaasSDK.BiometricIDType?)
-  #endif
   public var description: Swift.String {
     get
   }
@@ -4208,33 +3182,15 @@ public enum BiometricalType {
   }
 }
 public struct TransactionsAPICore : EmfiBaasSDK.TransactionAPIType, Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchBankAccount() async throws -> (any EmfiBaasSDK.BankAccountType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchTransactionHistoryFilter() async throws -> [any EmfiBaasSDK.TransactionFilterType]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchTransactions(dateInterval: Foundation.DateInterval, limit: Swift.Int?, offset: Swift.Int?, status: Swift.String?) async throws -> (transactions: [any EmfiBaasSDK.TransactionType]?, hasTransactionsBefore: Swift.Bool?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchStatements() async throws -> [any EmfiBaasSDK.StatementType]?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchDirectDepositForm() async throws -> Foundation.URL?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchTransactionDetail(transactionId: Swift.String) async throws -> (any EmfiBaasSDK.TransactionDetailType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func cancelBankTransfer(transferTing: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchUserFullName() async -> Swift.String?
-  #endif
 }
 @_Concurrency.MainActor public struct HeadingXSTextStyle : EmfiBaasSDK.TextStyle {
   @_Concurrency.MainActor public init(font: EmfiBaasSDK.FontFamilies, fontWeight: Swift.String = FontWeightSuffix.medium.rawValue, appColor: SwiftUICore.Binding<EmfiBaasSDK.AppViewColor> = .constant(.labelDefault))
@@ -4269,27 +3225,13 @@ extension SwiftUICore.EnvironmentValues {
   }
 }
 public struct UpdateEmailAPICore : EmfiBaasSDK.UpdateEmailType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchUserPhoneNumber() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func send2FANewEmail(_ newEmail: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func validate2FANewEmail(_ newEmail: Swift.String, twofac: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func send2FACurrentPhone() async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func validate2FACurrentPhone(twofac: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func changeEmail(_ newEmail: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
   public func forceLogout()
 }
 extension Swift.Int {
@@ -4297,13 +3239,11 @@ extension Swift.Int {
     get
   }
 }
-#if compiler(>=5.3) && $NonescapableTypes
 extension Swift.Optional where Wrapped == Swift.Int {
   public var toString: Swift.String? {
     get
   }
 }
-#endif
 public class StringsManager : @unchecked Swift.Sendable {
   public static let shared: EmfiBaasSDK.StringsManager
   public var language: Swift.String {
@@ -4332,9 +3272,7 @@ extension SwiftUICore.EnvironmentValues {
 extension EmfiBaasSDK.StringsManager : nonisolated Observation.Observable {
 }
 @_Concurrency.MainActor @preconcurrency public struct SecureTextField : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(placeholder: Swift.String = "", customText: SwiftUICore.Binding<Swift.String>, alertText: SwiftUICore.Binding<Swift.String> = .constant(""), isAlert: SwiftUICore.Binding<Swift.Bool> = .constant(false), onChange: @escaping (Swift.String?) -> Swift.Void = { _ in }, isEnabled: Swift.Bool = true, focusState: SwiftUI.FocusState<Swift.Bool>.Binding = FocusState<Bool>().projectedValue, isRealTimeErrorChanging: Swift.Bool = true, symbolRestricted: Swift.Bool = true)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -4342,19 +3280,15 @@ extension EmfiBaasSDK.StringsManager : nonisolated Observation.Observable {
 }
 
 extension SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func placeholder<S>(_ text: Swift.String, when shouldShow: Swift.Bool, alignment: SwiftUICore.Alignment = .leading, color: SwiftUICore.Color? = AppViewColor.placeholderLabel.color, isForTextEditor: Swift.Bool = false, placeholderTextStyle: S) -> some SwiftUICore.View where S : EmfiBaasSDK.TextStyle
   
-  #endif
 }
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func background(_ color: EmfiBaasSDK.AppViewColor) -> some SwiftUICore.View
   
 }
 @_Concurrency.MainActor public class CardReplacementReasonViewModel<Content> where Content : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public init(apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)?, destination: EmfiBaasSDK.DestinationViewModel?, needHelpContent: @escaping (@escaping () -> Swift.Void) -> Content)
-  #endif
   @_Concurrency.MainActor public func cleanFields()
   @objc deinit
 }
@@ -4368,12 +3302,8 @@ extension EmfiBaasSDK.CardReplacementReasonViewModel : @preconcurrency EmfiBaasS
   @_Concurrency.MainActor public var selectedDescription: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public func getCardShipmentFee() async throws -> (shippingInfoDetail: (any EmfiBaasSDK.CardShipmentFeeType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public func reissueCard(isExpress: Swift.Bool) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
 }
 extension EmfiBaasSDK.CardReplacementReasonViewModel : nonisolated Observation.Observable {
 }
@@ -4387,56 +3317,28 @@ extension SwiftUICore.View {
 }
 public protocol TransferLimitsType : Swift.Sendable {
   associatedtype TransferLimit : EmfiBaasSDK.TransferLimitType
-  #if compiler(>=5.3) && $NonescapableTypes
   var canSend: Swift.Bool? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var fee: Swift.Double? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var limit: [Self.TransferLimit]? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var maxTransaction: Swift.Double? { get }
-  #endif
   init(item: any EmfiBaasSDK.TransferLimitsType)
 }
 public protocol TransferLimitType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var limitPeriod: Swift.Int? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var limitAmount: Swift.Double? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var available: Swift.Double? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var nextAmount: Swift.Double? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var nextOn: Foundation.Date? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var limitCount: Swift.Int? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var countTotal: Swift.Int? { get }
-  #endif
   init(item: any EmfiBaasSDK.TransferLimitType)
 }
 extension EmfiBaasSDK.RegularAlertModel {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func defaultRegularAlert(errorMessage: Swift.String, mainButtonAction: (@Sendable () -> Swift.Void)? = nil) -> EmfiBaasSDK.RegularAlertModel
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func defaultErrorAlert(message: Swift.String? = nil, mainButtonAction: (@Sendable () -> Swift.Void)? = nil) -> EmfiBaasSDK.RegularAlertModel
-  #endif
 }
 public protocol ServicesContentfulProtocol : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   func readDashboardQuickServices(with completion: @escaping ([any EmfiBaasSDK.DashboardQuickServicesType]?) -> Swift.Void)
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct ActiveTimeButtonModifier : SwiftUICore.ViewModifier {
   @_Concurrency.MainActor @preconcurrency public func body(content: EmfiBaasSDK.ActiveTimeButtonModifier.Content) -> some SwiftUICore.View
@@ -4507,9 +3409,7 @@ public struct LockCardBottomSheetModel : EmfiBaasSDK.AppNameType, Swift.Identifi
   }
   public var firstButtonAction: (@Sendable () -> Swift.Void)?
   public var secondButtonAction: (@Sendable () -> Swift.Void)?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(firstButtonAction: (@Sendable () -> Swift.Void)? = nil, secondButtonAction: (@Sendable () -> Swift.Void)? = nil)
-  #endif
   public typealias ID = Swift.Int
 }
 public struct ChangeCardStatusRequest {
@@ -4535,9 +3435,7 @@ public enum CardStatus : Swift.String, Swift.CaseIterable, Swift.Decodable {
   case shipped
   case ordered
   case locked
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [EmfiBaasSDK.CardStatus]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [EmfiBaasSDK.CardStatus] {
@@ -4558,79 +3456,43 @@ public struct ValidatedAddress : EmfiBaasSDK.HomeAddressType {
   public let addressLine2: Swift.String?
   public let city: Swift.String?
   public let postalCode: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(addressLine1: Swift.String, addressLine2: Swift.String?, city: Swift.String, postalCode: Swift.String, countryCode: Swift.String = "US", region: Swift.String)
-  #endif
 }
 public class ManageCardViewModel<Content> : EmfiBaasSDK.ToastViewModelType, @unchecked Swift.Sendable where Content : Swift.Sendable, Content : SwiftUICore.View {
   public var apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)? {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public var toastModel: Combine.PassthroughSubject<EmfiBaasSDK.ToastModel?, Swift.Never> {
     get
     set
     _modify
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var alertModel: EmfiBaasSDK.RegularAlertModel? {
     get
     set
     _modify
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)?, profileAPIInteractor: (any EmfiBaasSDK.ProfileAPIType)?, destination: EmfiBaasSDK.DestinationViewModel?, toastModelReceiver: Combine.PassthroughSubject<EmfiBaasSDK.ToastModel?, Swift.Never>, loginViewModel: (any EmfiBaasSDK.ToastViewModelType)?, resissueCardReasonFieldsClean: (() -> Swift.Void)?, needHelpContent: @escaping (Swift.String, @escaping () -> Swift.Void) -> Content)
-  #endif
   @objc deinit
 }
 extension EmfiBaasSDK.ManageCardViewModel : nonisolated Observation.Observable {
 }
 public protocol UserType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var id: Swift.Int? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var userTing: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var firstName: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var lastName: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var middleName: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var embossedName: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var phone: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var email: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var birthDate: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var rewardTier: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var currency: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var locale: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var userStatus: Swift.String? { get set }
-  #endif
   var existingAccount: Swift.Bool { get set }
-  #if compiler(>=5.3) && $NonescapableTypes
   var onboarded: Swift.Bool? { get set }
-  #endif
 }
 extension EmfiBaasSDK.UserType {
   public var fullName: Swift.String {
@@ -4647,57 +3509,29 @@ public struct SendACHTransferResponse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol BankAccountType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var routingNumber: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var accountNumber: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var institutionNumber: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transitNumber: Swift.String? { get }
-  #endif
 }
 extension EmfiBaasSDK.BankAccountType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var institutionNumber: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var transitNumber: Swift.String? {
     get
   }
-  #endif
 }
 public protocol RegularAlertModelType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var imageURL: Foundation.URL? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var imageName: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var title: Swift.String? { get set }
-  #endif
   var message: Swift.String { get set }
-  #if compiler(>=5.3) && $NonescapableTypes
   var mainButtonTitle: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var secondButtonTitle: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var mainButtonAction: (@Sendable () -> Swift.Void)? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var secondButtonAction: (@Sendable () -> Swift.Void)? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var closeButtonAction: (@Sendable () -> Swift.Void)? { get set }
-  #endif
   var isDismissable: Swift.Bool { get set }
   var messageAllignment: SwiftUICore.TextAlignment { get set }
   init(item: any EmfiBaasSDK.RegularAlertModelType)
@@ -4851,9 +3685,7 @@ public struct HomeAddress : Swift.Decodable, EmfiBaasSDK.HomeAddressType {
   public var updateShipping: Swift.Bool?
   public var country: Swift.String?
   public var userId: Swift.Int?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(identifier: Swift.String?, password: Swift.String?, addressLine1: Swift.String?, addressLine2: Swift.String? = nil, city: Swift.String?, region: Swift.String?, postalCode: Swift.String?, updateShipping: Swift.Bool?, country: Swift.String?, userId: Swift.Int?)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 @_Concurrency.MainActor @preconcurrency public struct DisplaySTextStyle : EmfiBaasSDK.TextStyle {
@@ -4922,9 +3754,7 @@ public enum AppViewColor : Swift.String, Swift.Sendable {
   public var uiColor: UIKit.UIColor {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -4936,9 +3766,7 @@ public class CardReplacementSuccessViewModel {
     set
     _modify
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(destination: EmfiBaasSDK.DestinationViewModel?, isExpress: Swift.Bool)
-  #endif
   @objc deinit
 }
 extension EmfiBaasSDK.CardReplacementSuccessViewModel : nonisolated Observation.Observable {
@@ -4946,26 +3774,18 @@ extension EmfiBaasSDK.CardReplacementSuccessViewModel : nonisolated Observation.
 public protocol KeychainHelperProtocol {
   @discardableResult
   func save(value: Swift.String, keyChain: EmfiBaasSDK.KeyChainKeys) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   func read(keyChain: EmfiBaasSDK.KeyChainKeys) -> Swift.String?
-  #endif
   func delete(keyChain: EmfiBaasSDK.KeyChainKeys) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   func save(value: Swift.String, context: LocalAuthentication.LAContext, keyChain: EmfiBaasSDK.KeyChainKeys, cancel: (() -> Swift.Void)?) -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func read(keyChain: EmfiBaasSDK.KeyChainKeys, context: LocalAuthentication.LAContext) -> Swift.String?
-  #endif
 }
 public enum KeyChainKeys : Swift.String, Swift.Sendable {
   case userPassword, userLoginName, sessionToken, userBiomentricalPassword, authorizationChange
   public var service: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -4973,9 +3793,7 @@ public enum KeyChainKeys : Swift.String, Swift.Sendable {
 }
 public enum BiometricIDType : Swift.String {
   case faceId, touchId
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -4985,9 +3803,7 @@ public enum AuthenticationMethodType : Swift.String {
   case password
   case touchID
   case faceID
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -5011,53 +3827,23 @@ extension SwiftUICore.EnvironmentValues {
   }
 }
 public protocol AcceptClickType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var text: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var type: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var value: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var textColor: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var click_action: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var ios_value: Swift.String? { get }
-  #endif
 }
 public protocol AcceptTileClickType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var type: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var ios_value: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var button_text: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var button_type: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var button_placement: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var button_text_color: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var button_background_color: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var click_action: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var value: Swift.String? { get }
-  #endif
 }
 public struct TopicModel : Swift.Hashable, Swift.Identifiable {
   public let id: Swift.String
@@ -5093,9 +3879,7 @@ public struct NetworkError : EmfiBaasSDK.NetworkErrorType, Swift.Error, Swift.Eq
     public static func == (a: EmfiBaasSDK.NetworkError.InternalError, b: EmfiBaasSDK.NetworkError.InternalError) -> Swift.Bool
     public init(from decoder: any Swift.Decoder) throws
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(statusCode: Swift.Int, headerValues: [Swift.String : any Swift.Sendable]?, serverData: Foundation.Data?, baseUrl: Swift.String? = nil)
-  #endif
   public static func == (lhs: EmfiBaasSDK.NetworkError, rhs: EmfiBaasSDK.NetworkError) -> Swift.Bool
 }
 public struct DataResponse : EmfiBaasSDK.DataResponseType, Swift.Sendable, Swift.Equatable {
@@ -5104,12 +3888,9 @@ public struct DataResponse : EmfiBaasSDK.DataResponseType, Swift.Sendable, Swift
   public var statusCode: Swift.Int
   public var internalError: (any Swift.Error)?
   public init(item: any EmfiBaasSDK.DataResponseType)
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(data: Foundation.Data, headers: [Swift.String : any Swift.Sendable]?, statusCode: Swift.Int, internalerror: (any Swift.Error)? = nil)
-  #endif
   public static func == (lhs: EmfiBaasSDK.DataResponse, rhs: EmfiBaasSDK.DataResponse) -> Swift.Bool
 }
-#if compiler(>=5.3) && $NonescapableTypes
 extension Swift.Result where Failure == EmfiBaasSDK.NetworkError {
   public var success: Success? {
     get
@@ -5118,7 +3899,6 @@ extension Swift.Result where Failure == EmfiBaasSDK.NetworkError {
     get
   }
 }
-#endif
 public struct DashboardBalance : Swift.Decodable, EmfiBaasSDK.DashboardBalanceType {
   public var balance: Swift.Double?
   public var ledgerBalance: Swift.Double?
@@ -5204,9 +3984,7 @@ public struct PopupButton : Swift.Decodable, Swift.Sendable {
 public struct PopupButtonAction : Swift.Decodable, Swift.Sendable {
   public let type: Swift.String?
   public let value: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(type: Swift.String?, value: Swift.String?)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct SecondaryPopupButton : Swift.Decodable, Swift.Sendable {
@@ -5214,9 +3992,7 @@ public struct SecondaryPopupButton : Swift.Decodable, Swift.Sendable {
   public let textColor: Swift.String?
   public let click_action: Swift.String?
   public let backgroundColor: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(text: Swift.String?, textColor: Swift.String?, click_action: Swift.String?, backgroundColor: Swift.String?)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 extension EmfiBaasSDK.LoginAPICore {
@@ -5267,15 +4043,11 @@ public struct ATMLocationModel : Swift.Codable, EmfiBaasSDK.ATMLocationType, Swi
   public var free: Swift.Bool?
   public var currentLocation: _LocationEssentials.CLLocation?
   public init(item: any EmfiBaasSDK.ATMLocationType)
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(latitude: Swift.Double? = nil, longitude: Swift.Double? = nil, address: Swift.String? = nil, city: Swift.String? = nil, region: Swift.String? = nil, country: Swift.String? = nil, postalCode: Swift.String? = nil, locName: Swift.String? = nil, notes: Swift.String? = nil, free: Swift.Bool? = nil)
-  #endif
   public mutating func setCurrentLocation(location: _LocationEssentials.CLLocation)
   public func timeTravel() -> Swift.String
   public func distance(unit: EmfiBaasSDK.DistanceMetricType = .mile) -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public func dDistance(location: _LocationEssentials.CLLocation? = nil, unit: EmfiBaasSDK.DistanceMetricType = .mile) -> Swift.Double
-  #endif
   public func fullAddress() -> Swift.String
   public func locationName() -> Swift.String
   public static func == (a: EmfiBaasSDK.ATMLocationModel, b: EmfiBaasSDK.ATMLocationModel) -> Swift.Bool
@@ -5321,9 +4093,7 @@ public struct ErrorResponse : Swift.Decodable, EmfiBaasSDK.ErrorResponseType {
   public var lockoutTime: Swift.Int?
   public var remainingAttempt: Swift.Int?
   public var loginAttemptLeft: Swift.Int?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(code: Swift.Int?, message: Swift.String?, field: Swift.String?, lockoutTime: Swift.Int?, remainingAttempt: Swift.Int?, loginAttemptLeft: Swift.Int?)
-  #endif
   public init(item: any EmfiBaasSDK.ErrorResponseType)
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -5352,10 +4122,8 @@ public struct ErrorResponse : Swift.Decodable, EmfiBaasSDK.ErrorResponseType {
   @_Concurrency.MainActor public static let noInternetConnections: EmfiBaasSDK.ToastModel
 }
 extension SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func toastView(toast: SwiftUICore.Binding<EmfiBaasSDK.ToastModel?>, offset: CoreFoundation.CGFloat = -30) -> some SwiftUICore.View
   
-  #endif
 }
 
 public struct LegalPolicy : EmfiBaasSDK.LegalPolicyType, Swift.Sendable {
@@ -5425,26 +4193,20 @@ extension EmfiBaasSDK.HolocroneFeatureFlag {
     set
     _modify
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor final public var regularAlertModel: EmfiBaasSDK.RegularAlertModel? {
     get
     set
     _modify
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor final public var callSupport: EmfiBaasSDK.CallSupportBottomSheetModel? {
     get
     set
     _modify
   }
-  #endif
   @_Concurrency.MainActor final public var appName: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public init(virtualCardApiInteractor: (any EmfiBaasSDK.VirtualCardAPIType)?, destinationViewModel: EmfiBaasSDK.VirtualCardViewModel.DestinationViewModelType?)
-  #endif
   @_Concurrency.MainActor final public func onAppear()
   @_Concurrency.MainActor final public func startTimer(with time: Swift.Int)
   @_Concurrency.MainActor final public func timerIsActive() -> Swift.Bool
@@ -5462,41 +4224,19 @@ extension EmfiBaasSDK.HolocroneFeatureFlag {
 extension EmfiBaasSDK.VirtualCardViewModel : nonisolated Observation.Observable {
 }
 public protocol HomeAddressType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var identifier: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var password: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var addressLine1: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var addressLine2: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var city: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var region: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var postalCode: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var updateShipping: Swift.Bool? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var country: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var userId: Swift.Int? { get }
-  #endif
 }
 extension EmfiBaasSDK.HomeAddressType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fullAddress(country: @escaping () -> Swift.String?) -> Swift.String
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct GenericWebViewWithNavigation : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(url: Foundation.URL, title: Swift.String)
@@ -5513,16 +4253,10 @@ public protocol TwoFAVerificationCodeValidateType {
   var multistage: Swift.Bool { get }
   var receiver: Swift.String { get }
   var rememberDevice: Swift.Bool { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var firebaseToken: Swift.String? { get }
-  #endif
   var deviceVerification: EmfiBaasSDK.DeviceVerificationType { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var model: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var osVersion: Swift.String? { get }
-  #endif
 }
 public protocol TwoFAVerificationCodeRequestType {
   var orinig: EmfiBaasSDK.TwoFAOriginalValue { get }
@@ -5531,35 +4265,17 @@ public protocol TwoFAVerificationCodeRequestType {
   var deviceVerification: EmfiBaasSDK.DeviceVerificationType { get }
 }
 public struct MoveMoneyAPICore : EmfiBaasSDK.MoveMoneyAPIType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func addBankRecipient(recipient: any EmfiBaasSDK.SaveACHRecipientRequestType) async throws -> (achRecipient: (any EmfiBaasSDK.ACHRecipientType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getAppUser() async -> (any EmfiBaasSDK.UserType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchBankRecipients() async throws -> (achRecipient: (any EmfiBaasSDK.ACHRecipientListType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func editBankRecipients(recipientTing: Swift.String, recipient: any EmfiBaasSDK.SaveACHRecipientRequestType) async throws -> (achRecipient: (any EmfiBaasSDK.ACHRecipientType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func deleteBankRecipients(recipientTing: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchBankTransferLimits() async throws -> (limits: (any EmfiBaasSDK.TransferLimitsType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func sendBankTransfer(recipientTing: Swift.String, amount: Swift.Double, memo: Swift.String?) async throws -> (confirmation: Swift.String?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct GeneralTextField : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(title: Swift.String = "", popupTitle: Swift.String? = nil, popupSubtitle: Swift.String? = nil, isTitleOnTheTop: Swift.Bool = false, placeHolder: Swift.String = "", customText: SwiftUICore.Binding<Swift.String>, alertText: SwiftUICore.Binding<Swift.String> = .constant(""), isAlert: SwiftUICore.Binding<Swift.Bool> = .constant(false), infoTipText: SwiftUICore.Binding<Swift.String> = .constant(""), onChange: @escaping (Swift.String?) -> Swift.Void = { _ in }, keyboardType: UIKit.UIKeyboardType = .default, showDropdown: Swift.Bool = false, onChevronTap: @escaping () -> Swift.Void = {}, characterLimit: Swift.Int = 50, isEnabled: Swift.Bool = true, focusState: SwiftUICore.Binding<Swift.Bool> = .constant(false), textMask: Swift.String? = nil, performActions: Swift.Bool = true, symbolRestricted: Swift.Bool = false, symbolValidator: @escaping (Swift.String) -> Swift.Bool = String.hasProhibitSymbols(_:))
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -5592,22 +4308,12 @@ public actor SessionInfo {
   public var user: (any EmfiBaasSDK.UserType)?
   public var card: (any EmfiBaasSDK.CardType)?
   public init()
-  #if compiler(>=5.3) && $NonescapableTypes
   public func setHolocroneFeatureFlags(flags: [any EmfiBaasSDK.HolocroneFeatureFlagType]?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchHolocroneFeatureFlags() -> [any EmfiBaasSDK.HolocroneFeatureFlagType]?
-  #endif
   public func setPublicKey(_ publicKey: EmfiBaasSDK.EncryptionPublicKey)
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchPublicKey() -> EmfiBaasSDK.EncryptionPublicKey?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func setUser(user: (any EmfiBaasSDK.UserType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func setCard(card: (any EmfiBaasSDK.CardType)?)
-  #endif
   public func setUserPhoneNumber(phoneNumber: Swift.String)
   @objc deinit
   @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
@@ -5631,37 +4337,19 @@ public enum BiometryError : Swift.Error, Swift.Sendable {
 public struct BiometricAuthentication {
   public init(context: LocalAuthentication.LAContext)
   public init(context: LocalAuthentication.LAContext, keyChain: any EmfiBaasSDK.KeychainHelperProtocol)
-  #if compiler(>=5.3) && $NonescapableTypes
   public mutating func getPassword() async throws -> Swift.String?
-  #endif
   public mutating func autheticateWithBiometrics(context: LocalAuthentication.LAContext) async throws -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public mutating func deviceOwnerAuthentication(completion: @escaping @Sendable (Swift.Bool, EmfiBaasSDK.BiometryError?) -> Swift.Void)
-  #endif
   public mutating func deviceOwnerAuthentication() async throws -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public func setPassword(password: Swift.String, isBiometrical: Swift.Bool, cancel: (() -> Swift.Void)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func setAuthorizationValue(value: Swift.String?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func authorizationChangeValue() -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getPasscode() -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getBiometricalPasscode() -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getEmail() -> Swift.String?
-  #endif
   public func deleteToken()
   public func setEmail(email: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getBiometryType() -> EmfiBaasSDK.BiometricIDType?
-  #endif
 }
 public struct User : Swift.Decodable, EmfiBaasSDK.UserType, Swift.Sendable {
   public var id: Swift.Int?
@@ -5680,9 +4368,7 @@ public struct User : Swift.Decodable, EmfiBaasSDK.UserType, Swift.Sendable {
   public var existingAccount: Swift.Bool
   public var onboarded: Swift.Bool?
   public init(userType: any EmfiBaasSDK.UserType)
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(userId: Swift.Int?, phone: Swift.String?)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct RegisteredFonts {
@@ -5745,24 +4431,12 @@ extension SwiftUICore.EnvironmentValues {
   }
 }
 public protocol UpdateEmailType : EmfiBaasSDK.AppNameType {
-  #if compiler(>=5.3) && $NonescapableTypes
   func fetchUserPhoneNumber() async -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func send2FANewEmail(_ newEmail: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func validate2FANewEmail(_ newEmail: Swift.String, twofac: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func send2FACurrentPhone() async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func validate2FACurrentPhone(twofac: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   func changeEmail(_ newEmail: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
   func forceLogout()
 }
 public struct LoginModel<U, T> : Swift.Decodable, EmfiBaasSDK.LoginModelType where U : EmfiBaasSDK.UserType, U : Swift.Decodable, T : EmfiBaasSDK.UserTagsType, T : Swift.Decodable {
@@ -5796,48 +4470,24 @@ extension Foundation.DateFormatter {
 }
 
 public struct VirtualCardAPICore : EmfiBaasSDK.VirtualCardAPIType {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func validate2FAForPhone(_ receiver: EmfiBaasSDK.DeviceVerificationType = .phone, twofac: Swift.String) async throws -> (verificationResponse: (any EmfiBaasSDK.VirtualCardOTPVerificationType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func fetchVirtualCard(bibson: Swift.String) async throws -> (virtualCard: (any EmfiBaasSDK.VirtualCardType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func virtualCardCalbackRequest(responseCode: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func sendVerificationCode(receiver: EmfiBaasSDK.DeviceVerificationType, orinig: EmfiBaasSDK.TwoFAOptionalValue) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func getUserProfile(userId: Swift.String?) async -> Swift.String?
-  #endif
 }
 public protocol NotificationType : Swift.Sendable {
   associatedtype NotificationGroupType
-  #if compiler(>=5.3) && $NonescapableTypes
   var description: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var note: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var groupName: Swift.String? { get set }
-  #endif
   var groupTypes: [Self.NotificationGroupType] { get set }
 }
 public protocol NotificationGroupType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var groupTypeId: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var groupTypeName: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var enabled: Swift.Bool? { get set }
-  #endif
 }
 public struct ChangePhoneRequest : EmfiBaasSDK.ChangePhoneRequestType {
   public var phone: Swift.String
@@ -5848,23 +4498,15 @@ public struct ChangePhoneRequest : EmfiBaasSDK.ChangePhoneRequestType {
 }
 public protocol SecurityQuestionsType : Swift.Sendable {
   associatedtype QuestionType
-  #if compiler(>=5.3) && $NonescapableTypes
   var questions: [Self.QuestionType]? { get set }
-  #endif
 }
 public protocol QuestionType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var id: Swift.Int? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var security_question: Swift.String? { get set }
-  #endif
 }
 public class ContenfulServicesStore : EmfiBaasSDK.ServicesContentfulProtocol, @unchecked Swift.Sendable {
   public init(spaceID: Swift.String, environmentID: Swift.String, accessToken: Swift.String, tag: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
   public func readDashboardQuickServices(with completion: @escaping ([any EmfiBaasSDK.DashboardQuickServicesType]?) -> Swift.Void)
-  #endif
   @objc deinit
 }
 public struct Verification2FACodeRequest : EmfiBaasSDK.TwoFAVerificationCodeRequestType {
@@ -5873,9 +4515,7 @@ public struct Verification2FACodeRequest : EmfiBaasSDK.TwoFAVerificationCodeRequ
   public let receiver: Swift.String
   public let deviceVerification: EmfiBaasSDK.DeviceVerificationType
   public let ting: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(orinig: EmfiBaasSDK.TwoFAOriginalValue, multistage: Swift.Bool, receiver: Swift.String, deviceVerification: EmfiBaasSDK.DeviceVerificationType, ting: Swift.String? = nil)
-  #endif
 }
 public enum MoveMoneyScreenDestination : Swift.Hashable, Swift.Sendable, Swift.Identifiable {
   public var id: Swift.Int {
@@ -5939,10 +4579,8 @@ public struct States {
 }
 
 extension SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func onViewDidLoad(perform action: (() -> Swift.Void)? = nil) -> some SwiftUICore.View
   
-  #endif
 }
 @_Concurrency.MainActor @preconcurrency public struct IdentityVerificationStepView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(isSelected: SwiftUICore.Binding<Swift.Bool>, title: Swift.String)
@@ -5968,15 +4606,9 @@ public protocol InfoBottomSheetType : Swift.Identifiable, Swift.Sendable {
   var title: Swift.String { get set }
   var subtitle: Swift.String { get set }
   var firstButtonTitle: Swift.String { get set }
-  #if compiler(>=5.3) && $NonescapableTypes
   var secondButtonTitle: Swift.String? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var firstButtonAction: (@Sendable () -> Swift.Void)? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var secondButtonAction: (@Sendable () -> Swift.Void)? { get set }
-  #endif
 }
 public protocol WidgetConstantType {
   var suiteName: Swift.String { get }
@@ -6018,9 +4650,7 @@ public protocol HolocroneFeatureFlagType : Swift.Sendable {
   }
   @_Concurrency.MainActor @preconcurrency public var playbackMode: Lottie.LottiePlaybackMode
   @_Concurrency.MainActor @preconcurrency public var foregroundColor: SwiftUICore.Color?
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(name: Swift.String, isPlaying: SwiftUICore.Binding<Swift.Bool>, loopMode: Lottie.LottieLoopMode = .playOnce, foregroundColor: SwiftUICore.Color? = nil, frameRange: Swift.ClosedRange<Swift.Int>? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -6031,21 +4661,15 @@ public protocol HolocroneFeatureFlagType : Swift.Sendable {
   associatedtype CallSupportBottomSheetModelType
   associatedtype DestinationViewModelType
   @_Concurrency.MainActor var title: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor var destinationViewModel: Self.DestinationViewModelType? { get }
-  #endif
   @_Concurrency.MainActor var subTitle: Swift.String { get }
   @_Concurrency.MainActor var isLoading: Swift.Bool { get set }
   @_Concurrency.MainActor var otpCode: Swift.String { get set }
   @_Concurrency.MainActor var otpResendTime: Swift.Int { get set }
   @_Concurrency.MainActor var timerLabel: Swift.String { get set }
   @_Concurrency.MainActor var alertMessage: Swift.String { get set }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor var regularAlertModel: Self.AlertModelType? { get set }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor var callSupport: Self.CallSupportBottomSheetModelType? { get set }
-  #endif
   @_Concurrency.MainActor var isAlertShowing: Swift.Bool { get set }
   @_Concurrency.MainActor var appName: Swift.String { get }
   @_Concurrency.MainActor func onAppear()
@@ -6077,9 +4701,7 @@ public struct RegisterDeviceRequest : EmfiBaasSDK.RegisterDeviceRequestType {
   public init(cellCarrier: Swift.String, enabled: Swift.Bool, osType: Swift.String, manufacturer: Swift.String, deviceId: Swift.String, model: Swift.String, firebaseToken: Swift.String, osVersion: Swift.String, appVersion: Swift.String)
 }
 @_Concurrency.MainActor @preconcurrency public struct BiometricBottomAlertView : SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(model: EmfiBaasSDK.BiometricBottomSheetModel? = nil, onMainAction: (() -> Swift.Void)? = nil, onDismiss: (() -> Swift.Void)? = nil)
-  #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -6158,9 +4780,7 @@ public struct AcceptClick : EmfiBaasSDK.AcceptClickType, Swift.Decodable {
   public let textColor: Swift.String?
   public let click_action: Swift.String?
   public let ios_value: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(text: Swift.String?, type: Swift.String?, value: Swift.String?, textColor: Swift.String?, click_action: Swift.String?, iosValue: Swift.String?)
-  #endif
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct CountDownTimer : Combine.Publisher {
@@ -6198,51 +4818,21 @@ extension EmfiBaasSDK.CountDownTimer {
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK22CheckmarkMonoColorViewV4bodyQrvp", 0) __
 }
 public protocol TransactionDetailType : Swift.Sendable {
-  #if compiler(>=5.3) && $NonescapableTypes
   var total: Swift.Double? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transferAmount: Swift.Double? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var serviceFee: Swift.Double? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var to: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var email: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var createdAt: Foundation.Date? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var referenceNumber: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var confirmationCode: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var canCancel: Swift.Bool? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var status: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transferTing: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var accountNumber: Swift.String? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var sentOn: Foundation.Date? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var transferCreated: Foundation.Date? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var memo: Swift.String? { get }
-  #endif
 }
 extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public func applyDisabledStyle(if condition: Swift.Bool) -> some SwiftUICore.View
@@ -6252,9 +4842,7 @@ extension SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(viewModel: EmfiBaasSDK.HelpViewModel, title: Swift.String, categoryId: Swift.String?, navTitle: Swift.Bool = false)
-  #endif
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK14HelpTopicsViewV4bodyQrvp", 0) __
 }
 

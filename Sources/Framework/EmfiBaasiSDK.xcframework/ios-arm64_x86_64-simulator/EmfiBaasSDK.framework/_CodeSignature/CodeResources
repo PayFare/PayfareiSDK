@@ -6,55 +6,55 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		uuxbrVx6ZAujWmVI0zy7SWCWJHk=
+		FUlZt4Mrr1pwCLlj3mcJMraf0QU=
 		</data>
 		<key>Configuration.plist</key>
 		<data>
-		55N2sbJ3omrGQaZ0xL0sCiWPpI0=
+		5ZrtzNlBmajhBuW9gSj+b0sd8AI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		J7atB9evmbOA53GP7zP84+u89aE=
+		Y/n/Pl27WQqujZ5QZ+TkuUgOQBE=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SnhWqOGmPYgZXxY8Tugfs4Sof9o=
+		slIQo3c0RYE4J8UA1Ocr3JBWnI8=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ehWlPLkDvMOUsIMdnM7QQjy9TnY=
+		jaJmkDJp0D5VX1T/a4NIIRF1CU8=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		imDM73niAEvbb2ADzlObS/vpW2M=
+		ERKaczKewp8O8E2BXbWhMf10Pkg=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ehWlPLkDvMOUsIMdnM7QQjy9TnY=
+		jaJmkDJp0D5VX1T/a4NIIRF1CU8=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kDwoeNxvMDONuLdxkbVk+TGIR6M=
+		GcArd133tVe89hT29gugEs/XVqQ=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SnhWqOGmPYgZXxY8Tugfs4Sof9o=
+		slIQo3c0RYE4J8UA1Ocr3JBWnI8=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+fD2glGt5JiiKGh7nTKZAb9V3m4=
+		ljDn6TdGPxN1mnCemXbarHq68lU=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		yhIS1Uh+Q75rZ8OSVbCqGgP93yk=
+		x8ggvRQa95sivCb+IAvr6slaQEg=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+fD2glGt5JiiKGh7nTKZAb9V3m4=
+		ljDn6TdGPxN1mnCemXbarHq68lU=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZxFJR2gjWUyyj0a9rRQsCCBHqX8=
+		N3CLEB+KFQvXjAx8TMXFQe1OBVI=
 		</data>
 		<key>OpenSans-Bold.ttf</key>
 		<data>
@@ -115,84 +115,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9alOTO+btur0rjm1uPc7YaozK0znmNritbcubQQDxq8=
+			CIJYiruGxCQAhf+tLSndCEYNoDw0ieksY/vRf9TwwZs=
 			</data>
 		</dict>
 		<key>Configuration.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5piuva6MJ0AONS5JxypLvCr5JIQxTCYp4V7zmpbTFSU=
+			Hs2TMd23SWpg9G3MXWoYNSOknCL3NMoMvAYOxQIz9Sw=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qFBy/Dem8ThJ1+t9tGEihnmegIAFKkPUJbW2E4QRolM=
+			XEhZOJT5MizAh4fCDybrL1wVHvbZFvtlyx3iuqG+jy8=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YmmCNOcVvQK+XCJlBjvyU3ATKQTcNTVbsHmYERC5puY=
+			71GlEJvuPI4vgrY+jWA0ucTLJh3AvYn3+iMJ0MfRfxM=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SkwpSbHtxYJDXWuYNB+6Y35rE0HqRDPdZ8nzKdBnfKg=
+			IN7ozzfWa/ybfPN37ifv8DZyNN2sQW8/OYMpzsVKIA8=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YmmCNOcVvQK+XCJlBjvyU3ATKQTcNTVbsHmYERC5puY=
+			71GlEJvuPI4vgrY+jWA0ucTLJh3AvYn3+iMJ0MfRfxM=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7tPhq6+MvgdxroBlqbaOw6b9wprnSFcA6Ebbtlnqes4=
+			f+tanAU5KDpR0UuDh81X19sl+Cc+FsNK3vjqi7d4bw0=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qFBy/Dem8ThJ1+t9tGEihnmegIAFKkPUJbW2E4QRolM=
+			XEhZOJT5MizAh4fCDybrL1wVHvbZFvtlyx3iuqG+jy8=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d3EDCi6K+eGJfwOq8ch2TfVhJC0/N1bPl60f7YHSo48=
+			bXYmqIHAohPIUDIxJ3vQZZNtneDYTB1XOQk+O5aK+CM=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FjuMEX7gXgD8g47PXTdwvh53T58Op/j6dD9X/8D/WTY=
+			s+gwnM876MfFsUuHY4KbCVOhJ6PUcrksRZXw7of+4hY=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d3EDCi6K+eGJfwOq8ch2TfVhJC0/N1bPl60f7YHSo48=
+			bXYmqIHAohPIUDIxJ3vQZZNtneDYTB1XOQk+O5aK+CM=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ir6Ta3QmPTAg6xZrL7ff5hB6CMB8JsTnLHkGoqo73zA=
+			/AgZSHhC9d1tL+MK3Od9h1Vl3HkQuNfLeOAufAXCMQ8=
 			</data>
 		</dict>
 		<key>OpenSans-Bold.ttf</key>
