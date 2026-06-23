@@ -144,100 +144,72 @@
             ]
           },
           {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UserFlow",
-                "printedName": "EmfiBaasSDK.UserFlow",
-                "usr": "s:11EmfiBaasSDK8UserFlowO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UserFlow",
-                "printedName": "EmfiBaasSDK.UserFlow",
-                "usr": "s:11EmfiBaasSDK8UserFlowO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11EmfiBaasSDK8UserFlowO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s11EmfiBaasSDK8UserFlowO2eeoiySbAC_ACtFZ",
-            "moduleName": "EmfiBaasSDK",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
+            "name": "cardProvisioning",
+            "printedName": "cardProvisioning",
             "children": [
               {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11EmfiBaasSDK8UserFlowO9hashValueSivp",
-            "mangledName": "$s11EmfiBaasSDK8UserFlowO9hashValueSivp",
-            "moduleName": "EmfiBaasSDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EmfiBaasSDK.UserFlow.Type) -> (SwiftUI.Image?) -> EmfiBaasSDK.UserFlow",
                 "children": [
                   {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftUI.Image?) -> EmfiBaasSDK.UserFlow",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserFlow",
+                        "printedName": "EmfiBaasSDK.UserFlow",
+                        "usr": "s:11EmfiBaasSDK8UserFlowO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(cardIcon: SwiftUI.Image?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "SwiftUI.Image?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Image",
+                                "printedName": "SwiftUI.Image",
+                                "usr": "s:7SwiftUI5ImageV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Metatype",
+                    "printedName": "EmfiBaasSDK.UserFlow.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserFlow",
+                        "printedName": "EmfiBaasSDK.UserFlow",
+                        "usr": "s:11EmfiBaasSDK8UserFlowO"
+                      }
+                    ]
                   }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11EmfiBaasSDK8UserFlowO9hashValueSivg",
-                "mangledName": "$s11EmfiBaasSDK8UserFlowO9hashValueSivg",
-                "moduleName": "EmfiBaasSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
+                ]
               }
             ],
-            "declKind": "Func",
-            "usr": "s:11EmfiBaasSDK8UserFlowO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s11EmfiBaasSDK8UserFlowO4hash4intoys6HasherVz_tF",
+            "declKind": "EnumElement",
+            "usr": "s:11EmfiBaasSDK8UserFlowO16cardProvisioningyAC7SwiftUI5ImageVSg_tcACmF",
+            "mangledName": "$s11EmfiBaasSDK8UserFlowO16cardProvisioningyAC7SwiftUI5ImageVSg_tcACmF",
             "moduleName": "EmfiBaasSDK",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "declAttributes": [
+              "RawDocComment"
+            ]
           }
         ],
         "declKind": "Enum",
@@ -257,24 +229,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
           }
         ]
       },
@@ -592,6 +550,46 @@
             "declKind": "EnumElement",
             "usr": "s:11EmfiBaasSDK14CallbackResultO33activePhysicalCardFeatureDisabledyA2CmF",
             "mangledName": "$s11EmfiBaasSDK14CallbackResultO33activePhysicalCardFeatureDisabledyA2CmF",
+            "moduleName": "EmfiBaasSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardWasProvisioningWithSuccess",
+            "printedName": "cardWasProvisioningWithSuccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EmfiBaasSDK.CallbackResult.Type) -> EmfiBaasSDK.CallbackResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallbackResult",
+                    "printedName": "EmfiBaasSDK.CallbackResult",
+                    "usr": "s:11EmfiBaasSDK14CallbackResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EmfiBaasSDK.CallbackResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallbackResult",
+                        "printedName": "EmfiBaasSDK.CallbackResult",
+                        "usr": "s:11EmfiBaasSDK14CallbackResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EmfiBaasSDK14CallbackResultO30cardWasProvisioningWithSuccessyA2CmF",
+            "mangledName": "$s11EmfiBaasSDK14CallbackResultO30cardWasProvisioningWithSuccessyA2CmF",
             "moduleName": "EmfiBaasSDK",
             "declAttributes": [
               "RawDocComment"
@@ -1042,7 +1040,7 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(payfareID:companyId:tokenHandler:environment:primaryColor:)",
+            "printedName": "initialize(payfareID:companyId:tokenHandler:environment:customColors:fontFamilyName:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1090,6 +1088,20 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "EmfiBaasSDK.ColorsCustomizer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ColorsCustomizer",
+                    "printedName": "EmfiBaasSDK.ColorsCustomizer",
+                    "usr": "s:11EmfiBaasSDK16ColorsCustomizerV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "Swift.String?",
                 "children": [
                   {
@@ -1103,8 +1115,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11EmfiBaasSDK0a5BaasiC0C10initialize9payfareID9companyId12tokenHandler11environment12primaryColorACSS_S2SycAA12EnvironmentsOSSSgtFZ",
-            "mangledName": "$s11EmfiBaasSDK0a5BaasiC0C10initialize9payfareID9companyId12tokenHandler11environment12primaryColorACSS_S2SycAA12EnvironmentsOSSSgtFZ",
+            "usr": "s:11EmfiBaasSDK0a5BaasiC0C10initialize9payfareID9companyId12tokenHandler11environment12customColors14fontFamilyNameACSS_S2SycAA12EnvironmentsOAA0N10CustomizerVSgSSSgtFZ",
+            "mangledName": "$s11EmfiBaasSDK0a5BaasiC0C10initialize9payfareID9companyId12tokenHandler11environment12customColors14fontFamilyNameACSS_S2SycAA12EnvironmentsOAA0N10CustomizerVSgSSSgtFZ",
             "moduleName": "EmfiBaasSDK",
             "static": true,
             "declAttributes": [
@@ -7202,6 +7214,226 @@
         "declKind": "Protocol",
         "usr": "s:11EmfiBaasSDK30VirtualCardOTPVerificationTypeP",
         "mangledName": "$s11EmfiBaasSDK30VirtualCardOTPVerificationTypeP",
+        "moduleName": "EmfiBaasSDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserInfoType",
+        "printedName": "UserInfoType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "phone",
+            "printedName": "phone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK12UserInfoTypeP5phoneSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK12UserInfoTypeP5phoneSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK12UserInfoTypeP5phoneSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK12UserInfoTypeP5phoneSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : EmfiBaasSDK.UserInfoType>",
+                "sugared_genericSig": "<Self where Self : EmfiBaasSDK.UserInfoType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "first_name",
+            "printedName": "first_name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK12UserInfoTypeP10first_nameSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK12UserInfoTypeP10first_nameSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK12UserInfoTypeP10first_nameSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK12UserInfoTypeP10first_nameSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : EmfiBaasSDK.UserInfoType>",
+                "sugared_genericSig": "<Self where Self : EmfiBaasSDK.UserInfoType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "last_name",
+            "printedName": "last_name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK12UserInfoTypeP9last_nameSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK12UserInfoTypeP9last_nameSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK12UserInfoTypeP9last_nameSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK12UserInfoTypeP9last_nameSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : EmfiBaasSDK.UserInfoType>",
+                "sugared_genericSig": "<Self where Self : EmfiBaasSDK.UserInfoType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11EmfiBaasSDK12UserInfoTypeP",
+        "mangledName": "$s11EmfiBaasSDK12UserInfoTypeP",
         "moduleName": "EmfiBaasSDK",
         "genericSig": "<τ_0_0 : Swift.Sendable>",
         "sugared_genericSig": "<Self : Swift.Sendable>",
@@ -35761,7 +35993,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apiInteractor:profileInteractor:destination:loginViewModel:localeLanguage:localeCountry:fetchPrimaryPhone:)",
+            "printedName": "init(apiInteractor:profileInteractor:destination:loginViewModel:localeLanguage:localeCountry:callBackHandler:errorHandler:fetchPrimaryPhone:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -35839,6 +36071,58 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "((EmfiBaasSDK.CallbackResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EmfiBaasSDK.CallbackResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallbackResult",
+                        "printedName": "EmfiBaasSDK.CallbackResult",
+                        "usr": "s:11EmfiBaasSDK14CallbackResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((EmfiBaasSDK.CardError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EmfiBaasSDK.CardError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardError",
+                        "printedName": "EmfiBaasSDK.CardError",
+                        "usr": "s:11EmfiBaasSDK9CardErrorO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "(() async -> Swift.String?)?",
                 "children": [
                   {
@@ -35872,40 +36156,14 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11EmfiBaasSDK25CardProvisioningViewModelC13apiInteractor07profileI011destination05loginfG014localeLanguage0M7Country17fetchPrimaryPhoneAcA18ManageCardsAPIType_pSg_AA25HomeShippingAddressesType_AA07ProfileU0pSgAA011DestinationfG0CSgAA05ToastfgY0_pSgS3SSgyYacSgtcfc",
-            "mangledName": "$s11EmfiBaasSDK25CardProvisioningViewModelC13apiInteractor07profileI011destination05loginfG014localeLanguage0M7Country17fetchPrimaryPhoneAcA18ManageCardsAPIType_pSg_AA25HomeShippingAddressesType_AA07ProfileU0pSgAA011DestinationfG0CSgAA05ToastfgY0_pSgS3SSgyYacSgtcfc",
+            "usr": "s:11EmfiBaasSDK25CardProvisioningViewModelC13apiInteractor07profileI011destination05loginfG014localeLanguage0M7Country15callBackHandler05errorR017fetchPrimaryPhoneAcA18ManageCardsAPIType_pSg_AA25HomeShippingAddressesType_AA07ProfileY0pSgAA011DestinationfG0CSgAA05ToastfG4Type_pSgS2SyAA14CallbackResultOcSgyAA0D5ErrorOcSgSSSgyYacSgtcfc",
+            "mangledName": "$s11EmfiBaasSDK25CardProvisioningViewModelC13apiInteractor07profileI011destination05loginfG014localeLanguage0M7Country15callBackHandler05errorR017fetchPrimaryPhoneAcA18ManageCardsAPIType_pSg_AA25HomeShippingAddressesType_AA07ProfileY0pSgAA011DestinationfG0CSgAA05ToastfG4Type_pSgS2SyAA14CallbackResultOcSgyAA0D5ErrorOcSgSSSgyYacSgtcfc",
             "moduleName": "EmfiBaasSDK",
             "declAttributes": [
               "AccessControl",
               "Custom"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "setInitialFlow",
-            "printedName": "setInitialFlow(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AppleCardFlow",
-                "printedName": "EmfiBaasSDK.AppleCardFlow",
-                "usr": "s:11EmfiBaasSDK13AppleCardFlowO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11EmfiBaasSDK25CardProvisioningViewModelC14setInitialFlow4withyAA05AppledJ0O_tF",
-            "mangledName": "$s11EmfiBaasSDK25CardProvisioningViewModelC14setInitialFlow4withyAA05AppledJ0O_tF",
-            "moduleName": "EmfiBaasSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -36666,7 +36924,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(viewModel:)",
+            "printedName": "init(cardIcon:viewModel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -36676,14 +36934,28 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "CardProvisioningViewModel",
                 "printedName": "EmfiBaasSDK.CardProvisioningViewModel",
                 "usr": "s:11EmfiBaasSDK25CardProvisioningViewModelC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11EmfiBaasSDK20CardProvisioningViewV9viewModelAcA0defH0C_tcfc",
-            "mangledName": "$s11EmfiBaasSDK20CardProvisioningViewV9viewModelAcA0defH0C_tcfc",
+            "usr": "s:11EmfiBaasSDK20CardProvisioningViewV8cardIcon9viewModelAC7SwiftUI5ImageVSg_AA0defJ0Ctcfc",
+            "mangledName": "$s11EmfiBaasSDK20CardProvisioningViewV8cardIcon9viewModelAC7SwiftUI5ImageVSg_AA0defJ0Ctcfc",
             "moduleName": "EmfiBaasSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -41778,13 +42050,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "(any EmfiBaasSDK.UserInfoType)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "UserInfoType",
+                    "printedName": "any EmfiBaasSDK.UserInfoType",
+                    "usr": "s:11EmfiBaasSDK12UserInfoTypeP"
                   }
                 ],
                 "usr": "s:Sq"
@@ -41805,8 +42077,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11EmfiBaasSDK18VirtualCardAPITypeP14getUserProfile6userIdSSSgAF_tYaF",
-            "mangledName": "$s11EmfiBaasSDK18VirtualCardAPITypeP14getUserProfile6userIdSSSgAF_tYaF",
+            "usr": "s:11EmfiBaasSDK18VirtualCardAPITypeP14getUserProfile6userIdAA0H8InfoType_pSgSSSg_tYaF",
+            "mangledName": "$s11EmfiBaasSDK18VirtualCardAPITypeP14getUserProfile6userIdAA0H8InfoType_pSgSSSg_tYaF",
             "moduleName": "EmfiBaasSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : EmfiBaasSDK.VirtualCardAPIType>",
             "sugared_genericSig": "<Self where Self : EmfiBaasSDK.VirtualCardAPIType>",
@@ -54425,6 +54697,302 @@
             "printedName": "VirtualCardOTPVerificationType",
             "usr": "s:11EmfiBaasSDK30VirtualCardOTPVerificationTypeP",
             "mangledName": "$s11EmfiBaasSDK30VirtualCardOTPVerificationTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserInfo",
+        "printedName": "UserInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "phone",
+            "printedName": "phone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK8UserInfoV5phoneSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK8UserInfoV5phoneSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK8UserInfoV5phoneSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK8UserInfoV5phoneSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "first_name",
+            "printedName": "first_name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK8UserInfoV10first_nameSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK8UserInfoV10first_nameSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK8UserInfoV10first_nameSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK8UserInfoV10first_nameSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "last_name",
+            "printedName": "last_name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK8UserInfoV9last_nameSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK8UserInfoV9last_nameSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK8UserInfoV9last_nameSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK8UserInfoV9last_nameSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserInfo",
+                "printedName": "EmfiBaasSDK.UserInfo",
+                "usr": "s:11EmfiBaasSDK8UserInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11EmfiBaasSDK8UserInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11EmfiBaasSDK8UserInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "EmfiBaasSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EmfiBaasSDK8UserInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11EmfiBaasSDK8UserInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "EmfiBaasSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11EmfiBaasSDK8UserInfoV",
+        "mangledName": "$s11EmfiBaasSDK8UserInfoV",
+        "moduleName": "EmfiBaasSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UserInfoType",
+            "printedName": "UserInfoType",
+            "usr": "s:11EmfiBaasSDK12UserInfoTypeP",
+            "mangledName": "$s11EmfiBaasSDK12UserInfoTypeP"
           },
           {
             "kind": "Conformance",
@@ -99061,6 +99629,933 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ColorsCustomizer",
+        "printedName": "ColorsCustomizer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "primaryColor",
+            "printedName": "primaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK16ColorsCustomizerV12primaryColorSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV12primaryColorSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV12primaryColorSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV12primaryColorSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV12primaryColorSSSgvs",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV12primaryColorSSSgvs",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV12primaryColorSSSgvM",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV12primaryColorSSSgvM",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textPrimaryColor",
+            "printedName": "textPrimaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK16ColorsCustomizerV16textPrimaryColorSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV16textPrimaryColorSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV16textPrimaryColorSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV16textPrimaryColorSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV16textPrimaryColorSSSgvs",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV16textPrimaryColorSSSgvs",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV16textPrimaryColorSSSgvM",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV16textPrimaryColorSSSgvM",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textSecondaryColor",
+            "printedName": "textSecondaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK16ColorsCustomizerV18textSecondaryColorSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV18textSecondaryColorSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV18textSecondaryColorSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV18textSecondaryColorSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV18textSecondaryColorSSSgvs",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV18textSecondaryColorSSSgvs",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV18textSecondaryColorSSSgvM",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV18textSecondaryColorSSSgvM",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textTertiaryColor",
+            "printedName": "textTertiaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK16ColorsCustomizerV17textTertiaryColorSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV17textTertiaryColorSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV17textTertiaryColorSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV17textTertiaryColorSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV17textTertiaryColorSSSgvs",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV17textTertiaryColorSSSgvs",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV17textTertiaryColorSSSgvM",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV17textTertiaryColorSSSgvM",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundSecondaryColor",
+            "printedName": "backgroundSecondaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK16ColorsCustomizerV24backgroundSecondaryColorSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV24backgroundSecondaryColorSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV24backgroundSecondaryColorSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV24backgroundSecondaryColorSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV24backgroundSecondaryColorSSSgvs",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV24backgroundSecondaryColorSSSgvs",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV24backgroundSecondaryColorSSSgvM",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV24backgroundSecondaryColorSSSgvM",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorColor",
+            "printedName": "errorColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK16ColorsCustomizerV10errorColorSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV10errorColorSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV10errorColorSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV10errorColorSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV10errorColorSSSgvs",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV10errorColorSSSgvs",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV10errorColorSSSgvM",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV10errorColorSSSgvM",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primaryButtonTextColor",
+            "printedName": "primaryButtonTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EmfiBaasSDK16ColorsCustomizerV22primaryButtonTextColorSSSgvp",
+            "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV22primaryButtonTextColorSSSgvp",
+            "moduleName": "EmfiBaasSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV22primaryButtonTextColorSSSgvg",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV22primaryButtonTextColorSSSgvg",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV22primaryButtonTextColorSSSgvs",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV22primaryButtonTextColorSSSgvs",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV22primaryButtonTextColorSSSgvM",
+                "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV22primaryButtonTextColorSSSgvM",
+                "moduleName": "EmfiBaasSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(primaryColor:textPrimaryColor:textSecondaryColor:textTertiaryColor:backgroundSecondaryColor:errorColor:primaryButtonTextColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ColorsCustomizer",
+                "printedName": "EmfiBaasSDK.ColorsCustomizer",
+                "usr": "s:11EmfiBaasSDK16ColorsCustomizerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11EmfiBaasSDK16ColorsCustomizerV12primaryColor011textPrimaryG00h9SecondaryG00h8TertiaryG0010backgroundjG005errorG00f10ButtonTextG0ACSSSg_A6Ktcfc",
+            "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV12primaryColor011textPrimaryG00h9SecondaryG00h8TertiaryG0010backgroundjG005errorG00f10ButtonTextG0ACSSSg_A6Ktcfc",
+            "moduleName": "EmfiBaasSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11EmfiBaasSDK16ColorsCustomizerV",
+        "mangledName": "$s11EmfiBaasSDK16ColorsCustomizerV",
+        "moduleName": "EmfiBaasSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -135632,6 +137127,43 @@
           },
           {
             "kind": "Var",
+            "name": "buttonTitle",
+            "printedName": "buttonTitle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EmfiBaasSDK.AppViewColor.Type) -> EmfiBaasSDK.AppViewColor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppViewColor",
+                    "printedName": "EmfiBaasSDK.AppViewColor",
+                    "usr": "s:11EmfiBaasSDK12AppViewColorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EmfiBaasSDK.AppViewColor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppViewColor",
+                        "printedName": "EmfiBaasSDK.AppViewColor",
+                        "usr": "s:11EmfiBaasSDK12AppViewColorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EmfiBaasSDK12AppViewColorO11buttonTitleyA2CmF",
+            "mangledName": "$s11EmfiBaasSDK12AppViewColorO11buttonTitleyA2CmF",
+            "moduleName": "EmfiBaasSDK"
+          },
+          {
+            "kind": "Var",
             "name": "color",
             "printedName": "color",
             "children": [
@@ -160438,7 +161970,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(userId:phone:)",
+            "printedName": "init(userId:phone:firstName:lastName:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -160473,11 +162005,39 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11EmfiBaasSDK4UserV6userId5phoneACSiSg_SSSgtcfc",
-            "mangledName": "$s11EmfiBaasSDK4UserV6userId5phoneACSiSg_SSSgtcfc",
+            "usr": "s:11EmfiBaasSDK4UserV6userId5phone9firstName04lastI0ACSiSg_SSSgA2Itcfc",
+            "mangledName": "$s11EmfiBaasSDK4UserV6userId5phone9firstName04lastI0ACSiSg_SSSgA2Itcfc",
             "moduleName": "EmfiBaasSDK",
             "declAttributes": [
               "AccessControl"
@@ -163824,13 +165384,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "(any EmfiBaasSDK.UserInfoType)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "UserInfoType",
+                    "printedName": "any EmfiBaasSDK.UserInfoType",
+                    "usr": "s:11EmfiBaasSDK12UserInfoTypeP"
                   }
                 ],
                 "usr": "s:Sq"
@@ -163851,8 +165411,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11EmfiBaasSDK18VirtualCardAPICoreV14getUserProfile6userIdSSSgAF_tYaF",
-            "mangledName": "$s11EmfiBaasSDK18VirtualCardAPICoreV14getUserProfile6userIdSSSgAF_tYaF",
+            "usr": "s:11EmfiBaasSDK18VirtualCardAPICoreV14getUserProfile6userIdAA0H8InfoType_pSgSSSg_tYaF",
+            "mangledName": "$s11EmfiBaasSDK18VirtualCardAPICoreV14getUserProfile6userIdAA0H8InfoType_pSgSSSg_tYaF",
             "moduleName": "EmfiBaasSDK",
             "declAttributes": [
               "AccessControl"
@@ -187660,7 +189220,7 @@
           {
             "kind": "Function",
             "name": "injectAppTheme",
-            "printedName": "injectAppTheme(language:strings:)",
+            "printedName": "injectAppTheme(language:strings:fontFamily:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -187686,11 +189246,25 @@
                 "name": "StringsManager",
                 "printedName": "EmfiBaasSDK.StringsManager",
                 "usr": "s:11EmfiBaasSDK14StringsManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP11EmfiBaasSDKE14injectAppTheme8language7stringsQrAD0H19LocalizationManagerC_AD07StringsM0CtF",
-            "mangledName": "$s7SwiftUI4ViewP11EmfiBaasSDKE14injectAppTheme8language7stringsQrAD0H19LocalizationManagerC_AD07StringsM0CtF",
+            "usr": "s:7SwiftUI4ViewP11EmfiBaasSDKE14injectAppTheme8language7strings10fontFamilyQrAD0H19LocalizationManagerC_AD07StringsO0CSSSgtF",
+            "mangledName": "$s7SwiftUI4ViewP11EmfiBaasSDKE14injectAppTheme8language7strings10fontFamilyQrAD0H19LocalizationManagerC_AD07StringsO0CSSSgtF",
             "moduleName": "EmfiBaasSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
@@ -191708,28 +193282,28 @@
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "Array",
-      "offset": 1342,
+      "offset": 1494,
       "length": 18,
       "value": "[\"en-us\", \"es-us\"]"
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 1447,
+      "offset": 1599,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5788,
+      "offset": 6402,
       "length": 7,
       "value": "\"en-us\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5898,
+      "offset": 6512,
       "length": 4,
       "value": "\"en\""
     },
@@ -191967,7 +193541,7 @@
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Configuration\/ScreensFabric\/ScreensFabric.swift",
       "kind": "StringLiteral",
-      "offset": 7803,
+      "offset": 8075,
       "length": 11,
       "value": "\"paycom_us\""
     },
@@ -192842,44 +194416,37 @@
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/ManageCard\/ViewModel\/CardProvisioningViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 635,
+      "offset": 577,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/ManageCard\/ViewModel\/CardProvisioningViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 731,
+      "offset": 673,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/ManageCard\/ViewModel\/CardProvisioningViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 770,
+      "offset": 712,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/ManageCard\/ViewModel\/CardProvisioningViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 797,
+      "offset": 739,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/ManageCard\/ViewModel\/CardProvisioningViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 821,
+      "offset": 763,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/ManageCard\/ViewModel\/CardProvisioningViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 902,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/Styles\/CarouselPager \/CarouselPagerView.swift",
@@ -192898,14 +194465,14 @@
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/ManageCard\/View\/CardProvisioning\/CardProvisioningView.swift",
       "kind": "StringLiteral",
-      "offset": 4004,
+      "offset": 3141,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/ManageCard\/View\/CardProvisioning\/CardProvisioningView.swift",
       "kind": "StringLiteral",
-      "offset": 4029,
+      "offset": 3166,
       "length": 2,
       "value": "\"\""
     },
@@ -193010,7 +194577,7 @@
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Core\/EmfiAPI\/Interactor\/APIInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 5593,
+      "offset": 5584,
       "length": 5,
       "value": "false"
     },
@@ -194270,42 +195837,42 @@
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/Styles\/Buttons\/PrimaryButton.swift",
       "kind": "FloatLiteral",
-      "offset": 865,
+      "offset": 889,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/Styles\/Buttons\/PrimaryButton.swift",
       "kind": "FloatLiteral",
-      "offset": 896,
+      "offset": 920,
       "length": 4,
       "value": "56.0"
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/Styles\/Buttons\/PrimaryButton.swift",
       "kind": "FloatLiteral",
-      "offset": 940,
+      "offset": 964,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/Styles\/Buttons\/PrimaryButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 975,
+      "offset": 999,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/Styles\/Buttons\/PrimaryButton.swift",
       "kind": "StringLiteral",
-      "offset": 2065,
+      "offset": 2089,
       "length": 13,
       "value": "\"Get started\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/Styles\/Buttons\/PrimaryButton.swift",
       "kind": "StringLiteral",
-      "offset": 2104,
+      "offset": 2128,
       "length": 2,
       "value": "\"\""
     },
@@ -196522,13 +198089,6 @@
       "value": "\"cardReplacementReasonView.Stolen\""
     },
     {
-      "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Configuration\/ScreensFabric\/AppThemeModifier\/AppThemeModifier.swift",
-      "kind": "StringLiteral",
-      "offset": 319,
-      "length": 10,
-      "value": "\"OpenSans\""
-    },
-    {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Core\/EmfiAPI\/APIRoute\/Model\/ChangeCardStatusRequest.swift",
       "kind": "StringLiteral",
       "offset": 851,
@@ -197238,63 +198798,63 @@
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Core\/EmfiCore\/LoginAPICore\/Model\/User.swift",
       "kind": "StringLiteral",
-      "offset": 1811,
+      "offset": 1848,
       "length": 11,
       "value": "\"user_ting\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Core\/EmfiCore\/LoginAPICore\/Model\/User.swift",
       "kind": "StringLiteral",
-      "offset": 1844,
+      "offset": 1881,
       "length": 12,
       "value": "\"first_name\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Core\/EmfiCore\/LoginAPICore\/Model\/User.swift",
       "kind": "StringLiteral",
-      "offset": 1877,
+      "offset": 1914,
       "length": 11,
       "value": "\"last_name\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Core\/EmfiCore\/LoginAPICore\/Model\/User.swift",
       "kind": "StringLiteral",
-      "offset": 1912,
+      "offset": 1949,
       "length": 13,
       "value": "\"middle_name\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Core\/EmfiCore\/LoginAPICore\/Model\/User.swift",
       "kind": "StringLiteral",
-      "offset": 1950,
+      "offset": 1987,
       "length": 15,
       "value": "\"embossed_name\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Core\/EmfiCore\/LoginAPICore\/Model\/User.swift",
       "kind": "StringLiteral",
-      "offset": 2017,
+      "offset": 2054,
       "length": 12,
       "value": "\"birth_date\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Core\/EmfiCore\/LoginAPICore\/Model\/User.swift",
       "kind": "StringLiteral",
-      "offset": 2052,
+      "offset": 2089,
       "length": 13,
       "value": "\"reward_tier\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Core\/EmfiCore\/LoginAPICore\/Model\/User.swift",
       "kind": "StringLiteral",
-      "offset": 2122,
+      "offset": 2159,
       "length": 13,
       "value": "\"user_status\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/Core\/EmfiCore\/LoginAPICore\/Model\/User.swift",
       "kind": "StringLiteral",
-      "offset": 2163,
+      "offset": 2200,
       "length": 18,
       "value": "\"existing_account\""
     },
@@ -197357,21 +198917,21 @@
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/ManageCard\/View\/CardProvisioning\/ApplePushProvisioning\/PassKitView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5373,
+      "offset": 5513,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/ManageCard\/View\/CardProvisioning\/ApplePushProvisioning\/PassKitView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5378,
+      "offset": 5518,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Desktop\/xcframework\/EmfiBaasiSDK\/EmfiBaasiSDK\/View\/ManageCard\/View\/CardProvisioning\/ApplePushProvisioning\/PassKitView.swift",
       "kind": "Array",
-      "offset": 5440,
+      "offset": 5580,
       "length": 2,
       "value": "[]"
     },
@@ -197840,574 +199400,581 @@
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2965,
+      "offset": 2939,
+      "length": 13,
+      "value": "\"buttonTitle\""
+    },
+    {
+      "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3132,
       "length": 26,
       "value": "\"cardActivatedWithSuccess\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3169,
+      "offset": 3336,
       "length": 25,
       "value": "\"caruselBackgroundScreen\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3346,
+      "offset": 3513,
       "length": 12,
       "value": "\"closedCard\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3512,
+      "offset": 3679,
       "length": 13,
       "value": "\"destructive\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3685,
+      "offset": 3852,
       "length": 16,
       "value": "\"disabledBorder\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3867,
+      "offset": 4034,
       "length": 19,
       "value": "\"displayForeground\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4050,
+      "offset": 4217,
       "length": 18,
       "value": "\"enableForeground\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4226,
+      "offset": 4393,
       "length": 15,
       "value": "\"enabledBorder\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4395,
+      "offset": 4562,
       "length": 13,
       "value": "\"errorBorder\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4572,
+      "offset": 4739,
       "length": 18,
       "value": "\"interactiveError\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4746,
+      "offset": 4913,
       "length": 14,
       "value": "\"labelDefault\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4914,
+      "offset": 5081,
       "length": 13,
       "value": "\"labelOpaque\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5079,
+      "offset": 5246,
       "length": 12,
       "value": "\"lockedCard\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5285,
+      "offset": 5452,
       "length": 33,
       "value": "\"lockedCardStatusBadgeBackground\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5463,
+      "offset": 5630,
       "length": 11,
       "value": "\"mainColor\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5668,
+      "offset": 5835,
       "length": 33,
       "value": "\"newNotificationButtonBackground\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5861,
+      "offset": 6028,
       "length": 16,
       "value": "\"notActivePager\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6065,
+      "offset": 6232,
       "length": 30,
       "value": "\"notificationBackgroundBanner\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6295,
+      "offset": 6462,
       "length": 36,
       "value": "\"notificationButtonBackgroundBanner\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6533,
+      "offset": 6700,
       "length": 37,
       "value": "\"notificationWarningBackgroundBanner\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6720,
+      "offset": 6887,
       "length": 11,
       "value": "\"orange251\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6923,
+      "offset": 7090,
       "length": 32,
       "value": "\"otherCardStatusBadgeBackground\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7119,
+      "offset": 7286,
       "length": 18,
       "value": "\"placeholderLabel\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7283,
+      "offset": 7450,
       "length": 9,
       "value": "\"primary\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7454,
+      "offset": 7621,
       "length": 17,
       "value": "\"reactivateTitle\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7619,
+      "offset": 7786,
       "length": 10,
       "value": "\"readOnly\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7797,
+      "offset": 7964,
       "length": 20,
       "value": "\"searchTypingBorder\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7995,
+      "offset": 8162,
       "length": 25,
       "value": "\"secondaryBodyForeground\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8207,
+      "offset": 8374,
       "length": 32,
       "value": "\"secondaryButtonBackgroundColor\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8415,
+      "offset": 8582,
       "length": 24,
       "value": "\"secondaryEnabledBorder\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8597,
+      "offset": 8764,
       "length": 15,
       "value": "\"secondaryText\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8762,
+      "offset": 8929,
       "length": 11,
       "value": "\"separator\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8944,
+      "offset": 9111,
       "length": 24,
       "value": "\"shippingMethodBtnColor\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9145,
+      "offset": 9312,
       "length": 27,
       "value": "\"shippingMethodBtnTxtColor\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9318,
+      "offset": 9485,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9475,
+      "offset": 9642,
       "length": 10,
       "value": "\"tertiary\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9655,
+      "offset": 9822,
       "length": 21,
       "value": "\"textFieldBackground\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9838,
+      "offset": 10005,
       "length": 17,
       "value": "\"textNotActiveTF\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9997,
+      "offset": 10164,
       "length": 7,
       "value": "\"white\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10297,
+      "offset": 10464,
       "length": 12,
       "value": "\"InfoCircle\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10465,
+      "offset": 10632,
       "length": 14,
       "value": "\"activateCard\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10633,
+      "offset": 10800,
       "length": 13,
       "value": "\"alertCircle\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10800,
+      "offset": 10967,
       "length": 13,
       "value": "\"alertFilled\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10960,
+      "offset": 11127,
       "length": 12,
       "value": "\"alertImage\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11120,
+      "offset": 11287,
       "length": 10,
       "value": "\"applePay\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11288,
+      "offset": 11455,
       "length": 15,
       "value": "\"arrowDownIcon\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11453,
+      "offset": 11620,
       "length": 11,
       "value": "\"atmFilter\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11616,
+      "offset": 11783,
       "length": 12,
       "value": "\"backButton\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11782,
+      "offset": 11949,
       "length": 13,
       "value": "\"callSupport\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11935,
+      "offset": 12102,
       "length": 6,
       "value": "\"card\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12095,
+      "offset": 12262,
       "length": 13,
       "value": "\"cardlessATM\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12258,
+      "offset": 12425,
       "length": 11,
       "value": "\"changePIN\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12423,
+      "offset": 12590,
       "length": 13,
       "value": "\"checkCircle\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12594,
+      "offset": 12761,
       "length": 15,
       "value": "\"checkSelected\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12771,
+      "offset": 12938,
       "length": 17,
       "value": "\"checkUnselected\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12944,
+      "offset": 13111,
       "length": 14,
       "value": "\"chevronRight\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13102,
+      "offset": 13269,
       "length": 8,
       "value": "\"circle\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13270,
+      "offset": 13437,
       "length": 16,
       "value": "\"clearTextField\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13448,
+      "offset": 13615,
       "length": 17,
       "value": "\"creditCardFront\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13619,
+      "offset": 13786,
       "length": 13,
       "value": "\"crossButton\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13784,
+      "offset": 13951,
       "length": 12,
       "value": "\"dollarSign\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13952,
+      "offset": 14119,
       "length": 14,
       "value": "\"earnCashback\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14110,
+      "offset": 14277,
       "length": 8,
       "value": "\"filter\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14266,
+      "offset": 14433,
       "length": 10,
       "value": "\"lockCard\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14416,
+      "offset": 14583,
       "length": 6,
       "value": "\"logo\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14576,
+      "offset": 14743,
       "length": 13,
       "value": "\"logoCompany\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14739,
+      "offset": 14906,
       "length": 11,
       "value": "\"moveMoney\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14900,
+      "offset": 15067,
       "length": 11,
       "value": "\"orderCard\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15055,
+      "offset": 15222,
       "length": 8,
       "value": "\"pwdEye\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15217,
+      "offset": 15384,
       "length": 13,
       "value": "\"pwdSlashEye\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15386,
+      "offset": 15553,
       "length": 14,
       "value": "\"questionMark\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15554,
+      "offset": 15721,
       "length": 13,
       "value": "\"radioButton\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15737,
+      "offset": 15904,
       "length": 21,
       "value": "\"radioButtonSelected\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15918,
+      "offset": 16085,
       "length": 16,
       "value": "\"rightArrowIcon\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16078,
+      "offset": 16245,
       "length": 8,
       "value": "\"search\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16242,
+      "offset": 16409,
       "length": 14,
       "value": "\"setUpDirectD\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16408,
+      "offset": 16575,
       "length": 12,
       "value": "\"smartphone\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16580,
+      "offset": 16747,
       "length": 16,
       "value": "\"toastCheckMark\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16748,
+      "offset": 16915,
       "length": 12,
       "value": "\"unlockCard\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16914,
+      "offset": 17081,
       "length": 13,
       "value": "\"virtualCard\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17107,
+      "offset": 17274,
       "length": 26,
       "value": "\"warningNotificationAlert\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Library\/Developer\/Xcode\/DerivedData\/EmfiBaasSDK-hijohuevuaxjghcbcexnpoaapwji\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EmfiBaasSDK\/IntermediateBuildFilesPath\/EmfiBaasSDK.build\/Release-iphonesimulator\/EmfiBaasSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17291,
+      "offset": 17458,
       "length": 15,
       "value": "\"wrongCriteria\""
     }
