@@ -4,21 +4,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "EmfiBaasiSDK",
+    name: "EmfiBaasSDK",
     platforms: [
       .iOS(.v17)
     ],
     products: [
         .library(
-            name: "EmfiBaasiSDK",
-            targets: ["EmfiBaasiSDK"]),
+            name: "EmfiBaasSDK",
+            targets: ["EmfiBaasSDK"]),
     ],
     dependencies: [
     ],
     targets: [
         .binaryTarget(
-                    name: "EmfiBaasiSDK",
-                    path: "Sources/Framework/EmfiBaasiSDK.xcframework"
+                    name: "EmfiBaasSDK",
+                    path: "Sources/Framework/EmfiBaasSDK.xcframework"
                 ),
     ]
 )
