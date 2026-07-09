@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		FUlZt4Mrr1pwCLlj3mcJMraf0QU=
+		zLghKeCnOq1jcKqLMdgA2mLb9/s=
 		</data>
 		<key>Configuration.plist</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Y/n/Pl27WQqujZ5QZ+TkuUgOQBE=
+		xR9LS0O5xNbYUuaRYg/uHyhb+c4=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		slIQo3c0RYE4J8UA1Ocr3JBWnI8=
+		OKCIelH/Bnr4nFTnQHZHJ8bDafg=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jaJmkDJp0D5VX1T/a4NIIRF1CU8=
+		U6js94Ag9vPDV3xkouA6uR7iICc=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jaJmkDJp0D5VX1T/a4NIIRF1CU8=
+		U6js94Ag9vPDV3xkouA6uR7iICc=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GcArd133tVe89hT29gugEs/XVqQ=
+		1kzOMdz1Rujk28IQ6x2i+vV/lDA=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		slIQo3c0RYE4J8UA1Ocr3JBWnI8=
+		OKCIelH/Bnr4nFTnQHZHJ8bDafg=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ljDn6TdGPxN1mnCemXbarHq68lU=
+		YxLGz/kMY/F9uzloONXzeo2AhU4=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ljDn6TdGPxN1mnCemXbarHq68lU=
+		YxLGz/kMY/F9uzloONXzeo2AhU4=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		N3CLEB+KFQvXjAx8TMXFQe1OBVI=
+		6fQaCB1oa0YOQ2y+MuWXCYneA68=
 		</data>
 		<key>OpenSans-Bold.ttf</key>
 		<data>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CIJYiruGxCQAhf+tLSndCEYNoDw0ieksY/vRf9TwwZs=
+			NFNkYd9u1KMC0qYP+55+ag+R4KVH/EV0yR3qIx1AJPw=
 			</data>
 		</dict>
 		<key>Configuration.plist</key>
@@ -129,14 +129,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XEhZOJT5MizAh4fCDybrL1wVHvbZFvtlyx3iuqG+jy8=
+			+Hb3n7HDgYMQzjLSpNwinNkhFkeA57VqzecW3FiBdZY=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			71GlEJvuPI4vgrY+jWA0ucTLJh3AvYn3+iMJ0MfRfxM=
+			/4B/xLKM8kquy+x57JwEzn46a0nyPMAV5QauIlCxjmE=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -150,28 +150,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			71GlEJvuPI4vgrY+jWA0ucTLJh3AvYn3+iMJ0MfRfxM=
+			/4B/xLKM8kquy+x57JwEzn46a0nyPMAV5QauIlCxjmE=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f+tanAU5KDpR0UuDh81X19sl+Cc+FsNK3vjqi7d4bw0=
+			v5vKuKv2MFnd53KwpydIaPcj76Z+KfeaIgmxFhMPF4s=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XEhZOJT5MizAh4fCDybrL1wVHvbZFvtlyx3iuqG+jy8=
+			+Hb3n7HDgYMQzjLSpNwinNkhFkeA57VqzecW3FiBdZY=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bXYmqIHAohPIUDIxJ3vQZZNtneDYTB1XOQk+O5aK+CM=
+			RFx1K0zymlwdLTinN1ss7FbS5TjFZu+f2E5lVcTwg7A=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -185,14 +185,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bXYmqIHAohPIUDIxJ3vQZZNtneDYTB1XOQk+O5aK+CM=
+			RFx1K0zymlwdLTinN1ss7FbS5TjFZu+f2E5lVcTwg7A=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/AgZSHhC9d1tL+MK3Od9h1Vl3HkQuNfLeOAufAXCMQ8=
+			yG0VRLGQFqrWR8ejR1s9oZbZisYRkNaYRzXF7cQahWA=
 			</data>
 		</dict>
 		<key>OpenSans-Bold.ttf</key>

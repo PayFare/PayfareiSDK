@@ -30,13 +30,9 @@ import _SwiftConcurrencyShims
 import _WebKit_SwiftUI
 public enum UserFlow {
   case activatePhysicalCard
-  case viewVirtualCard
+  case viewVirtualCard(cardIcon: SwiftUICore.Image?)
   case setCardPIN
-  public static func == (a: EmfiBaasSDK.UserFlow, b: EmfiBaasSDK.UserFlow) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+  case cardProvisioning(cardIcon: SwiftUICore.Image?)
 }
 public enum CallbackResult {
   case error
@@ -47,6 +43,7 @@ public enum CallbackResult {
   case maintenanceMode
   case setPinFeatureDisabled
   case activePhysicalCardFeatureDisabled
+  case cardWasProvisioningWithSuccess
   public static func == (a: EmfiBaasSDK.CallbackResult, b: EmfiBaasSDK.CallbackResult) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -57,10 +54,10 @@ public enum CardError : Swift.Error {
   case UNAUTHORIZED(Swift.Int, Swift.String)
   case UNKNOWN(Swift.Int, Swift.String)
 }
-@_hasMissingDesignatedInitializers @_Concurrency.MainActor public class EmfiBaasiSDK {
-  @_Concurrency.MainActor public static var instance: EmfiBaasSDK.EmfiBaasiSDK?
-  @_Concurrency.MainActor public static func initialize(payfareID: Swift.String, companyId: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: EmfiBaasSDK.Environments = .devstudio, primaryColor: Swift.String?) -> EmfiBaasSDK.EmfiBaasiSDK
-  @_Concurrency.MainActor public func openSDK(flow: EmfiBaasSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (EmfiBaasSDK.CallbackResult) -> Swift.Void, errorHandler: @escaping (EmfiBaasSDK.CardError) -> Swift.Void)
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor public class FiservSDK {
+  @_Concurrency.MainActor public static var instance: EmfiBaasSDK.FiservSDK?
+  @_Concurrency.MainActor public static func initialize(userId: Swift.String, companyId: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: EmfiBaasSDK.Environments = .cert, viewConfigurator: EmfiBaasSDK.SDKViewConfigurator?) -> EmfiBaasSDK.FiservSDK
+  @_Concurrency.MainActor public func launch(flow: EmfiBaasSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (EmfiBaasSDK.CallbackResult) -> Swift.Void, errorHandler: @escaping (EmfiBaasSDK.CardError) -> Swift.Void)
   @objc deinit
 }
 public protocol LoginModelType {
@@ -150,6 +147,11 @@ public protocol VirtualCardType : Swift.Sendable {
 public protocol VirtualCardOTPVerificationType : Swift.Sendable {
   var bibson: Swift.String? { get set }
   var userId: Swift.String? { get set }
+}
+public protocol UserInfoType : Swift.Sendable {
+  var phone: Swift.String? { get }
+  var first_name: Swift.String? { get }
+  var last_name: Swift.String? { get }
 }
 public struct EnrollAppleWalletRequest : EmfiBaasSDK.EnrollAppleWalletRequestType {
   public var passThru: Swift.String?
@@ -948,8 +950,7 @@ public class CardProvisioningViewModel {
   public var profileInteractor: (any EmfiBaasSDK.HomeShippingAddressesType & EmfiBaasSDK.ProfileAPIType)? {
     get
   }
-  @_Concurrency.MainActor public init(apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)?, profileInteractor: (any EmfiBaasSDK.HomeShippingAddressesType & EmfiBaasSDK.ProfileAPIType)?, destination: EmfiBaasSDK.DestinationViewModel?, loginViewModel: (any EmfiBaasSDK.ToastViewModelType)?, localeLanguage: Swift.String, localeCountry: Swift.String, fetchPrimaryPhone: (() async -> Swift.String?)?)
-  public func setInitialFlow(with flow: EmfiBaasSDK.AppleCardFlow)
+  @_Concurrency.MainActor public init(apiInteractor: (any EmfiBaasSDK.ManageCardsAPIType)?, profileInteractor: (any EmfiBaasSDK.HomeShippingAddressesType & EmfiBaasSDK.ProfileAPIType)?, destination: EmfiBaasSDK.DestinationViewModel?, loginViewModel: (any EmfiBaasSDK.ToastViewModelType)?, localeLanguage: Swift.String, localeCountry: Swift.String, callBackHandler: ((EmfiBaasSDK.CallbackResult) -> Swift.Void)?, errorHandler: ((EmfiBaasSDK.CardError) -> Swift.Void)?, fetchPrimaryPhone: (() async -> Swift.String?)?)
   @objc deinit
 }
 extension PassKit.PKAddPaymentPassRequestConfiguration : @retroactive Swift.Identifiable {
@@ -984,7 +985,7 @@ public protocol OnboardingAPIType : EmfiBaasSDK.AppNameType {
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public init(viewModel: EmfiBaasSDK.CardProvisioningViewModel)
+  @_Concurrency.MainActor @preconcurrency public init(cardIcon: SwiftUICore.Image?, viewModel: EmfiBaasSDK.CardProvisioningViewModel)
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK20CardProvisioningViewV4bodyQrvp", 0) __
 }
 
@@ -1081,7 +1082,7 @@ extension EmfiBaasSDK.HelpScreen {
   public init(from object: any EmfiBaasSDK.HelpScreenType)
 }
 public protocol VirtualCardAPIType : EmfiBaasSDK.AppNameType {
-  func getUserProfile(userId: Swift.String?) async -> Swift.String?
+  func getUserProfile(userId: Swift.String?) async -> (any EmfiBaasSDK.UserInfoType)?
   func validate2FAForPhone(_ receiver: EmfiBaasSDK.DeviceVerificationType, twofac: Swift.String) async throws -> (verificationResponse: (any EmfiBaasSDK.VirtualCardOTPVerificationType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)?
   func fetchVirtualCard(bibson: Swift.String) async throws -> (virtualCard: (any EmfiBaasSDK.VirtualCardType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
   func virtualCardCalbackRequest(responseCode: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
@@ -1379,6 +1380,13 @@ public struct VirtualCardModel : Swift.Codable, EmfiBaasSDK.VirtualCardType {
 public struct VirtualCardVerificationCodeResponse : Swift.Decodable, EmfiBaasSDK.VirtualCardOTPVerificationType {
   public var bibson: Swift.String?
   public var userId: Swift.String?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct UserInfo : Swift.Codable, EmfiBaasSDK.UserInfoType {
+  public let phone: Swift.String?
+  public let first_name: Swift.String?
+  public let last_name: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct SaveACHRecipientRequest : EmfiBaasSDK.SaveACHRecipientRequestType {
@@ -2122,6 +2130,9 @@ extension SwiftUICore.EnvironmentValues {
   }
 }
 
+extension CoreFoundation.CGFloat {
+  public func buttonCornerRadius() -> CoreFoundation.CGFloat
+}
 public protocol MoveMoneyAPIType : EmfiBaasSDK.AppNameType {
   func addBankRecipient(recipient: any EmfiBaasSDK.SaveACHRecipientRequestType) async throws -> (achRecipient: (any EmfiBaasSDK.ACHRecipientType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
   func fetchBankRecipients() async throws -> (achRecipient: (any EmfiBaasSDK.ACHRecipientListType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
@@ -2355,7 +2366,10 @@ public struct MaintanenceModel : Swift.Sendable {
   @_Concurrency.MainActor @preconcurrency public var height: CoreFoundation.CGFloat
   @_Concurrency.MainActor @preconcurrency public var minimumScaleFactor: CoreFoundation.CGFloat
   @_Concurrency.MainActor @preconcurrency public var maxWidthDynamic: Swift.Bool
-  @_Concurrency.MainActor @preconcurrency public init(active: SwiftUICore.Binding<Swift.Bool> = .constant(true), foregroundInactiveColor: SwiftUICore.Color = AppViewColor.labelDefault.color, backgroundActiveColor: SwiftUICore.Color = AppViewColor.secondaryButtonBackgroundColor.color, foregroundColor: SwiftUICore.Color = AppViewColor.mainColor.color, cornerRadius: CoreFoundation.CGFloat = 8.0, heightButton: CoreFoundation.CGFloat = 56.0, minimumScaleFactor: CoreFoundation.CGFloat = 1.0, maxWidthDynamic: Swift.Bool = false)
+  @_Concurrency.MainActor @preconcurrency public init(active: SwiftUICore.Binding<Swift.Bool> = .constant(true), foregroundInactiveColor: SwiftUICore.Color = AppViewColor.labelDefault.color, backgroundActiveColor: SwiftUICore.Color = AppViewColor.secondaryButtonBackgroundColor.color, foregroundColor: SwiftUICore.Color = AppViewColor.mainColor.color, cornerRadius: CoreFoundation.CGFloat = ColorsButtonsConfigurator
+          .shared
+          .buttonCornerRadius
+          .buttonCornerRadius(), heightButton: CoreFoundation.CGFloat = 56.0, minimumScaleFactor: CoreFoundation.CGFloat = 1.0, maxWidthDynamic: Swift.Bool = false)
   @_Concurrency.MainActor @preconcurrency public func makeBody(configuration: EmfiBaasSDK.SecondaryButton.Configuration) -> some SwiftUICore.View
   
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK15SecondaryButtonV8makeBody13configurationQr7SwiftUI0E18StyleConfigurationV_tF", 0) __
@@ -2608,6 +2622,22 @@ extension EmfiBaasSDK.HelpTopic {
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK14TileButtonViewV4bodyQrvp", 0) __
 }
 
+public struct ColorsCustomizer {
+  public var primaryColor: Swift.String?
+  public var textPrimaryColor: Swift.String?
+  public var textSecondaryColor: Swift.String?
+  public var textTertiaryColor: Swift.String?
+  public var backgroundSecondaryColor: Swift.String?
+  public var errorColor: Swift.String?
+  public var primaryButtonTextColor: Swift.String?
+  public init(primaryColor: Swift.String? = nil, textPrimaryColor: Swift.String? = nil, textSecondaryColor: Swift.String? = nil, textTertiaryColor: Swift.String? = nil, backgroundSecondaryColor: Swift.String? = nil, errorColor: Swift.String? = nil, primaryButtonTextColor: Swift.String? = nil)
+}
+public struct SDKViewConfigurator {
+  public var customColors: EmfiBaasSDK.ColorsCustomizer?
+  public var cornerButtonRadius: CoreFoundation.CGFloat?
+  public var fontFamilyName: Swift.String?
+  public init(customColors: EmfiBaasSDK.ColorsCustomizer?, cornerButtonRadius: CoreFoundation.CGFloat?, fontFamilyName: Swift.String?)
+}
 public struct OnboardingAPICore : EmfiBaasSDK.OnboardingAPIType {
   public init(apiInteractor: EmfiBaasSDK.APIInteractor<EmfiBaasSDK.Session>? = nil)
   public var userEmail: Swift.String? {
@@ -3312,7 +3342,7 @@ public protocol InterceptionScreenUserType {
   var userResponce: Swift.String { get }
 }
 extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func injectAppTheme(language: EmfiBaasSDK.AppLocalizationManager, strings: EmfiBaasSDK.StringsManager) -> some SwiftUICore.View
+  @_Concurrency.MainActor @preconcurrency public func injectAppTheme(language: EmfiBaasSDK.AppLocalizationManager, strings: EmfiBaasSDK.StringsManager, fontFamily: Swift.String?) -> some SwiftUICore.View
   
 }
 public protocol TransferLimitsType : Swift.Sendable {
@@ -3748,6 +3778,7 @@ public enum AppViewColor : Swift.String, Swift.Sendable {
   case backgroundNotActiveTF
   case textNotActiveTF
   case interactiveError
+  case buttonTitle
   public var color: SwiftUICore.Color {
     get
   }
@@ -4208,6 +4239,7 @@ extension EmfiBaasSDK.HolocroneFeatureFlag {
   }
   @_Concurrency.MainActor public init(virtualCardApiInteractor: (any EmfiBaasSDK.VirtualCardAPIType)?, destinationViewModel: EmfiBaasSDK.VirtualCardViewModel.DestinationViewModelType?)
   @_Concurrency.MainActor final public func onAppear()
+  @_Concurrency.MainActor final public func setCardIcon(_ cardIcon: SwiftUICore.Image?)
   @_Concurrency.MainActor final public func startTimer(with time: Swift.Int)
   @_Concurrency.MainActor final public func timerIsActive() -> Swift.Bool
   @_Concurrency.MainActor final public func cancelTimer()
@@ -4368,7 +4400,7 @@ public struct User : Swift.Decodable, EmfiBaasSDK.UserType, Swift.Sendable {
   public var existingAccount: Swift.Bool
   public var onboarded: Swift.Bool?
   public init(userType: any EmfiBaasSDK.UserType)
-  public init(userId: Swift.Int?, phone: Swift.String?)
+  public init(userId: Swift.Int?, phone: Swift.String?, firstName: Swift.String?, lastName: Swift.String?)
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct RegisteredFonts {
@@ -4475,7 +4507,13 @@ public struct VirtualCardAPICore : EmfiBaasSDK.VirtualCardAPIType {
   public func fetchVirtualCard(bibson: Swift.String) async throws -> (virtualCard: (any EmfiBaasSDK.VirtualCardType)?, error: (any EmfiBaasSDK.ErrorResponseType)?)
   public func virtualCardCalbackRequest(responseCode: Swift.String) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
   public func sendVerificationCode(receiver: EmfiBaasSDK.DeviceVerificationType, orinig: EmfiBaasSDK.TwoFAOptionalValue) async throws -> (any EmfiBaasSDK.ErrorResponseType)?
-  public func getUserProfile(userId: Swift.String?) async -> Swift.String?
+  public func getUserProfile(userId: Swift.String?) async -> (any EmfiBaasSDK.UserInfoType)?
+}
+@_hasMissingDesignatedInitializers public class ColorsButtonsConfigurator {
+  public var colorsCusomizer: EmfiBaasSDK.ColorsCustomizer?
+  public var buttonCornerRadius: CoreFoundation.CGFloat
+  public static var shared: EmfiBaasSDK.ColorsButtonsConfigurator
+  @objc deinit
 }
 public protocol NotificationType : Swift.Sendable {
   associatedtype NotificationGroupType
@@ -4854,11 +4892,9 @@ extension SwiftUICore.View {
   public typealias Body = @_opaqueReturnTypeOf("$s11EmfiBaasSDK18HelpCategoriesViewV4bodyQrvp", 0) __
 }
 
-extension EmfiBaasSDK.UserFlow : Swift.Equatable {}
-extension EmfiBaasSDK.UserFlow : Swift.Hashable {}
 extension EmfiBaasSDK.CallbackResult : Swift.Equatable {}
 extension EmfiBaasSDK.CallbackResult : Swift.Hashable {}
-extension EmfiBaasSDK.EmfiBaasiSDK : Swift.Sendable {}
+extension EmfiBaasSDK.FiservSDK : Swift.Sendable {}
 extension EmfiBaasSDK.GenericMobileCardView : Swift.Sendable {}
 extension EmfiBaasSDK.CardReplacementInfoView : Swift.Sendable {}
 extension EmfiBaasSDK.SearchTextField : Swift.Sendable {}

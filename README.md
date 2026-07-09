@@ -1,5 +1,6 @@
-# PayfareiSDK, 0.3.2
+# PayfareiSDK, 0.3.4
  This package provide:
     * Activation physical card.
     * View Virtual card.
     * Change PIN card.
+    * Card provisioning (add card to the Apple Wallet).
