@@ -56,7 +56,7 @@ public enum CardError : Swift.Error {
 }
 @_hasMissingDesignatedInitializers @_Concurrency.MainActor public class FiservSDK {
   @_Concurrency.MainActor public static var instance: EmfiBaasSDK.FiservSDK?
-  @_Concurrency.MainActor public static func initialize(userId: Swift.String, companyId: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: EmfiBaasSDK.Environments = .cert, viewConfigurator: EmfiBaasSDK.SDKViewConfigurator?) -> EmfiBaasSDK.FiservSDK
+  @_Concurrency.MainActor public static func initialize(userId: Swift.String, companyId: Swift.String, tokenHandler: @escaping () -> Swift.String, environment: EmfiBaasSDK.Environments = .devstudio, viewConfigurator: EmfiBaasSDK.SDKViewConfigurator?) -> EmfiBaasSDK.FiservSDK
   @_Concurrency.MainActor public func launch(flow: EmfiBaasSDK.UserFlow, sourceViewControllerHandler: @escaping (UIKit.UIViewController?) -> Swift.Void, callBackHandler: @escaping (EmfiBaasSDK.CallbackResult) -> Swift.Void, errorHandler: @escaping (EmfiBaasSDK.CardError) -> Swift.Void)
   @objc deinit
 }

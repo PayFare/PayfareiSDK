@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		zLghKeCnOq1jcKqLMdgA2mLb9/s=
+		6QVzOq1JjL0cKJmYl5pjm5gYk9s=
 		</data>
 		<key>Configuration.plist</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xR9LS0O5xNbYUuaRYg/uHyhb+c4=
+		2BDLbAr9Ysx80rEetkE/RL1oJC0=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		txyhXrMz8XQHYC4esX51j3qNt0A=
+		cAoStZHGf/T04oVR4yaoXh28zWc=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pf9PXBkxLZPWXNJMsZNJUhaxRsE=
+		X3F7w6iVtVkLdaWvpN6yeKZpg2w=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pf9PXBkxLZPWXNJMsZNJUhaxRsE=
+		X3F7w6iVtVkLdaWvpN6yeKZpg2w=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t67zW/ptpUOHSY6saQHvJgIzQ18=
+		JIVgwASgM7RsnwMgRpKW7hRZKWw=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		txyhXrMz8XQHYC4esX51j3qNt0A=
+		cAoStZHGf/T04oVR4yaoXh28zWc=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OSyRKQSKR9ajfrUA6e3hZeCSZ3I=
+		W7AJiJtkty1YKdAh69hLNydLZHc=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OSyRKQSKR9ajfrUA6e3hZeCSZ3I=
+		W7AJiJtkty1YKdAh69hLNydLZHc=
 		</data>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		75dhpFb2tMldsIIksSw/KhaaZPg=
+		WhRfzQ920rzE2HVOxHKqGmz+2C0=
 		</data>
 		<key>OpenSans-Bold.ttf</key>
 		<data>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NFNkYd9u1KMC0qYP+55+ag+R4KVH/EV0yR3qIx1AJPw=
+			/9TkZOPx4OzuHq86Bj3xj9NQhtzhBjszNB5RxuPS4SE=
 			</data>
 		</dict>
 		<key>Configuration.plist</key>
@@ -129,14 +129,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s4biK6lyFEe31jzkc70Y2PK56uwUrzmHgdWj+D2yJBE=
+			VRFNKQf+l7ToEqTt8Qa8PoONek/WexjTcNrtEIXRhak=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fAKBAv9AUCM6Z5ddqKWeKPu939oqvOXAVtQiNFTK/hs=
+			ouI4uhhqQNWycwXJ6R8DYqZdH92PnIUWl5DQ541PJfI=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -150,28 +150,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fAKBAv9AUCM6Z5ddqKWeKPu939oqvOXAVtQiNFTK/hs=
+			ouI4uhhqQNWycwXJ6R8DYqZdH92PnIUWl5DQ541PJfI=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mubv+ffBAJxbQY2/ENNxr1e5l4nFOw+GE51yoA0hQng=
+			0SNBmd7Y8E/IwINNwNoHxqJv8lyUIZbi1IonIVVEJuk=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s4biK6lyFEe31jzkc70Y2PK56uwUrzmHgdWj+D2yJBE=
+			VRFNKQf+l7ToEqTt8Qa8PoONek/WexjTcNrtEIXRhak=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j2TMReBu7dJwevEgEwpuGI1LVpDJG9HS6B4KYnRCpXg=
+			xzGsWA1Y0zVhmdq+TIkTuOj+YFHGESkMIp8dqRtOGv4=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -185,14 +185,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j2TMReBu7dJwevEgEwpuGI1LVpDJG9HS6B4KYnRCpXg=
+			xzGsWA1Y0zVhmdq+TIkTuOj+YFHGESkMIp8dqRtOGv4=
 			</data>
 		</dict>
 		<key>Modules/EmfiBaasSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eB5EdN3pA4IK/iaTu3DkoEF6xUxZ7WzROLTdSUTsO78=
+			y0EWsssuyTbWWo6aUMm7GrXt9WUfUcybMw1Q7fIsS4Q=
 			</data>
 		</dict>
 		<key>OpenSans-Bold.ttf</key>
