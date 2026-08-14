@@ -194545,14 +194545,14 @@
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Projects\/payfare-sdk-ios\/EmfiBaasSDK\/EmfiBaasSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6370,
+      "offset": 6375,
       "length": 7,
       "value": "\"en-us\""
     },
     {
       "filePath": "\/Users\/kostiantyn.kolontai\/Projects\/payfare-sdk-ios\/EmfiBaasSDK\/EmfiBaasSDK\/PublicInterface\/UIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 6480,
+      "offset": 6485,
       "length": 4,
       "value": "\"en\""
     },
